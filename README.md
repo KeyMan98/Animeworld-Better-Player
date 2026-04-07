@@ -5,6 +5,33 @@ Il player migliore di sempre, riscritto da 0
 ---
 In questa nuova versione 2.0 è stato cambiato completamente approccio. Nel vecchio script veniva intercettato il player e venivano aggiunti dei bottoni che simulavano le azioni utente. Dato che questa procedura era molto limitata, nonostante tutti gli sforzi proprio non riuscivo a fare qualcosa di stabile per tutti. Il player originale è stato sostituito con uno completamente nuovo, molto più affidabile ed estetico.
 
+---
+### 💿INSTALLAZIONE
+
+Vai su [Chrome Webstore](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (Anche Edge o Brave sono Chromium based) oppure su [Firefox Add-ons](https://addons.mozilla.org/it/firefox/addon/tampermonkey/) e aggiungi l'estensione:
+
+
+![Esempio Chrome Webstore](https://imgur.com/QFhvTpx.png)
+
+
+Successivamente controlla che i permessi siano impostati correttamente: 
+
+Click con il tasto destro sull'icona di Tampermonkey > Gestisci estensione 
+
+(Se non vedi l'icona è nel pezzo a forma di puzzle visibile anche in foto)
+
+![Permessi Script 1](https://imgur.com/VI7KIlO.png)
+
+Controlla che queste 2 impostazioni siano identiche a quelle in foto:
+
+![Permessi script 2](https://imgur.com/lbySz9z.png)
+
+Infine, se non lo hai già fatto, installa lo script:
+
+[![Grasyfork](https://imgur.com/zFjPnP0.png)](https://update.greasyfork.org/scripts/571464/AnimeWorld%20Better%20Player.user.js)
+
+---
+
 ### 🔧 Aggiornamenti futuri:
 
 - Ottimizzazione UI
