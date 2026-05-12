@@ -2,52 +2,61 @@
 
 Il player migliore di sempre, riscritto da 0
 
----
-In questa nuova versione 2.0 è stato cambiato completamente approccio. Nel vecchio script veniva intercettato il player e venivano aggiunti dei bottoni che simulavano le azioni utente. Dato che questa procedura era molto limitata, nonostante tutti gli sforzi proprio non riuscivo a fare qualcosa di stabile per tutti. Il player originale è stato sostituito con uno completamente nuovo, molto più affidabile ed estetico.
+- Richiede [Tampermonkey](https://www.tampermonkey.net/) o [Violentmonkey](https://violentmonkey.github.io/)
+- Assicurati che l'estensione abbia attiva la lettura dei siti e che siano consentiti gli script utente.
 
 ---
-### 💿INSTALLAZIONE
 
-Vai su [Chrome Webstore](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (Anche Edge o Brave sono Chromium based) oppure su [Firefox Add-ons](https://addons.mozilla.org/it/firefox/addon/tampermonkey/) e aggiungi l'estensione:
-
-
-![Esempio Chrome Webstore](https://imgur.com/QFhvTpx.png)
+![UI](https://imgur.com/mUp8fzE.png)
 
 
-Successivamente controlla che i permessi siano impostati correttamente: 
+<p align="center">
+  <img src="https://imgur.com/XabccyG.png" width="49%">
+  <img src="https://imgur.com/y1ttjyv.png" width="49%">
+</p>
 
-Click con il tasto destro sull'icona di Tampermonkey > Gestisci estensione 
+---
 
-(Se non vedi l'icona è nel pezzo a forma di puzzle visibile anche in foto)
+### 💿INSTALLAZIONE DESKTOP (Chrome, Edge o Brave)
 
-![Permessi Script 1](https://imgur.com/VI7KIlO.png)
 
-Controlla che queste 2 impostazioni siano identiche a quelle in foto:
+Vai su [Chrome Webstore](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) e segui questi passaggi:
 
-![Permessi script 2](https://imgur.com/lbySz9z.png)
+![TUTORIAL DESKTOP](https://imgur.com/ihuQzS0.png)
 
-Infine, se non lo hai già fatto, installa lo script:
+Se non lo hai già fatto, installa lo script:
 
-[![Grasyfork](https://imgur.com/zFjPnP0.png)](https://update.greasyfork.org/scripts/571464/AnimeWorld%20Better%20Player.user.js)
+[![Grasyfork](https://imgur.com/JzcpRzF.png)](https://update.greasyfork.org/scripts/571464/AnimeWorld%20Better%20Player.user.js)
+
+---
+### 💿INSTALLAZIONE MOBILE (Quetta Browser o Kiwi Browser)
+
+
+Vai su [Play Store](https://play.google.com/store/apps/details?id=net.quetta.browser&hl=it) e segui questi passaggi:
+
+![TUTORIAL MOBILE](https://imgur.com/F9DEPCg.png)
+
+I punti (7) e (8) servono solo a verificare se è installato correttamente.
 
 ---
 
 ### 🔧 Aggiornamenti futuri:
 
-- Ottimizzazione UI
-- Miglioramenti alle performance
-- Compatibilità con Android e IOS
-- Implementazione PiP (Picture-in-Picture)
+- ~~Compatibilità con Android~~
 - Ottimizzazione UI per mobile
+- Scalabilità UI dinamica
+- Nuove funzioni
+- Bug fix
 
 ---
 
 ### ▶️ Funzioni principali
 
 - **Restart (R)** → L'episodio riparte dall'inizio, per annullare l'autoresume   
-- **Skip OP/ED (O)** → Salto in avanti di 1:25 minuti per OP/EP standard
+- **Skip OP/ED (O)** → Salto in avanti di 1:25 minuti per OP/ED standard
 - **Annulla skip (B)** → Salto indietro di 1:25 minuti, in caso di click accidentale
-- **Prev (P) / Next (N)** → cambio episodio rimanendo in full screen
+- **Prev (P) / Next (N)** → Cambio episodio rimanendo in full screen
+- **PiP** → (Picture in Picture) Permette la visione in una finestra in miniatura
 
 ### ⌨️ Altre Hotkey
 
@@ -73,7 +82,9 @@ Infine, se non lo hai già fatto, installa lo script:
 ### ⚪ Menu Aspetto
 
 - **Colore** → Player personalizzabile con palette o HEX custom
-- **Icone colorate** → Anche i pulsanti sguono **Colore** (default sempre bianche)
+- **Top bar colorata** → Anche la top bar segue **Colore**
+- **Icone colorate** → Anche i pulsanti seguono **Colore**
+- **Flash centrali** → Dopo ogni azione appare un'icona al centro, per pochi istanti.
 - **Globale** → Impostazioni globali o per serie singola  
 
 ---
@@ -85,6 +96,3 @@ Infine, se non lo hai già fatto, installa lo script:
 - Assicurati che l'estensione abbia attiva la lettura dei siti e che siano consentiti gli script utente.
 
 ---
-
-**Contatti:**  
-[KeyMan98](https://t.me/KeyMan98)
