@@ -2,38 +2,87 @@ name: Add fixed-name asset to Release
 
 on:
   release:
-      types: [published]
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: 'Tag della release da sistemare (es: 2.1)'
+        required: true
+        type: string
 
-      jobs:
-        add-fixed-asset:
-            runs-on: ubuntu-latest
-                permissions:
-                      contents: write
+jobs:
+  add-fixed-asset:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
-                          steps:
-                                - name: Download versioned .user.js asset
-                                        id: download
-                                                run: |
-                                                          ASSET_URL=$(curl -s \
-                                                                      -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-                                                                                  https://api.github.com/repos/${{ github.repository }}/releases/${{ github.event.release.id }}/assets \
-                                                                                              | jq -r '.[] | select(.name | endswith(".user.js")) | .url')
+    steps:
+      - name: Get Release ID
+        id: get_release
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            RELEASE_ID=$(curl -s \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ github.event.inputs.release_tag }} \
+              | jq -r '.id')
+          else
+            RELEASE_ID=${{ github.event.release.id }}
+          fi
+          echo "release_id=$RELEASE_ID" >> $GITHUB_OUTPUT
 
-                                                                                                        if [ -z "$ASSET_URL" ]; then
-                                                                                                                    echo "No .user.js asset found in this release."
-                                                                                                                                exit 1
-                                                                                                                                          fi
-                                                                                                                                          
-                                                                                                                                                    curl -L \
-                                                                                                                                                                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-                                                                                                                                                                            -H "Accept: application/octet-stream" \
-                                                                                                                                                                                        "$ASSET_URL" \
-                                                                                                                                                                                                    -o animeworld-better-player.user.js
-                                                                                                                                                                                                    
-                                                                                                                                                                                                          - name: Upload fixed-name asset to Release
-                                                                                                                                                                                                                  run: |
-                                                                                                                                                                                                                            curl -s \
-                                                                                                                                                                                                                                        -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-                                                                                                                                                                                                                                                    -H "Content-Type: application/javascript" \
-                                                                                                                                                                                                                                                                --data-binary @animeworld-better-player.user.js \
-                                                                                                                                                                                                                                                                            "https://uploads.github.com/repos/${{ github.repository }}/releases/${{ github.event.release.id }}/assets?name=animeworld-better-player.user.js"
+      - name: Download versioned .user.js asset
+        run: |
+          RELEASE_ID=${{ steps.get_release.outputs.release_id }}
+
+          ASSET_URL=$(curl -s \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/releases/${RELEASE_ID}/assets \
+            | jq -r '.[] | select(.name | endswith(".user.js")) | select(.name != "animeworld-better-player.user.js") | .url')
+
+          if [ -z "$ASSET_URL" ]; then
+            echo "No versioned .user.js asset found. Skipping."
+            exit 0
+          fi
+
+          curl -L \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/octet-stream" \
+            "$ASSET_URL" \
+            -o animeworld-better-player.user.js
+
+          echo "Downloaded: $(wc -c < animeworld-better-player.user.js) bytes"
+
+      - name: Delete existing fixed-name asset if present
+        run: |
+          RELEASE_ID=${{ steps.get_release.outputs.release_id }}
+
+          EXISTING_ID=$(curl -s \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/releases/${RELEASE_ID}/assets \
+            | jq -r '.[] | select(.name == "animeworld-better-player.user.js") | .id')
+
+          if [ -n "$EXISTING_ID" ] && [ "$EXISTING_ID" != "null" ]; then
+            curl -s -X DELETE \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              https://api.github.com/repos/${{ github.repository }}/releases/assets/${EXISTING_ID}
+            echo "Deleted existing asset ID: $EXISTING_ID"
+          fi
+
+      - name: Upload fixed-name asset
+        run: |
+          RELEASE_ID=${{ steps.get_release.outputs.release_id }}
+
+          if [ ! -f animeworld-better-player.user.js ]; then
+            echo "No file to upload. Skipping."
+            exit 0
+          fi
+
+          curl -s \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Content-Type: application/javascript" \
+            --data-binary @animeworld-better-player.user.js \
+            "https://uploads.github.com/repos/${{ github.repository }}/releases/${RELEASE_ID}/assets?name=animeworld-better-player.user.js"
+
+          echo "Upload completed!"
