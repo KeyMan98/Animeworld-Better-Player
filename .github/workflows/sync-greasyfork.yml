@@ -1,0 +1,39 @@
+name: Add fixed-name asset to Release
+
+on:
+  release:
+      types: [published]
+
+      jobs:
+        add-fixed-asset:
+            runs-on: ubuntu-latest
+                permissions:
+                      contents: write
+
+                          steps:
+                                - name: Download versioned .user.js asset
+                                        id: download
+                                                run: |
+                                                          ASSET_URL=$(curl -s \
+                                                                      -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                                                                                  https://api.github.com/repos/${{ github.repository }}/releases/${{ github.event.release.id }}/assets \
+                                                                                              | jq -r '.[] | select(.name | endswith(".user.js")) | .url')
+
+                                                                                                        if [ -z "$ASSET_URL" ]; then
+                                                                                                                    echo "No .user.js asset found in this release."
+                                                                                                                                exit 1
+                                                                                                                                          fi
+                                                                                                                                          
+                                                                                                                                                    curl -L \
+                                                                                                                                                                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                                                                                                                                                                            -H "Accept: application/octet-stream" \
+                                                                                                                                                                                        "$ASSET_URL" \
+                                                                                                                                                                                                    -o animeworld-better-player.user.js
+                                                                                                                                                                                                    
+                                                                                                                                                                                                          - name: Upload fixed-name asset to Release
+                                                                                                                                                                                                                  run: |
+                                                                                                                                                                                                                            curl -s \
+                                                                                                                                                                                                                                        -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                                                                                                                                                                                                                                                    -H "Content-Type: application/javascript" \
+                                                                                                                                                                                                                                                                --data-binary @animeworld-better-player.user.js \
+                                                                                                                                                                                                                                                                            "https://uploads.github.com/repos/${{ github.repository }}/releases/${{ github.event.release.id }}/assets?name=animeworld-better-player.user.js"
