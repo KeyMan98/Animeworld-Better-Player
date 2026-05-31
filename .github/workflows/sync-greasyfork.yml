@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       release_tag:
-        description: 'Tag della release da sincronizzare (es: 2.3.0)'
+        description: 'Tag della release (es: 2.3.0)'
         required: true
         type: string
 
@@ -31,11 +31,7 @@ jobs:
           fi
 
           RELEASE_ID=$(echo "$RELEASE_JSON" | jq -r '.id')
-          RELEASE_BODY=$(echo "$RELEASE_JSON" | jq -r '.body // ""')
-
           echo "release_id=$RELEASE_ID" >> $GITHUB_OUTPUT
-          printf '%s' "$RELEASE_BODY" > release_body.txt
-          echo "Body salvato ($(wc -c < release_body.txt) bytes)"
 
       - name: Download versioned .user.js asset
         id: download
@@ -91,46 +87,28 @@ jobs:
             -H "Content-Type: application/javascript" \
             --data-binary @animeworld-better-player.user.js \
             "https://uploads.github.com/repos/${{ github.repository }}/releases/${RELEASE_ID}/assets?name=animeworld-better-player.user.js"
+          echo "Upload completed!"
 
-          echo "Upload to GitHub Release completed!"
-
-      - name: Trigger Greasy Fork sync and update changelog
+      - name: Trigger Greasy Fork webhook
         if: steps.download.outputs.found == 'true'
         env:
-          GF_TOKEN: ${{ secrets.GREASYFORK_TOKEN }}
+          GF_WEBHOOK_SECRET: ${{ secrets.GREASYFORK_WEBHOOK_SECRET }}
         run: |
-          sleep 15
+          # Aspetta che GitHub esponga il nuovo asset pubblicamente
+          sleep 30
 
-          SYNC_HTTP=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
-            -H "Authorization: Token $GF_TOKEN" \
-            "https://greasyfork.org/scripts/571464/sync")
-          echo "GF sync trigger: $SYNC_HTTP"
+          # Costruisce un payload release-like da inviare al webhook GF
+          PAYLOAD='{"action":"published","release":{"tag_name":"${{ github.event.release.tag_name || github.event.inputs.release_tag }}"}}'
 
-          sleep 20
+          # Calcola la firma HMAC-SHA256 (richiesta da GF per validare il webhook)
+          SIGNATURE=$(echo -n "$PAYLOAD" | openssl dgst -sha256 -hmac "$GF_WEBHOOK_SECRET" | awk '{print "sha256=" $2}')
 
-          CHANGELOG=$(cat release_body.txt)
-          if [ -z "$CHANGELOG" ]; then
-            echo "Nessun changelog nel body della release. Skip."
-            exit 0
-          fi
-
-          SCRIPT_VERSION_ID=$(curl -s \
-            -H "Authorization: Token $GF_TOKEN" \
-            "https://greasyfork.org/scripts/571464/versions.json" \
-            | jq -r '.[0].id')
-
-          echo "GF script_version id: $SCRIPT_VERSION_ID"
-
-          if [ -z "$SCRIPT_VERSION_ID" ] || [ "$SCRIPT_VERSION_ID" = "null" ]; then
-            echo "Impossibile trovare l'ID versione GF. Skip aggiornamento changelog."
-            exit 0
-          fi
-
-          UPDATE_HTTP=$(curl -s -o response.txt -w "%{http_code}" -X PATCH \
-            -H "Authorization: Token $GF_TOKEN" \
+          HTTP=$(curl -s -o response.txt -w "%{http_code}" -X POST \
             -H "Content-Type: application/json" \
-            -d "{\"script_version\": {\"changelog\": $(cat release_body.txt | jq -Rs .)}}" \
-            "https://greasyfork.org/scripts/571464/versions/${SCRIPT_VERSION_ID}.json")
+            -H "X-GitHub-Event: release" \
+            -H "X-Hub-Signature-256: $SIGNATURE" \
+            -d "$PAYLOAD" \
+            "https://greasyfork.org/it/users/1585190-keyman98/webhook")
 
-          echo "Changelog update HTTP: $UPDATE_HTTP"
+          echo "Greasy Fork webhook response: $HTTP"
           cat response.txt
