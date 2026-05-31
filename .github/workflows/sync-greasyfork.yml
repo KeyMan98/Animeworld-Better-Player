@@ -1,5 +1,9 @@
 name: Sync to Greasy Fork on Release
 
+# Questo workflow viene triggerato automaticamente da GitHub quando pubblichi una release.
+# Il webhook GitHub -> Greasy Fork (già configurato nelle Settings del repo) gestisce
+# il sync dello script. Questo workflow aggiunge solo l'asset con nome fisso alla release.
+
 on:
   release:
     types: [published]
@@ -77,7 +81,7 @@ jobs:
             echo "Deleted existing asset ID: $EXISTING_ID"
           fi
 
-      - name: Upload fixed-name asset
+      - name: Upload fixed-name asset for Greasy Fork
         if: steps.download.outputs.found == 'true'
         run: |
           RELEASE_ID=${{ steps.get_release.outputs.release_id }}
@@ -87,21 +91,5 @@ jobs:
             -H "Content-Type: application/javascript" \
             --data-binary @animeworld-better-player.user.js \
             "https://uploads.github.com/repos/${{ github.repository }}/releases/${RELEASE_ID}/assets?name=animeworld-better-player.user.js"
-          echo "Upload completed!"
 
-      - name: Trigger Greasy Fork sync
-        if: steps.download.outputs.found == 'true'
-        env:
-          GF_WEBHOOK_SECRET: ${{ secrets.GREASYFORK_WEBHOOK_SECRET }}
-        run: |
-          # Aspetta che GitHub esponga pubblicamente il nuovo asset
-          sleep 15
-
-          # Il webhook di Greasy Fork accetta richieste POST all'URL con il secret in query string
-          HTTP=$(curl -s -o response.txt -w "%{http_code}" -X POST \
-            -H "Content-Type: application/json" \
-            -d '{}' \
-            "https://greasyfork.org/it/users/1585190-keyman98/webhook?secret=$GF_WEBHOOK_SECRET")
-
-          echo "Greasy Fork sync response: $HTTP"
-          cat response.txt || true
+          echo "Upload completed! Greasy Fork leggerà il file tramite webhook automatico."
