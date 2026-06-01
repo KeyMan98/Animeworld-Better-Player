@@ -40,16 +40,6 @@ I punti (7) e (8) servono solo a verificare se è installato correttamente.
 
 ---
 
-### 🔧 Aggiornamenti futuri:
-
-- ~~Compatibilità con Android~~
-- Ottimizzazione UI per mobile
-- Scalabilità UI dinamica
-- Nuove funzioni
-- Bug fix
-
----
-
 ### ▶️ Funzioni principali
 
 - **Restart (R)** → L'episodio riparte dall'inizio, per annullare l'autoresume   
