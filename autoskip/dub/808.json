@@ -1,0 +1,36 @@
+{
+  "malId": "808",
+  "audio": "dub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 75.09,
+        "end": 160.97,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1644.95,
+        "end": 1759.44,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1579.74,
+        "end": 1694.24,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "op": {
+        "start": 65.43,
+        "end": 151.3,
+        "auto": true,
+        "conf": 0.9
+      }
+    }
+  }
+}

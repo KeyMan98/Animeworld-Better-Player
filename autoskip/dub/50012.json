@@ -1,0 +1,85 @@
+{
+  "malId": "50012",
+  "audio": "dub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 42.38,
+        "end": 135.13,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 742.78,
+        "end": 901.52,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 724.19
+      }
+    },
+    "2": {
+      "op": {
+        "start": 146.47,
+        "end": 239.22,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 742.82,
+        "end": 901.56,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 724.23
+      }
+    },
+    "3": {
+      "op": {
+        "start": 11.52,
+        "end": 104.46,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 742.86,
+        "end": 901.6,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "4": {
+      "op": {
+        "start": 92.19,
+        "end": 184.2,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 742.78,
+        "end": 901.52,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "5": {
+      "ed": {
+        "start": 735.71,
+        "end": 899.55,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "6": {
+      "op": {
+        "start": 11.52,
+        "end": 103.9,
+        "auto": true,
+        "conf": 0.9
+      }
+    }
+  }
+}

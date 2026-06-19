@@ -1,0 +1,55 @@
+{
+  "malId": "1596",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "ed": {
+        "start": 1576.73,
+        "end": 1664.84,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1567.62
+      }
+    },
+    "2": {
+      "op": {
+        "start": 22.68,
+        "end": 118.22,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1692.85,
+        "end": 1780.95,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1683.74
+      }
+    },
+    "3": {
+      "op": {
+        "start": 22.68,
+        "end": 118.4,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1621.72,
+        "end": 1709.83,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "4": {
+      "op": {
+        "start": 0,
+        "end": 95.54,
+        "auto": true,
+        "conf": 0.9
+      }
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "malId": "50421",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "ed": {
+        "start": 702.07,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 702.07,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "op": {
+        "start": 10.59,
+        "end": 85.89,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.65
+      },
+      "ed": {
+        "start": 701.14,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "4": {
+      "op": {
+        "start": 22.71,
+        "end": 95.16,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      },
+      "ed": {
+        "start": 702.07,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "op": {
+        "start": 0,
+        "end": 80.11,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 701.88,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "6": {
+      "op": {
+        "start": 0,
+        "end": 80.11,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 701.88,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "7": {
+      "op": {
+        "start": 0,
+        "end": 80.11,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 702.07,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 500.95
+      }
+    },
+    "8": {
+      "op": {
+        "start": 0,
+        "end": 80.11,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 701.88,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "9": {
+      "op": {
+        "start": 0,
+        "end": 81.04,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 702.07,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "10": {
+      "op": {
+        "start": 0,
+        "end": 80.11,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 701.69,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "11": {
+      "op": {
+        "start": 0,
+        "end": 80.3,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 701.88,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "12": {
+      "ed": {
+        "start": 701.32,
+        "end": 794.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    }
+  }
+}

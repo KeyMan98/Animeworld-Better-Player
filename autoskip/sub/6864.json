@@ -1,0 +1,31 @@
+{
+  "malId": "6864",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 140.16,
+        "end": 252.85,
+        "auto": true,
+        "canon": true,
+        "conf": 1
+      },
+      "ed": {
+        "start": 1535.38,
+        "end": 1654.56,
+        "auto": true,
+        "canon": true,
+        "conf": 1
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 2329.56,
+        "end": 2460.62,
+        "auto": true,
+        "canon": true,
+        "conf": 0.99
+      }
+    }
+  }
+}

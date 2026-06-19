@@ -1,0 +1,38 @@
+{
+  "malId": "39518",
+  "audio": "dub",
+  "episodes": {
+    "1": {
+      "ed": {
+        "none": true,
+        "auto": true
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1308.77,
+        "end": 1464.9,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "ed": {
+        "start": 1357.99,
+        "end": 1514.12,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "4": {},
+    "5": {
+      "ed": {
+        "start": 1407.97,
+        "end": 1516.7,
+        "auto": true,
+        "canon": true,
+        "conf": 1
+      }
+    }
+  }
+}

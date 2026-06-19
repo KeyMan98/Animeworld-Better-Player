@@ -1,0 +1,130 @@
+{
+  "malId": "145",
+  "audio": "dub",
+  "episodes": {
+    "1": {},
+    "2": {
+      "op": {
+        "start": 21,
+        "end": 118.96,
+        "auto": true,
+        "conf": 0.85
+      }
+    },
+    "3": {},
+    "4": {
+      "op": {
+        "start": 22.49,
+        "end": 120.45,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 0.19
+      }
+    },
+    "5": {},
+    "6": {
+      "op": {
+        "start": 15.04,
+        "end": 120.4,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
+    },
+    "7": {
+      "op": {
+        "start": 14.83,
+        "end": 119.18,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
+    },
+    "8": {},
+    "9": {
+      "op": {
+        "start": 15.01,
+        "end": 112.7,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "10": {},
+    "11": {
+      "op": {
+        "start": 0,
+        "end": 89.41,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "12": {
+      "op": {
+        "start": 0,
+        "end": 89.41,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "13": {
+      "op": {
+        "start": 0,
+        "end": 90.33,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "14": {
+      "op": {
+        "start": 0,
+        "end": 97.03,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "15": {
+      "op": {
+        "start": 0,
+        "end": 91.45,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
+    },
+    "16": {
+      "op": {
+        "start": 0,
+        "end": 96.84,
+        "auto": true,
+        "conf": 0.8
+      }
+    },
+    "17": {},
+    "18": {},
+    "19": {
+      "op": {
+        "start": 0,
+        "end": 89.96,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.65
+      }
+    },
+    "20": {
+      "op": {
+        "start": 0,
+        "end": 94.08,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.65
+      }
+    },
+    "21": {},
+    "22": {},
+    "23": {},
+    "24": {},
+    "25": {},
+    "26": {}
+  }
+}

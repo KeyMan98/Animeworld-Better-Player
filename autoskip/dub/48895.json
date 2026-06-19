@@ -1,0 +1,133 @@
+{
+  "malId": "48895",
+  "audio": "dub",
+  "episodes": {
+    "1": {},
+    "2": {
+      "op": {
+        "start": 70.07,
+        "end": 160.41,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "ed": {
+        "start": 1336.34,
+        "end": 1422.03,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "4": {
+      "op": {
+        "start": 83.83,
+        "end": 173.79,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "op": {
+        "start": 179.93,
+        "end": 269.89,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1336.34,
+        "end": 1422.03,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "6": {
+      "op": {
+        "start": 86.06,
+        "end": 176.39,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1341.59,
+        "end": 1422.07,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "7": {
+      "op": {
+        "start": 76.02,
+        "end": 166.91,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1356.29,
+        "end": 1441.97,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "8": {
+      "op": {
+        "start": 161.9,
+        "end": 252.6,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "9": {
+      "op": {
+        "start": 28.07,
+        "end": 118.59,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1359.96,
+        "end": 1441.74,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "10": {
+      "op": {
+        "start": 123.98,
+        "end": 214.5,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "11": {
+      "op": {
+        "start": 65.8,
+        "end": 156.32,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1332.06,
+        "end": 1419.3,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "12": {
+      "op": {
+        "start": 209.95,
+        "end": 300,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1332.06,
+        "end": 1419.34,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "13": {}
+  }
+}

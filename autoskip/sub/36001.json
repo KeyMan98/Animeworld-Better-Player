@@ -1,0 +1,114 @@
+{
+  "malId": "36001",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 150.28,
+        "end": 221.05,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 0
+      }
+    },
+    "2": {
+      "op": {
+        "start": 150.28,
+        "end": 221.05,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 0
+      }
+    },
+    "3": {
+      "op": {
+        "start": 150.65,
+        "end": 221.05,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 0
+      }
+    },
+    "4": {
+      "op": {
+        "start": 151.02,
+        "end": 221.05,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 0
+      }
+    },
+    "5": {
+      "op": {
+        "start": 149.91,
+        "end": 221.05,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 0
+      }
+    },
+    "6": {
+      "op": {
+        "start": 150.09,
+        "end": 221.05,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 0
+      }
+    },
+    "7": {
+      "op": {
+        "start": 150.84,
+        "end": 221.05,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 0
+      }
+    },
+    "8": {
+      "op": {
+        "start": 151.02,
+        "end": 221.05,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 0
+      }
+    },
+    "9": {
+      "op": {
+        "start": 151.02,
+        "end": 219.94,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "10": {
+      "op": {
+        "start": 151.02,
+        "end": 219.94,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "11": {
+      "op": {
+        "start": 148.44,
+        "end": 219.94,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "12": {}
+  }
+}

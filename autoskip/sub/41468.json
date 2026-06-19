@@ -1,0 +1,31 @@
+{
+  "malId": "41468",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "ed": {
+        "start": 1083.58,
+        "end": 1172.99,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1259,
+        "end": 1348.4,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "ed": {
+        "start": 1159.34,
+        "end": 1242.43,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    }
+  }
+}

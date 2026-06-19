@@ -1,0 +1,116 @@
+{
+  "malId": "31904",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "op": {
+        "none": true,
+        "auto": true
+      },
+      "ed": {
+        "none": true,
+        "auto": true
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1344.69,
+        "end": 1437.44,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "op": {
+        "start": 65.99,
+        "end": 156.88,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1344.69,
+        "end": 1437.44,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "4": {
+      "op": {
+        "start": 142.19,
+        "end": 231.51,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "op": {
+        "start": 43.31,
+        "end": 133.46,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.64,
+        "end": 1445.07,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "6": {
+      "op": {
+        "start": 63.01,
+        "end": 153.35,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1344.69,
+        "end": 1437.44,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "7": {
+      "op": {
+        "start": 114.5,
+        "end": 204.59,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.25,
+        "end": 1437.44,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "8": {
+      "op": {
+        "start": 48.33,
+        "end": 137.92,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1344.88,
+        "end": 1437.63,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "9": {
+      "op": {
+        "start": 89.03,
+        "end": 179.93,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "none": true,
+        "auto": true
+      }
+    },
+    "10": {}
+  }
+}
