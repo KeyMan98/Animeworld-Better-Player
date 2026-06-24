@@ -1,0 +1,55 @@
+{
+  "malId": "33010",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "ed": {
+        "start": 1268.3,
+        "end": 1346.6,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1301.44,
+        "end": 1379.74,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "ed": {
+        "start": 1302.28,
+        "end": 1380.21,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "4": {
+      "ed": {
+        "start": 1296.35,
+        "end": 1373.35,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "ed": {
+        "start": 1269.75,
+        "end": 1348.43,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "6": {
+      "ed": {
+        "start": 1304.62,
+        "end": 1381.25,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    }
+  }
+}

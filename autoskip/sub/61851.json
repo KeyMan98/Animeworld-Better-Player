@@ -1,0 +1,105 @@
+{
+  "malId": "61851",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 80.35,
+        "end": 170.92,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 681.01,
+        "end": 757.93,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "2": {
+      "op": {
+        "start": 25.29,
+        "end": 115.87,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 637.54,
+        "end": 715.09,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "op": {
+        "start": 65.28,
+        "end": 155.3,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 667.57,
+        "end": 745.13,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "4": {
+      "op": {
+        "start": 72.35,
+        "end": 162.93,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "op": {
+        "start": 81.84,
+        "end": 171.3,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 636.46,
+        "end": 714.95,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "6": {
+      "op": {
+        "start": 47.61,
+        "end": 137.82,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 573.42,
+        "end": 657.12,
+        "auto": true,
+        "canon": true,
+        "conf": 0.92
+      }
+    },
+    "7": {
+      "op": {
+        "start": 52.45,
+        "end": 141.91,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "8": {
+      "ed": {
+        "start": 653.17,
+        "end": 734.63,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "9": {},
+    "10": {},
+    "11": {}
+  }
+}

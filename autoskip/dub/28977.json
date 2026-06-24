@@ -358,13 +358,6 @@
         "auto": true,
         "permissive": true,
         "conf": 0.5
-      },
-      "ed": {
-        "start": 1018,
-        "end": 1108,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
       }
     },
     "27": {
@@ -624,15 +617,7 @@
         "conf": 0.9
       }
     },
-    "46": {
-      "ed": {
-        "start": 946,
-        "end": 1036,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      }
-    },
+    "46": {},
     "47": {
       "op": {
         "start": 72.49,

@@ -1,0 +1,120 @@
+{
+  "malId": "61067",
+  "audio": "dub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 89.27,
+        "end": 178.55,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "2": {
+      "op": {
+        "start": 178.36,
+        "end": 267.64,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {},
+    "4": {
+      "op": {
+        "start": 54.87,
+        "end": 144.7,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1352.83,
+        "end": 1445.45,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "op": {
+        "start": 78.12,
+        "end": 167.76,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "6": {
+      "op": {
+        "start": 56.35,
+        "end": 145.44,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1352.64,
+        "end": 1445.64,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "7": {
+      "op": {
+        "start": 128.15,
+        "end": 218.16,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1262.87,
+        "end": 1355.49,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "8": {
+      "op": {
+        "start": 108.43,
+        "end": 197.33,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1349.73,
+        "end": 1444.56,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "9": {
+      "op": {
+        "start": 51.89,
+        "end": 141.54,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1262.37,
+        "end": 1355.71,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "10": {
+      "op": {
+        "start": 71.98,
+        "end": 161.64,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "11": {
+      "ed": {
+        "start": 1264.85,
+        "end": 1355.43,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "12": {}
+  }
+}

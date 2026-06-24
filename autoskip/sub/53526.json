@@ -3,12 +3,17 @@
   "audio": "sub",
   "episodes": {
     "1": {
-      "ed": {
-        "start": 1223.51,
-        "end": 1434.67,
+      "op": {
+        "start": 36,
+        "end": 126,
         "auto": true,
-        "canon": true,
-        "conf": 1
+        "aniskip": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1350,
+        "end": 1435,
+        "manual": true
       }
     },
     "2": {
@@ -103,6 +108,13 @@
         "start": 82.71,
         "end": 172.3,
         "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1344,
+        "end": 1434,
+        "auto": true,
+        "aniskip": true,
         "conf": 0.9
       }
     },

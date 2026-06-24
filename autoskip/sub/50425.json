@@ -3,13 +3,6 @@
   "audio": "sub",
   "episodes": {
     "1": {
-      "op": {
-        "start": 68,
-        "end": 156,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      },
       "ed": {
         "start": 1339.51,
         "end": 1430.96,
@@ -88,13 +81,6 @@
       }
     },
     "7": {
-      "op": {
-        "start": 299.33,
-        "end": 390.33,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      },
       "ed": {
         "start": 1340.14,
         "end": 1430.66,
@@ -167,11 +153,9 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1221.02,
-        "end": 1416.93,
-        "auto": true,
-        "canon": true,
-        "conf": 1
+        "start": 1365,
+        "end": 1417,
+        "manual": true
       }
     }
   }

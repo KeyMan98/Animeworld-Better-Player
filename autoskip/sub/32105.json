@@ -1,0 +1,660 @@
+{
+  "malId": "32105",
+  "audio": "sub",
+  "episodes": {
+    "1": {},
+    "2": {
+      "op": {
+        "start": 169.73,
+        "end": 263.76,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      },
+      "ed": {
+        "start": 1344.84,
+        "end": 1435.69,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "ed": {
+        "start": 1344.84,
+        "end": 1435.69,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "4": {
+      "op": {
+        "start": 102.72,
+        "end": 197.84,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.77,
+        "end": 1436.62,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "op": {
+        "start": 163.91,
+        "end": 258.84,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.21,
+        "end": 1436.43,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "6": {
+      "op": {
+        "start": 184.86,
+        "end": 279.79,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.58,
+        "end": 1436.99,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "7": {
+      "op": {
+        "start": 111,
+        "end": 205.81,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.21,
+        "end": 1437.92,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "8": {
+      "op": {
+        "start": 42.83,
+        "end": 138.32,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.4,
+        "end": 1436.06,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "9": {
+      "op": {
+        "start": 87.33,
+        "end": 182.82,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.4,
+        "end": 1436.06,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "10": {
+      "op": {
+        "start": 125.9,
+        "end": 221.01,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.4,
+        "end": 1436.06,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "11": {
+      "op": {
+        "start": 196.35,
+        "end": 290.73,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.4,
+        "end": 1436.25,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "12": {
+      "op": {
+        "start": 165.39,
+        "end": 259.77,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.02,
+        "end": 1436.25,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "13": {
+      "op": {
+        "start": 39.68,
+        "end": 134.05,
+        "auto": true,
+        "conf": 0.85
+      }
+    },
+    "14": {
+      "op": {
+        "start": 123.86,
+        "end": 218.97,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1322.96,
+        "end": 1412.33,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "15": {
+      "op": {
+        "start": 99.94,
+        "end": 195.06,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.95,
+        "end": 1435.32,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "16": {
+      "op": {
+        "start": 66.75,
+        "end": 161.79,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1323.15,
+        "end": 1413.81,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "17": {
+      "op": {
+        "start": 41.16,
+        "end": 136.28,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.58,
+        "end": 1435.88,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "18": {
+      "op": {
+        "start": 83.81,
+        "end": 179.11,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1346.32,
+        "end": 1435.14,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "19": {
+      "op": {
+        "start": 158.16,
+        "end": 253.83,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1345.4,
+        "end": 1433.28,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "20": {
+      "op": {
+        "start": 44.5,
+        "end": 140.17,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1339.53,
+        "end": 1428.43,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "21": {
+      "op": {
+        "start": 129.42,
+        "end": 219.9,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.48,
+        "end": 1429.88,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "22": {
+      "ed": {
+        "start": 1338.48,
+        "end": 1429.88,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "23": {},
+    "24": {
+      "op": {
+        "start": 38.2,
+        "end": 128.12,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.29,
+        "end": 1429.88,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "25": {
+      "op": {
+        "start": 106.98,
+        "end": 196.91,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.29,
+        "end": 1429.88,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "26": {
+      "op": {
+        "start": 136.84,
+        "end": 226.21,
+        "auto": true,
+        "canon": true,
+        "conf": 0.99
+      },
+      "ed": {
+        "start": 1338.66,
+        "end": 1430.07,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "27": {
+      "op": {
+        "start": 114.22,
+        "end": 209.33,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1306.4,
+        "end": 1395.21,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "28": {
+      "op": {
+        "start": 133.13,
+        "end": 228.24,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1340.14,
+        "end": 1428.96,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "29": {
+      "op": {
+        "start": 84.36,
+        "end": 179.85,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1339.4,
+        "end": 1428.22,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "30": {
+      "op": {
+        "start": 131.09,
+        "end": 225.83,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1316.23,
+        "end": 1428.03,
+        "auto": true,
+        "canon": true,
+        "conf": 1
+      }
+    },
+    "31": {
+      "op": {
+        "start": 109.02,
+        "end": 203.85,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1297.68,
+        "end": 1387.8,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "32": {
+      "op": {
+        "start": 72.68,
+        "end": 167.8,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.66,
+        "end": 1428.77,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "33": {
+      "op": {
+        "start": 147.59,
+        "end": 242.71,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1339.22,
+        "end": 1429.14,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "34": {
+      "op": {
+        "start": 62.11,
+        "end": 157.23,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1339.22,
+        "end": 1429.33,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "35": {
+      "op": {
+        "start": 157.05,
+        "end": 251.98,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1337.73,
+        "end": 1428.03,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "36": {
+      "op": {
+        "start": 104.76,
+        "end": 199.88,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1267.65,
+        "end": 1357.57,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "37": {
+      "op": {
+        "start": 118.85,
+        "end": 213.97,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.48,
+        "end": 1428.59,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "38": {
+      "op": {
+        "start": 113.84,
+        "end": 208.96,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.48,
+        "end": 1428.59,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "39": {
+      "op": {
+        "start": 194.31,
+        "end": 289.62,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.66,
+        "end": 1428.77,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "40": {
+      "op": {
+        "start": 36.9,
+        "end": 131.64,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.48,
+        "end": 1429.14,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "41": {
+      "op": {
+        "start": 167.06,
+        "end": 261.62,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1339.03,
+        "end": 1428.59,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "42": {
+      "op": {
+        "start": 161.12,
+        "end": 255.69,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1339.03,
+        "end": 1428.59,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "43": {
+      "op": {
+        "start": 76.69,
+        "end": 171.32,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1337.92,
+        "end": 1428.4,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "44": {
+      "op": {
+        "start": 96.04,
+        "end": 191.9,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.48,
+        "end": 1429.51,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "45": {
+      "op": {
+        "start": 55.07,
+        "end": 150.37,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.48,
+        "end": 1429.33,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "46": {
+      "op": {
+        "start": 95.61,
+        "end": 189.76,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.29,
+        "end": 1429.51,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "47": {
+      "op": {
+        "start": 65.56,
+        "end": 159.88,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.1,
+        "end": 1427.79,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "48": {
+      "op": {
+        "start": 31.71,
+        "end": 126.08,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1339.03,
+        "end": 1429.88,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "49": {
+      "op": {
+        "start": 68.97,
+        "end": 163.35,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1338.48,
+        "end": 1429.51,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "50": {
+      "op": {
+        "start": 4.08,
+        "end": 99.2,
+        "auto": true,
+        "conf": 0.9
+      }
+    }
+  }
+}

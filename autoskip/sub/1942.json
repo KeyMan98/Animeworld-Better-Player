@@ -1,0 +1,160 @@
+{
+  "malId": "1942",
+  "audio": "sub",
+  "episodes": {
+    "1": {},
+    "2": {
+      "op": {
+        "start": 51.3,
+        "end": 152.23,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "op": {
+        "start": 103.35,
+        "end": 204.28,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1327.33,
+        "end": 1416.73,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "4": {
+      "op": {
+        "start": 78.62,
+        "end": 178.75,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1327.24,
+        "end": 1416.65,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "op": {
+        "start": 52.04,
+        "end": 158.92,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      },
+      "ed": {
+        "start": 1326.94,
+        "end": 1416.91,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "6": {
+      "op": {
+        "start": 47.4,
+        "end": 154.28,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      },
+      "ed": {
+        "start": 1327.23,
+        "end": 1418.12,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "7": {
+      "op": {
+        "start": 76.39,
+        "end": 177.32,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1327.93,
+        "end": 1418.45,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "8": {
+      "op": {
+        "start": 34.01,
+        "end": 133.27,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1326.25,
+        "end": 1416.77,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "9": {
+      "op": {
+        "start": 175.09,
+        "end": 274.54,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1326.5,
+        "end": 1417.02,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "10": {
+      "op": {
+        "start": 74.35,
+        "end": 174.28,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1326.03,
+        "end": 1417.11,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "11": {
+      "op": {
+        "start": 45.91,
+        "end": 152.79,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      },
+      "ed": {
+        "start": 1326.49,
+        "end": 1416.82,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "12": {
+      "op": {
+        "start": 69.65,
+        "end": 175.84,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      },
+      "ed": {
+        "start": 1317.22,
+        "end": 1461.83,
+        "auto": true,
+        "canon": true,
+        "conf": 1
+      }
+    }
+  }
+}

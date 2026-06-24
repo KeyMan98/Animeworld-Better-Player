@@ -3,13 +3,6 @@
   "audio": "dub",
   "episodes": {
     "1": {
-      "op": {
-        "start": 551,
-        "end": 640,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      },
       "ed": {
         "start": 1335.26,
         "end": 1425.04,
@@ -141,6 +134,7 @@
         "auto": true,
         "conf": 0.9
       }
-    }
+    },
+    "12": {}
   }
 }

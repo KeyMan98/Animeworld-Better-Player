@@ -12,13 +12,6 @@
       }
     },
     "2": {
-      "op": {
-        "start": 325.08,
-        "end": 414.99,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      },
       "ed": {
         "start": 1321.8,
         "end": 1411.02,
@@ -106,13 +99,6 @@
       }
     },
     "9": {
-      "op": {
-        "start": 296,
-        "end": 386,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      },
       "ed": {
         "start": 1322.42,
         "end": 1410.15,
@@ -121,19 +107,13 @@
       }
     },
     "10": {
-      "op": {
-        "start": 267,
-        "end": 356,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      },
       "ed": {
         "start": 1216.19,
         "end": 1304.27,
         "auto": true,
         "conf": 0.9
       }
-    }
+    },
+    "11": {}
   }
 }

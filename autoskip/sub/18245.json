@@ -1,0 +1,125 @@
+{
+  "malId": "18245",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "ed": {
+        "start": 1294.7,
+        "end": 1419.24,
+        "auto": true,
+        "canon": true,
+        "conf": 0.94
+      }
+    },
+    "2": {
+      "op": {
+        "start": 88.29,
+        "end": 178.81,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1300.95,
+        "end": 1419.91,
+        "auto": true,
+        "canon": true,
+        "conf": 1
+      }
+    },
+    "3": {
+      "op": {
+        "start": 126.21,
+        "end": 216.73,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "4": {
+      "op": {
+        "start": 74.16,
+        "end": 163.94,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1318.57,
+        "end": 1427.49,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "op": {
+        "start": 63.2,
+        "end": 153.72,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1280.5,
+        "end": 1374,
+        "auto": true,
+        "canon": true,
+        "conf": 0.89
+      }
+    },
+    "6": {
+      "op": {
+        "start": 82.34,
+        "end": 172.49,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1318.61,
+        "end": 1427.53,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "7": {},
+    "8": {
+      "ed": {
+        "start": 1317.8,
+        "end": 1427.49,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "9": {
+      "op": {
+        "start": 103.53,
+        "end": 194.8,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1317.79,
+        "end": 1419.09,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "10": {
+      "ed": {
+        "start": 1317.98,
+        "end": 1419.46,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
+    "11": {
+      "ed": {
+        "start": 1302.85,
+        "end": 1420.88,
+        "auto": true,
+        "canon": true,
+        "conf": 1
+      }
+    },
+    "12": {},
+    "13": {}
+  }
+}

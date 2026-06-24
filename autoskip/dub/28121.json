@@ -1,0 +1,171 @@
+{
+  "malId": "28121",
+  "audio": "dub",
+  "episodes": {
+    "1": {},
+    "2": {
+      "op": {
+        "start": 80.48,
+        "end": 170.26,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1325.42,
+        "end": 1415.94,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "op": {
+        "start": 115.24,
+        "end": 205.02,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1308.1,
+        "end": 1398.62,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "4": {
+      "op": {
+        "start": 65.43,
+        "end": 156.32,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1282.72,
+        "end": 1372.68,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "op": {
+        "start": 50.56,
+        "end": 141.26,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1325.38,
+        "end": 1417.02,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "6": {
+      "op": {
+        "start": 98.7,
+        "end": 189.78,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "7": {
+      "op": {
+        "start": 32.16,
+        "end": 123.61,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1273.38,
+        "end": 1363.16,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1146.62
+      }
+    },
+    "8": {
+      "op": {
+        "start": 74.35,
+        "end": 165.61,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1325.4,
+        "end": 1416.85,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "9": {
+      "op": {
+        "start": 29,
+        "end": 119.89,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1248.43,
+        "end": 1338.4,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "10": {
+      "op": {
+        "start": 45.35,
+        "end": 135.32,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1293.35,
+        "end": 1383.69,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "11": {
+      "op": {
+        "start": 44.42,
+        "end": 134.57,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1281.33,
+        "end": 1371.3,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "12": {
+      "op": {
+        "start": 74.16,
+        "end": 164.68,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1325.27,
+        "end": 1415.05,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "13": {
+      "op": {
+        "start": 53.16,
+        "end": 143.68,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1307.67,
+        "end": 1397.63,
+        "auto": true,
+        "conf": 0.9
+      }
+    }
+  }
+}

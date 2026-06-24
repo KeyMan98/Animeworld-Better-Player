@@ -377,7 +377,18 @@
         "conf": 0.4
       }
     },
-    "27": {},
+    "27": {
+      "op": {
+        "start": 1,
+        "end": 96,
+        "manual": true
+      },
+      "ed": {
+        "start": 1128,
+        "end": 1242,
+        "manual": true
+      }
+    },
     "28": {
       "op": {
         "start": 0,

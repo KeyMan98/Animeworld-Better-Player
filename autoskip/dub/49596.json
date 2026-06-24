@@ -2,27 +2,12 @@
   "malId": "49596",
   "audio": "dub",
   "episodes": {
-    "1": {
-      "ed": {
-        "start": 530.49,
-        "end": 620.49,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      }
-    },
+    "1": {},
     "2": {
       "op": {
         "start": 42.19,
         "end": 132.9,
         "auto": true,
-        "conf": 0.9
-      },
-      "ed": {
-        "start": 1349.24,
-        "end": 1439.24,
-        "auto": true,
-        "aniskip": true,
         "conf": 0.9
       }
     },
@@ -56,13 +41,6 @@
       }
     },
     "5": {
-      "op": {
-        "start": 448.47,
-        "end": 538.47,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      },
       "ed": {
         "start": 1300.01,
         "end": 1391.09,
@@ -139,15 +117,7 @@
         "conf": 0.9
       }
     },
-    "11": {
-      "op": {
-        "start": 412.18,
-        "end": 502.18,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      }
-    },
+    "11": {},
     "12": {
       "op": {
         "start": 33.83,
@@ -240,13 +210,6 @@
       }
     },
     "19": {
-      "op": {
-        "start": 272.46,
-        "end": 363.46,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      },
       "ed": {
         "start": 1305,
         "end": 1394,

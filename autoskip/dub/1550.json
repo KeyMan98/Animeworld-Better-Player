@@ -1238,7 +1238,18 @@
         "conf": 0.4
       }
     },
-    "82": {},
+    "82": {
+      "op": {
+        "start": 0,
+        "end": 96,
+        "manual": true
+      },
+      "ed": {
+        "start": 1465,
+        "end": 1529,
+        "manual": true
+      }
+    },
     "83": {
       "op": {
         "start": 0,
