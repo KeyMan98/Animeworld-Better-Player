@@ -2,11 +2,19 @@
   "malId": "4232",
   "audio": "sub",
   "episodes": {
-    "1": {},
+    "1": {
+      "ed": {
+        "start": 1516.02,
+        "end": 1622.22,
+        "auto": true,
+        "canon": true,
+        "conf": 1
+      }
+    },
     "2": {
       "ed": {
-        "start": 1749.53,
-        "end": 1832.99,
+        "start": 1749.67,
+        "end": 1833.18,
         "auto": true,
         "canon": true,
         "conf": 1
@@ -14,11 +22,11 @@
     },
     "3": {
       "ed": {
-        "start": 1558.75,
-        "end": 1634.77,
+        "start": 1558.88,
+        "end": 1664.89,
         "auto": true,
         "canon": true,
-        "conf": 0.72
+        "conf": 1
       }
     }
   }

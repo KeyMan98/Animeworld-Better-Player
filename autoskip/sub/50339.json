@@ -4,53 +4,53 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 1525.69,
-        "end": 1690.38,
+        "start": 1526.18,
+        "end": 1618.43,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "2": {
       "ed": {
-        "start": 1390.75,
-        "end": 1555.43,
+        "start": 1391.24,
+        "end": 1483.49,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "3": {
       "ed": {
-        "start": 1436.14,
-        "end": 1525.92,
-        "auto": true,
-        "canon": true,
-        "conf": 1
-      }
-    },
-    "4": {
-      "ed": {
-        "start": 1481.02,
-        "end": 1570.8,
-        "auto": true,
-        "canon": true,
-        "conf": 1
-      }
-    },
-    "5": {
-      "ed": {
-        "start": 1390.88,
-        "end": 1554.08,
+        "start": 1436.26,
+        "end": 1528.51,
         "auto": true,
         "conf": 0.9
       }
     },
+    "4": {
+      "ed": {
+        "start": 1480.74,
+        "end": 1572.67,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "ed": {
+        "start": 1391.16,
+        "end": 1485.11,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    },
     "6": {
       "ed": {
-        "start": 1450.87,
-        "end": 1540.64,
+        "start": 1450.97,
+        "end": 1544.87,
         "auto": true,
-        "canon": true,
-        "conf": 1
+        "conf": 0.9
       }
     }
   }

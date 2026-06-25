@@ -2,7 +2,15 @@
   "malId": "16732",
   "audio": "sub",
   "episodes": {
-    "1": {},
+    "1": {
+      "ed": {
+        "start": 1244.04,
+        "end": 1335.42,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
+    },
     "2": {
       "op": {
         "start": 58.18,

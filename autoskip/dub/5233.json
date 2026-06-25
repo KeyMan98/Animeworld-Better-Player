@@ -121,7 +121,15 @@
         "conf": 0.9
       }
     },
-    "10": {},
+    "10": {
+      "ed": {
+        "start": 1309.98,
+        "end": 1390.04,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
+    },
     "11": {
       "op": {
         "start": 0,

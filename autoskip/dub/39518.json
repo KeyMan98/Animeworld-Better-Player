@@ -2,24 +2,19 @@
   "malId": "39518",
   "audio": "dub",
   "episodes": {
-    "1": {
-      "ed": {
-        "none": true,
-        "auto": true
-      }
-    },
+    "1": {},
     "2": {
       "ed": {
-        "start": 1308.77,
-        "end": 1464.9,
+        "start": 1309.24,
+        "end": 1464.91,
         "auto": true,
         "conf": 0.9
       }
     },
     "3": {
       "ed": {
-        "start": 1357.99,
-        "end": 1514.12,
+        "start": 1358.48,
+        "end": 1514.15,
         "auto": true,
         "conf": 0.9
       }
@@ -27,8 +22,8 @@
     "4": {},
     "5": {
       "ed": {
-        "start": 1407.97,
-        "end": 1516.7,
+        "start": 1408.04,
+        "end": 1516.85,
         "auto": true,
         "canon": true,
         "conf": 1

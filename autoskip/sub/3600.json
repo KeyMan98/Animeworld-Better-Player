@@ -4,18 +4,22 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 2281.16,
-        "end": 2440.46,
+        "start": 2324.99,
+        "end": 2440.49,
         "auto": true,
-        "conf": 0.9
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 2282.21
       }
     },
     "2": {
       "ed": {
-        "start": 2249.51,
-        "end": 2408.81,
+        "start": 2293.4,
+        "end": 2408.89,
         "auto": true,
-        "conf": 0.9
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 2250.62
       }
     },
     "3": {}

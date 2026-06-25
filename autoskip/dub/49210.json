@@ -4,56 +4,59 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 2490.56,
-        "end": 2608.59,
+        "start": 2514.32,
+        "end": 2616.62,
         "auto": true,
-        "permissive": true,
-        "conf": 0.4
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 2502.98
       }
     },
     "2": {
       "ed": {
-        "start": 2116.36,
-        "end": 2230.3,
+        "start": 2127.46,
+        "end": 2229.76,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 2116.12
+      }
+    },
+    "3": {
+      "ed": {
+        "start": 2710,
+        "end": 2812.29,
         "auto": true,
         "permissive": true,
         "conf": 0.4
       }
     },
-    "3": {
-      "ed": {
-        "start": 2698.9,
-        "end": 2816.93,
-        "auto": true,
-        "conf": 0.9
-      }
-    },
     "4": {
       "ed": {
-        "start": 2568.57,
-        "end": 2683.53,
+        "start": 2572.34,
+        "end": 2683.56,
         "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 2559.55
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "5": {
       "ed": {
-        "start": 1820.05,
-        "end": 1935.1,
+        "start": 1818.87,
+        "end": 1930.09,
         "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 1808.71
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "6": {
       "ed": {
-        "start": 2698.58,
-        "end": 2814.75,
+        "start": 2709.87,
+        "end": 2813.09,
         "auto": true,
-        "conf": 0.9
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 2697.96
       }
     }
   }

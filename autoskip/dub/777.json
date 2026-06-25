@@ -3,27 +3,93 @@
   "audio": "dub",
   "episodes": {
     "1": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
-        "start": 2892.48,
-        "end": 2998.91,
-        "auto": true,
-        "conf": 0.9
+        "start": 2846,
+        "end": 3011,
+        "manual": true
       }
     },
-    "2": {},
-    "3": {},
-    "4": {},
-    "5": {},
-    "6": {},
-    "7": {},
-    "8": {},
-    "9": {},
-    "10": {
+    "2": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
-        "start": 3933.99,
-        "end": 4040.41,
-        "auto": true,
-        "conf": 0.9
+        "start": 2385,
+        "end": 2561,
+        "manual": true
+      }
+    },
+    "3": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "start": 2588,
+        "end": 2799,
+        "manual": true
+      }
+    },
+    "4": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "start": 3242,
+        "end": 3376,
+        "manual": true
+      }
+    },
+    "5": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "start": 2442,
+        "end": 2588,
+        "manual": true
+      }
+    },
+    "6": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "start": 2299,
+        "end": 2479,
+        "manual": true
+      }
+    },
+    "7": {
+      "op": {
+        "none": true,
+        "manual": true
+      }
+    },
+    "8": {
+      "op": {
+        "none": true,
+        "manual": true
+      }
+    },
+    "9": {
+      "op": {
+        "none": true,
+        "manual": true
+      }
+    },
+    "10": {
+      "op": {
+        "none": true,
+        "manual": true
       }
     }
   }

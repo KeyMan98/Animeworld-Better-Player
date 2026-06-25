@@ -8,9 +8,24 @@
         "end": 183.38,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1231.03,
+        "end": 1319.64,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
-    "2": {},
+    "2": {
+      "ed": {
+        "start": 1235.21,
+        "end": 1316.85,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
+    },
     "3": {
       "ed": {
         "start": 1340.52,

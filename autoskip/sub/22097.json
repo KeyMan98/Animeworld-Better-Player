@@ -4,33 +4,34 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 1321.12,
-        "end": 1400.3,
+        "start": 1309.92,
+        "end": 1400.68,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1301.23
+        "coverStart": 1297.45
       }
     },
     "2": {},
     "3": {
       "ed": {
-        "start": 1318.06,
-        "end": 1397.25,
+        "start": 1306.85,
+        "end": 1397.62,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1298.18
+        "coverStart": 1294.39
       }
     },
     "4": {},
     "5": {
       "ed": {
-        "start": 1347.94,
-        "end": 1420.61,
+        "start": 1332.29,
+        "end": 1420.82,
         "auto": true,
-        "permissive": true,
-        "conf": 0.4
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1317.96
       }
     }
   }

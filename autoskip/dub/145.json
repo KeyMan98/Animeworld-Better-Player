@@ -14,8 +14,8 @@
     },
     "2": {
       "op": {
-        "start": 20.99,
-        "end": 118.89,
+        "start": 21.02,
+        "end": 119.03,
         "auto": true,
         "conf": 0.85
       },
@@ -37,8 +37,8 @@
     },
     "4": {
       "op": {
-        "start": 22.48,
-        "end": 120.37,
+        "start": 22.5,
+        "end": 120.52,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
@@ -54,7 +54,7 @@
     "6": {
       "op": {
         "start": 15.04,
-        "end": 120.37,
+        "end": 120.4,
         "auto": true,
         "permissive": true,
         "conf": 0.5
@@ -82,7 +82,7 @@
     "11": {
       "op": {
         "start": 0,
-        "end": 89.35,
+        "end": 89.46,
         "auto": true,
         "conf": 0.9
       }
@@ -90,7 +90,7 @@
     "12": {
       "op": {
         "start": 0,
-        "end": 89.35,
+        "end": 89.46,
         "auto": true,
         "conf": 0.9
       }
@@ -98,7 +98,7 @@
     "13": {
       "op": {
         "start": 0,
-        "end": 90.28,
+        "end": 90.39,
         "auto": true,
         "conf": 0.9
       }
@@ -106,13 +106,7 @@
     "14": {
       "op": {
         "start": 0,
-        "end": 96.97,
-        "auto": true,
-        "conf": 0.9
-      },
-      "ed": {
-        "start": 1223.75,
-        "end": 1341.52,
+        "end": 97.09,
         "auto": true,
         "conf": 0.9
       }
@@ -120,22 +114,16 @@
     "15": {
       "op": {
         "start": 0,
-        "end": 91.39,
+        "end": 91.51,
         "auto": true,
         "permissive": true,
         "conf": 0.5
-      },
-      "ed": {
-        "start": 1319.49,
-        "end": 1437.26,
-        "auto": true,
-        "conf": 0.9
       }
     },
     "16": {
       "op": {
         "start": 0,
-        "end": 96.78,
+        "end": 96.9,
         "auto": true,
         "conf": 0.8
       }
@@ -155,7 +143,7 @@
     "19": {
       "op": {
         "start": 0,
-        "end": 89.93,
+        "end": 89.96,
         "auto": true,
         "permissive": true,
         "conf": 0.65

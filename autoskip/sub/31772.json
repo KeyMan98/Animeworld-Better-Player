@@ -4,33 +4,25 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 655.09,
-        "end": 750.44,
+        "start": 655.22,
+        "end": 750.45,
         "auto": true,
         "conf": 0.9
       }
     },
     "2": {
       "ed": {
-        "start": 605.33,
-        "end": 700.13,
+        "start": 605.46,
+        "end": 700.31,
         "auto": true,
         "canon": true,
         "conf": 1
       }
     },
-    "3": {
-      "ed": {
-        "start": 629.08,
-        "end": 720.97,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
-      }
-    },
+    "3": {},
     "4": {
       "ed": {
-        "start": 631.13,
+        "start": 631.26,
         "end": 726.48,
         "auto": true,
         "conf": 0.9
@@ -38,8 +30,8 @@
     },
     "5": {
       "ed": {
-        "start": 616.13,
-        "end": 711.48,
+        "start": 616.25,
+        "end": 711.29,
         "auto": true,
         "permissive": true,
         "conf": 0.4

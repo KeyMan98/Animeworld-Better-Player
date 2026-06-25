@@ -2,93 +2,59 @@
   "malId": "42203",
   "audio": "sub",
   "episodes": {
-    "1": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
+    "1": {},
     "2": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
-    "3": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
-    "4": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
-    "5": {
-      "op": {
-        "none": true,
-        "auto": true
-      },
       "ed": {
-        "start": 1674.89,
-        "end": 1749.24,
+        "start": 1371.84,
+        "end": 1536.44,
         "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 1666.15
+        "canon": true,
+        "conf": 0.69
+      }
+    },
+    "3": {},
+    "4": {},
+    "5": {
+      "ed": {
+        "start": 1670.23,
+        "end": 1754.54,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "6": {
       "op": {
-        "start": 31.23,
-        "end": 119.14,
+        "start": 31.25,
+        "end": 119.22,
         "auto": true,
         "canon": true,
         "conf": 1
       }
     },
     "7": {
-      "op": {
-        "none": true,
-        "auto": true
-      },
       "ed": {
-        "start": 1690.87,
-        "end": 1765.22,
+        "start": 1680.27,
+        "end": 1770.1,
         "auto": true,
-        "permissive": true,
-        "conf": 0.4
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1606.25
       }
     },
     "8": {},
     "9": {
-      "op": {
-        "none": true,
-        "auto": true
-      },
       "ed": {
-        "start": 1660.94,
-        "end": 1735.29,
+        "start": 1650.32,
+        "end": 1740.15,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1652.21
+        "coverStart": 1576.29
       }
     },
-    "10": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
-    "11": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
+    "10": {},
+    "11": {},
     "12": {}
   }
 }

@@ -4,37 +4,37 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 4175.61,
-        "end": 4259.07,
-        "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 4026.17
-      }
-    },
-    "2": {
-      "ed": {
-        "start": 3377.2,
-        "end": 3460.66,
-        "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 3227.76
-      }
-    },
-    "3": {
-      "ed": {
-        "start": 3679.58,
-        "end": 3763.04,
+        "start": 4172.78,
+        "end": 4259.26,
         "auto": true,
         "permissive": true,
         "conf": 0.4
       }
     },
+    "2": {
+      "ed": {
+        "start": 3374.21,
+        "end": 3460.69,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 3229.51
+      }
+    },
+    "3": {
+      "ed": {
+        "start": 3676.57,
+        "end": 3763.06,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 3531.88
+      }
+    },
     "4": {
       "ed": {
-        "start": 3423.32,
-        "end": 3510.31,
+        "start": 3423.64,
+        "end": 3510.5,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -42,36 +42,37 @@
     },
     "5": {
       "ed": {
-        "start": 3500.29,
+        "start": 3500.43,
         "end": 3587.28,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 3348.99
+        "coverStart": 3349.03
       }
     },
     "6": {
       "ed": {
-        "start": 3506.8,
-        "end": 3594.54,
+        "start": 3514.19,
+        "end": 3601.05,
         "auto": true,
         "conf": 0.9
       }
     },
     "7": {
       "ed": {
-        "start": 3268.37,
-        "end": 3355.17,
+        "start": 3267.58,
+        "end": 3354.43,
         "auto": true,
         "conf": 0.9
       }
     },
     "8": {
       "ed": {
-        "start": 3979.21,
-        "end": 4066.38,
+        "start": 3965.37,
+        "end": 4056.16,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     }
   }

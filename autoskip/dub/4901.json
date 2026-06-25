@@ -1,11 +1,11 @@
 {
-  "malId": 4901,
+  "malId": "4901",
   "audio": "dub",
   "episodes": {
     "1": {
       "op": {
         "start": 0.37,
-        "end": 90.52,
+        "end": 90.58,
         "auto": true,
         "conf": 0.9
       }
@@ -13,7 +13,7 @@
     "2": {
       "op": {
         "start": 0.37,
-        "end": 90.52,
+        "end": 90.58,
         "auto": true,
         "conf": 0.9
       }
@@ -21,7 +21,7 @@
     "3": {
       "op": {
         "start": 0.37,
-        "end": 89.03,
+        "end": 89.09,
         "auto": true,
         "conf": 0.9
       }
@@ -29,7 +29,7 @@
     "4": {
       "op": {
         "start": 0.93,
-        "end": 90.52,
+        "end": 90.58,
         "auto": true,
         "conf": 0.9
       }
@@ -37,7 +37,7 @@
     "5": {
       "op": {
         "start": 0,
-        "end": 90.52,
+        "end": 90.58,
         "auto": true,
         "conf": 0.9
       }

@@ -2,82 +2,39 @@
   "malId": "42203",
   "audio": "dub",
   "episodes": {
-    "1": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
-    "2": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
-    "3": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
-    "4": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
-    "5": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
+    "1": {},
+    "2": {},
+    "3": {},
+    "4": {},
+    "5": {},
     "6": {},
     "7": {
-      "op": {
-        "none": true,
-        "auto": true
-      },
       "ed": {
-        "start": 1680.4,
-        "end": 1769.99,
+        "start": 1680.01,
+        "end": 1770.03,
         "auto": true,
         "conf": 0.9
       }
     },
     "8": {
       "op": {
-        "start": 179.18,
-        "end": 267.1,
+        "start": 179.29,
+        "end": 267.27,
         "auto": true,
         "canon": true,
         "conf": 1
       }
     },
     "9": {
-      "op": {
-        "none": true,
-        "auto": true
-      },
       "ed": {
-        "start": 1650.47,
-        "end": 1740.06,
+        "start": 1650.06,
+        "end": 1740.07,
         "auto": true,
         "conf": 0.9
       }
     },
-    "10": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
-    "11": {
-      "op": {
-        "none": true,
-        "auto": true
-      }
-    },
+    "10": {},
+    "11": {},
     "12": {}
   }
 }

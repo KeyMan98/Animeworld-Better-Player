@@ -176,6 +176,13 @@
         "end": 101.67,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1340.62,
+        "end": 1528.24,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "15": {
@@ -282,6 +289,12 @@
         "end": 101.67,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1341.56,
+        "end": 1532.33,
+        "auto": true,
+        "conf": 0.85
       }
     },
     "23": {

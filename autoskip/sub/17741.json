@@ -1,5 +1,5 @@
 {
-  "malId": 17741,
+  "malId": "17741",
   "audio": "sub",
   "episodes": {
     "1": {
@@ -74,6 +74,13 @@
         "end": 121.19,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1137.68,
+        "end": 1210.41,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "7": {

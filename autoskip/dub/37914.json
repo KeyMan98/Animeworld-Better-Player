@@ -4,40 +4,41 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 2155.09,
-        "end": 2250.44,
+        "start": 2155.03,
+        "end": 2250.81,
         "auto": true,
         "conf": 0.9
       }
     },
     "2": {
       "ed": {
-        "start": 1709.36,
-        "end": 1804.71,
+        "start": 1709.3,
+        "end": 1805.09,
         "auto": true,
         "conf": 0.9
       }
     },
     "3": {
       "ed": {
-        "start": 1710.36,
+        "start": 1710.49,
         "end": 1806.27,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "4": {
       "ed": {
-        "start": 1697.53,
-        "end": 1791.77,
+        "start": 1697.46,
+        "end": 1791.57,
         "auto": true,
         "conf": 0.9
       }
     },
     "5": {
       "ed": {
-        "start": 1707.75,
-        "end": 1801.98,
+        "start": 1707.69,
+        "end": 1804.76,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -45,10 +46,11 @@
     },
     "6": {
       "ed": {
-        "start": 1698.95,
+        "start": 1698.71,
         "end": 1794.37,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     }
   }

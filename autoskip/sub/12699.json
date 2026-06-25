@@ -4,32 +4,46 @@
   "episodes": {
     "1": {
       "op": {
-        "start": 201.49,
-        "end": 281.04,
+        "start": 201.61,
+        "end": 281.22,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 200.43,
+        "end": 280.68,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
     "2": {
       "op": {
-        "start": 181.23,
-        "end": 260.78,
+        "start": 181.34,
+        "end": 260.94,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 175.36,
+        "end": 260.44,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
     "3": {
       "op": {
-        "start": 211.34,
-        "end": 292.01,
+        "start": 211.47,
+        "end": 292.19,
         "auto": true,
         "conf": 0.9
       }
     },
     "4": {
       "op": {
-        "start": 184.01,
-        "end": 264.13,
+        "start": 184.13,
+        "end": 264.29,
         "auto": true,
         "conf": 0.9
       }

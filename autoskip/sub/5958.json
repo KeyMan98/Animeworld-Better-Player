@@ -2,7 +2,14 @@
   "malId": "5958",
   "audio": "sub",
   "episodes": {
-    "1": {},
+    "1": {
+      "ed": {
+        "start": 1296.48,
+        "end": 1392.08,
+        "auto": true,
+        "conf": 0.85
+      }
+    },
     "2": {
       "op": {
         "start": 31.23,

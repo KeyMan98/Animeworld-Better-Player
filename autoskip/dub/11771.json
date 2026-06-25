@@ -3,6 +3,12 @@
   "audio": "dub",
   "episodes": {
     "1": {
+      "op": {
+        "start": 41.05,
+        "end": 130.77,
+        "auto": true,
+        "conf": 0.85
+      },
       "ed": {
         "start": 1343.1,
         "end": 1431.57,
@@ -212,6 +218,13 @@
       }
     },
     "16": {
+      "op": {
+        "start": 41.24,
+        "end": 130.96,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      },
       "ed": {
         "start": 1342.72,
         "end": 1431.76,
@@ -220,6 +233,13 @@
       }
     },
     "17": {
+      "op": {
+        "start": 41.24,
+        "end": 130.96,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      },
       "ed": {
         "start": 1342.72,
         "end": 1431.94,

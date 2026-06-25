@@ -1,27 +1,31 @@
 {
-  "malId": 21939,
+  "malId": "21939",
   "audio": "sub",
   "episodes": {
     "1": {
       "op": {
-        "start": 27.88,
-        "end": 129.18,
+        "start": 27.9,
+        "end": 129.26,
         "auto": true,
-        "conf": 0.9
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 0
       }
     },
     "2": {
       "op": {
-        "start": 27.88,
-        "end": 129.18,
+        "start": 27.9,
+        "end": 129.26,
         "auto": true,
-        "conf": 0.9
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 0
       }
     },
     "3": {
       "op": {
         "start": 0,
-        "end": 100,
+        "end": 100.06,
         "auto": true,
         "conf": 0.9
       }
@@ -29,7 +33,7 @@
     "4": {
       "op": {
         "start": 0,
-        "end": 100.19,
+        "end": 100.25,
         "auto": true,
         "conf": 0.9
       }
@@ -37,7 +41,7 @@
     "5": {
       "op": {
         "start": 0,
-        "end": 100,
+        "end": 100.06,
         "auto": true,
         "conf": 0.9
       }
@@ -45,23 +49,25 @@
     "6": {
       "op": {
         "start": 0,
-        "end": 100,
+        "end": 100.06,
         "auto": true,
         "conf": 0.9
       }
     },
     "7": {
       "op": {
-        "start": 28.44,
-        "end": 129,
+        "start": 28.46,
+        "end": 129.08,
         "auto": true,
-        "conf": 0.9
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1.86
       }
     },
     "8": {
       "op": {
         "start": 0,
-        "end": 99.63,
+        "end": 99.69,
         "auto": true,
         "conf": 0.9
       }
@@ -69,7 +75,7 @@
     "9": {
       "op": {
         "start": 0,
-        "end": 99.81,
+        "end": 99.88,
         "auto": true,
         "conf": 0.9
       }
@@ -77,7 +83,7 @@
     "10": {
       "op": {
         "start": 0,
-        "end": 99.81,
+        "end": 99.88,
         "auto": true,
         "conf": 0.9
       }

@@ -380,6 +380,37 @@
         "auto": true,
         "conf": 0.9
       }
+    },
+    "28": {
+      "op": {
+        "start": 166.44,
+        "end": 271.95,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      },
+      "ed": {
+        "start": 1341,
+        "end": 1430.72,
+        "auto": true,
+        "conf": 0.85
+      }
+    },
+    "29": {
+      "op": {
+        "start": 76.14,
+        "end": 185.76,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      },
+      "ed": {
+        "start": 1341,
+        "end": 1430.72,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
     }
   }
 }

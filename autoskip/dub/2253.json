@@ -4,48 +4,48 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 1431.8,
-        "end": 1502.8,
+        "start": 1432.53,
+        "end": 1502.83,
         "auto": true,
         "conf": 0.9
       }
     },
     "2": {
       "ed": {
-        "start": 1431.66,
-        "end": 1502.67,
+        "start": 1432.39,
+        "end": 1502.7,
         "auto": true,
         "conf": 0.9
       }
     },
     "3": {
       "ed": {
-        "start": 1431.81,
-        "end": 1502.82,
+        "start": 1431.99,
+        "end": 1502.85,
         "auto": true,
         "conf": 0.9
       }
     },
     "4": {
       "ed": {
-        "start": 1431.11,
-        "end": 1502.67,
+        "start": 1431.84,
+        "end": 1502.7,
         "auto": true,
         "conf": 0.9
       }
     },
     "5": {
       "ed": {
-        "start": 1431.25,
-        "end": 1502.82,
+        "start": 1431.99,
+        "end": 1502.85,
         "auto": true,
         "conf": 0.9
       }
     },
     "6": {
       "ed": {
-        "start": 1432.25,
-        "end": 1502.14,
+        "start": 1432.05,
+        "end": 1502.36,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -53,17 +53,16 @@
     },
     "7": {
       "ed": {
-        "start": 1431.35,
-        "end": 1501.8,
+        "start": 1431.32,
+        "end": 1501.62,
         "auto": true,
-        "permissive": true,
-        "conf": 0.4
+        "conf": 0.9
       }
     },
     "8": {
       "ed": {
-        "start": 1432.56,
-        "end": 1502.45,
+        "start": 1432.9,
+        "end": 1502.46,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -71,24 +70,24 @@
     },
     "9": {
       "ed": {
-        "start": 1432.33,
-        "end": 1502.77,
+        "start": 1432.5,
+        "end": 1502.81,
         "auto": true,
         "conf": 0.9
       }
     },
     "10": {
       "ed": {
-        "start": 1432.37,
-        "end": 1502.82,
+        "start": 1432.54,
+        "end": 1502.85,
         "auto": true,
         "conf": 0.9
       }
     },
     "11": {
       "ed": {
-        "start": 1431.51,
-        "end": 1501.95,
+        "start": 1431.85,
+        "end": 1501.96,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -96,8 +95,8 @@
     },
     "12": {
       "ed": {
-        "start": 1432.08,
-        "end": 1502.34,
+        "start": 1432.42,
+        "end": 1502.73,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -105,16 +104,16 @@
     },
     "13": {
       "ed": {
-        "start": 1431.52,
-        "end": 1501.78,
+        "start": 1431.86,
+        "end": 1502.17,
         "auto": true,
         "conf": 0.9
       }
     },
     "14": {
       "ed": {
-        "start": 1432.39,
-        "end": 1502.28,
+        "start": 1432.55,
+        "end": 1502.29,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -122,8 +121,8 @@
     },
     "15": {
       "ed": {
-        "start": 1431.61,
-        "end": 1501.87,
+        "start": 1431.97,
+        "end": 1502.27,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -131,8 +130,8 @@
     },
     "16": {
       "ed": {
-        "start": 1431.98,
-        "end": 1502.24,
+        "start": 1432.34,
+        "end": 1502.27,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -140,8 +139,8 @@
     },
     "17": {
       "ed": {
-        "start": 1432.94,
-        "end": 1502.27,
+        "start": 1432.9,
+        "end": 1502.28,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -149,8 +148,8 @@
     },
     "18": {
       "ed": {
-        "start": 1433.4,
-        "end": 1502.73,
+        "start": 1432.62,
+        "end": 1502.74,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -158,8 +157,8 @@
     },
     "19": {
       "ed": {
-        "start": 1433.34,
-        "end": 1502.67,
+        "start": 1433.31,
+        "end": 1502.68,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -167,22 +166,18 @@
     },
     "20": {
       "ed": {
-        "start": 1427.48,
-        "end": 1502.2,
+        "start": 1428.37,
+        "end": 1502.21,
         "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 1415.02
+        "conf": 0.9
       }
     },
     "21": {
       "ed": {
-        "start": 1427.55,
-        "end": 1502.27,
+        "start": 1428.46,
+        "end": 1502.3,
         "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 1415.09
+        "conf": 0.9
       }
     },
     "22": {
@@ -203,24 +198,26 @@
     },
     "23": {
       "ed": {
-        "start": 1432.03,
-        "end": 1502.84,
+        "start": 1432.18,
+        "end": 1503.04,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "24": {
       "ed": {
-        "start": 1431.76,
-        "end": 1502.58,
+        "start": 1431.75,
+        "end": 1502.61,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "25": {
       "ed": {
-        "start": 1432.83,
-        "end": 1503.65,
+        "start": 1432.82,
+        "end": 1503.68,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -228,8 +225,8 @@
     },
     "26": {
       "ed": {
-        "start": 1432.84,
-        "end": 1502.73,
+        "start": 1433.55,
+        "end": 1502.74,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -237,8 +234,8 @@
     },
     "27": {
       "ed": {
-        "start": 1432.21,
-        "end": 1502.28,
+        "start": 1432.36,
+        "end": 1502.29,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -246,8 +243,8 @@
     },
     "28": {
       "ed": {
-        "start": 1431.58,
-        "end": 1502.03,
+        "start": 1431.94,
+        "end": 1502.06,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -255,8 +252,8 @@
     },
     "29": {
       "ed": {
-        "start": 1432.63,
-        "end": 1502.71,
+        "start": 1432.79,
+        "end": 1502.72,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -264,8 +261,8 @@
     },
     "30": {
       "ed": {
-        "start": 1434.41,
-        "end": 1504.12,
+        "start": 1434.38,
+        "end": 1504.13,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -273,18 +270,16 @@
     },
     "31": {
       "ed": {
-        "start": 1431.71,
-        "end": 1502.15,
+        "start": 1432.05,
+        "end": 1502.17,
         "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 1288.59
+        "conf": 0.9
       }
     },
     "32": {
       "ed": {
-        "start": 1432.88,
-        "end": 1502.58,
+        "start": 1432.85,
+        "end": 1502.59,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -292,8 +287,8 @@
     },
     "33": {
       "ed": {
-        "start": 1432.07,
-        "end": 1502.33,
+        "start": 1432.43,
+        "end": 1502.36,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -301,8 +296,8 @@
     },
     "34": {
       "ed": {
-        "start": 1432.32,
-        "end": 1502.4,
+        "start": 1432.29,
+        "end": 1502.41,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -310,8 +305,8 @@
     },
     "35": {
       "ed": {
-        "start": 1432.51,
-        "end": 1502.58,
+        "start": 1432.5,
+        "end": 1502.61,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -319,8 +314,8 @@
     },
     "36": {
       "ed": {
-        "start": 1432.69,
-        "end": 1502.58,
+        "start": 1432.66,
+        "end": 1502.59,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -328,8 +323,8 @@
     },
     "37": {
       "ed": {
-        "start": 1432.59,
-        "end": 1502.67,
+        "start": 1432.93,
+        "end": 1502.68,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -337,8 +332,8 @@
     },
     "38": {
       "ed": {
-        "start": 1432.19,
-        "end": 1502.27,
+        "start": 1432.72,
+        "end": 1502.28,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -346,8 +341,8 @@
     },
     "39": {
       "ed": {
-        "start": 1432.78,
-        "end": 1502.67,
+        "start": 1432.93,
+        "end": 1502.68,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -355,8 +350,8 @@
     },
     "40": {
       "ed": {
-        "start": 1432.25,
-        "end": 1502.33,
+        "start": 1432.4,
+        "end": 1502.34,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -364,8 +359,8 @@
     },
     "41": {
       "ed": {
-        "start": 1432.12,
-        "end": 1502.2,
+        "start": 1432.09,
+        "end": 1502.21,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -373,8 +368,8 @@
     },
     "42": {
       "ed": {
-        "start": 1431.54,
-        "end": 1501.61,
+        "start": 1431.53,
+        "end": 1501.64,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -382,16 +377,17 @@
     },
     "43": {
       "ed": {
-        "start": 1431.55,
-        "end": 1501.62,
+        "start": 1431.51,
+        "end": 1501.63,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "44": {
       "ed": {
-        "start": 1432.32,
-        "end": 1502.03,
+        "start": 1432.29,
+        "end": 1502.04,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -399,8 +395,8 @@
     },
     "45": {
       "ed": {
-        "start": 1432.12,
-        "end": 1502.2,
+        "start": 1432.09,
+        "end": 1502.21,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -408,8 +404,8 @@
     },
     "46": {
       "ed": {
-        "start": 1431.81,
-        "end": 1501.88,
+        "start": 1431.78,
+        "end": 1501.71,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -417,8 +413,8 @@
     },
     "47": {
       "ed": {
-        "start": 1431.95,
-        "end": 1502.03,
+        "start": 1432.11,
+        "end": 1501.85,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -426,8 +422,8 @@
     },
     "48": {
       "ed": {
-        "start": 1432.34,
-        "end": 1502.41,
+        "start": 1430.63,
+        "end": 1502.24,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -435,8 +431,8 @@
     },
     "49": {
       "ed": {
-        "start": 1432.05,
-        "end": 1501.75,
+        "start": 1428.32,
+        "end": 1501.78,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -444,8 +440,8 @@
     },
     "50": {
       "ed": {
-        "start": 1432.78,
-        "end": 1502.67,
+        "start": 1432,
+        "end": 1502.68,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -453,8 +449,8 @@
     },
     "51": {
       "ed": {
-        "start": 1432.65,
-        "end": 1502.54,
+        "start": 1432.99,
+        "end": 1502.55,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -462,8 +458,8 @@
     },
     "52": {
       "ed": {
-        "start": 1432.21,
-        "end": 1502.28,
+        "start": 1431.8,
+        "end": 1502.29,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -471,8 +467,8 @@
     },
     "53": {
       "ed": {
-        "start": 1432.98,
-        "end": 1503.06,
+        "start": 1433.51,
+        "end": 1503.07,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -480,8 +476,8 @@
     },
     "54": {
       "ed": {
-        "start": 1428.85,
-        "end": 1502.45,
+        "start": 1429.95,
+        "end": 1502.49,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -489,8 +485,8 @@
     },
     "55": {
       "ed": {
-        "start": 1432.19,
-        "end": 1502.45,
+        "start": 1432.35,
+        "end": 1502.46,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -498,8 +494,8 @@
     },
     "56": {
       "ed": {
-        "start": 1432.17,
-        "end": 1502.24,
+        "start": 1432.34,
+        "end": 1502.27,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -507,8 +503,8 @@
     },
     "57": {
       "ed": {
-        "start": 1432.75,
-        "end": 1502.45,
+        "start": 1432.93,
+        "end": 1502.49,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -516,8 +512,8 @@
     },
     "58": {
       "ed": {
-        "start": 1431.88,
-        "end": 1502.14,
+        "start": 1432.24,
+        "end": 1502.17,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -525,8 +521,8 @@
     },
     "59": {
       "ed": {
-        "start": 1432.52,
-        "end": 1502.41,
+        "start": 1432.12,
+        "end": 1502.42,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -534,38 +530,37 @@
     },
     "60": {
       "ed": {
-        "start": 1429.32,
-        "end": 1503.11,
+        "start": 1429.47,
+        "end": 1503.13,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1402.19
+        "coverStart": 1402.32
       }
     },
     "61": {
       "ed": {
-        "start": 1428.75,
-        "end": 1502.54,
+        "start": 1428.9,
+        "end": 1502.55,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1401.61
+        "coverStart": 1401.74
       }
     },
     "62": {
       "ed": {
-        "start": 1431.78,
-        "end": 1502.41,
+        "start": 1433.05,
+        "end": 1502.42,
         "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 1401.3
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "63": {
       "ed": {
-        "start": 1432.41,
-        "end": 1502.11,
+        "start": 1432.75,
+        "end": 1502.49,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -573,8 +568,8 @@
     },
     "64": {
       "ed": {
-        "start": 1431.85,
-        "end": 1501.55,
+        "start": 1432.03,
+        "end": 1501.96,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -582,8 +577,8 @@
     },
     "65": {
       "ed": {
-        "start": 1431.76,
-        "end": 1502.4,
+        "start": 1432.66,
+        "end": 1502.59,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -591,8 +586,8 @@
     },
     "66": {
       "ed": {
-        "start": 1432.96,
-        "end": 1502.29,
+        "start": 1430.14,
+        "end": 1502.68,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -600,8 +595,8 @@
     },
     "67": {
       "ed": {
-        "start": 1431.86,
-        "end": 1501.19,
+        "start": 1432.01,
+        "end": 1501.57,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -609,8 +604,8 @@
     },
     "68": {
       "ed": {
-        "start": 1432.74,
-        "end": 1502.37,
+        "start": 1432.73,
+        "end": 1502.66,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -618,8 +613,8 @@
     },
     "69": {
       "ed": {
-        "start": 1432.88,
-        "end": 1502.4,
+        "start": 1433.06,
+        "end": 1502.81,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -627,8 +622,8 @@
     },
     "70": {
       "ed": {
-        "start": 1432.32,
-        "end": 1502.11,
+        "start": 1432.5,
+        "end": 1502.24,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -636,8 +631,8 @@
     },
     "71": {
       "ed": {
-        "start": 1433.52,
-        "end": 1502.11,
+        "start": 1433.68,
+        "end": 1502.68,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -645,8 +640,8 @@
     },
     "72": {
       "ed": {
-        "start": 1432.71,
-        "end": 1502.04,
+        "start": 1432.3,
+        "end": 1502.42,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -654,8 +649,8 @@
     },
     "73": {
       "ed": {
-        "start": 1432.09,
-        "end": 1501.84,
+        "start": 1432.43,
+        "end": 1501.99,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -663,36 +658,33 @@
     },
     "74": {
       "ed": {
-        "start": 1431.91,
-        "end": 1502.54,
+        "start": 1433.18,
+        "end": 1502.74,
         "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 1401.43
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "75": {
       "ed": {
-        "start": 1432.41,
-        "end": 1501.74,
+        "start": 1432.03,
+        "end": 1502.14,
         "auto": true,
-        "permissive": true,
-        "conf": 0.4
+        "conf": 0.9
       }
     },
     "76": {
       "ed": {
-        "start": 1431.72,
-        "end": 1501.64,
+        "start": 1431.71,
+        "end": 1501.83,
         "auto": true,
-        "permissive": true,
-        "conf": 0.4
+        "conf": 0.9
       }
     },
     "77": {
       "ed": {
-        "start": 1431.45,
-        "end": 1501.9,
+        "start": 1432.54,
+        "end": 1501.72,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -700,8 +692,8 @@
     },
     "78": {
       "ed": {
-        "start": 1431.68,
-        "end": 1501.76,
+        "start": 1431.65,
+        "end": 1501.77,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -709,8 +701,8 @@
     },
     "79": {
       "ed": {
-        "start": 1431.63,
-        "end": 1501.52,
+        "start": 1431.79,
+        "end": 1501.53,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -718,18 +710,16 @@
     },
     "80": {
       "ed": {
-        "start": 1431.58,
-        "end": 1502.03,
+        "start": 1431.92,
+        "end": 1502.04,
         "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 1288.46
+        "conf": 0.9
       }
     },
     "81": {
       "ed": {
-        "start": 1432.18,
-        "end": 1502.07,
+        "start": 1432.33,
+        "end": 1502.08,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -737,8 +727,8 @@
     },
     "82": {
       "ed": {
-        "start": 1431.63,
-        "end": 1501.15,
+        "start": 1431.6,
+        "end": 1501.16,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -746,8 +736,8 @@
     },
     "83": {
       "ed": {
-        "start": 1432.1,
-        "end": 1501.98,
+        "start": 1432.46,
+        "end": 1502.02,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -755,8 +745,8 @@
     },
     "84": {
       "ed": {
-        "start": 1431.3,
-        "end": 1501.75,
+        "start": 1432.01,
+        "end": 1501.76,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -764,8 +754,8 @@
     },
     "85": {
       "ed": {
-        "start": 1431.77,
-        "end": 1502.03,
+        "start": 1432.29,
+        "end": 1502.04,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -773,52 +763,54 @@
     },
     "86": {
       "ed": {
-        "start": 1431.48,
-        "end": 1502.11,
+        "start": 1432.03,
+        "end": 1502.14,
         "auto": true,
         "conf": 0.9
       }
     },
     "87": {
       "ed": {
-        "start": 1431.31,
-        "end": 1501.94,
+        "start": 1431.83,
+        "end": 1501.95,
         "auto": true,
         "conf": 0.9
       }
     },
     "88": {
       "ed": {
-        "start": 1428.38,
-        "end": 1501.98,
+        "start": 1428.36,
+        "end": 1502.02,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1401.8
+        "coverStart": 1401.95
       }
     },
     "89": {
       "ed": {
-        "start": 1428.42,
-        "end": 1502.03,
+        "start": 1428.39,
+        "end": 1502.04,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1401.84
+        "coverStart": 1401.98
       }
     },
     "90": {
       "ed": {
-        "start": 1431.01,
-        "end": 1502.01,
+        "start": 1431.16,
+        "end": 1502.02,
         "auto": true,
-        "conf": 0.9
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1402.52
       }
     },
     "91": {
       "ed": {
-        "start": 1431.39,
-        "end": 1501.84,
+        "start": 1431.55,
+        "end": 1501.85,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -826,10 +818,11 @@
     },
     "92": {
       "ed": {
-        "start": 1402.13,
-        "end": 1472.2,
+        "start": 1401.35,
+        "end": 1471.84,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     }
   }

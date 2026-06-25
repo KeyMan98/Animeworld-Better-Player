@@ -4,68 +4,68 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 1438.26,
-        "end": 1516.89,
+        "start": 1422.2,
+        "end": 1517.61,
         "auto": true,
         "conf": 0.9
       }
     },
     "2": {
       "ed": {
-        "start": 1317.39,
-        "end": 1462.37,
+        "start": 1317.14,
+        "end": 1412.55,
         "auto": true,
         "conf": 0.9
       }
     },
     "3": {
       "ed": {
-        "start": 1283.38,
-        "end": 1428.36,
+        "start": 1283.32,
+        "end": 1379.85,
         "auto": true,
         "conf": 0.9
       }
     },
     "4": {
       "ed": {
-        "start": 1317.57,
-        "end": 1462.37,
+        "start": 1317.7,
+        "end": 1413.48,
         "auto": true,
         "conf": 0.9
       }
     },
     "5": {
       "ed": {
-        "start": 1479.33,
-        "end": 1557.96,
+        "start": 1463.95,
+        "end": 1559.45,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "6": {
       "ed": {
-        "start": 1392.25,
-        "end": 1470.87,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.4
-      }
-    },
-    "7": {
-      "ed": {
-        "start": 1417.56,
-        "end": 1562.36,
+        "start": 1376.76,
+        "end": 1471.8,
         "auto": true,
         "conf": 0.9
       }
     },
-    "8": {
+    "7": {
       "ed": {
-        "start": 1603.61,
-        "end": 1746.36,
+        "start": 1417.67,
+        "end": 1512.71,
         "auto": true,
         "permissive": true,
         "conf": 0.4
+      }
+    },
+    "8": {
+      "ed": {
+        "start": 1603.74,
+        "end": 1698.78,
+        "auto": true,
+        "conf": 0.9
       }
     }
   }

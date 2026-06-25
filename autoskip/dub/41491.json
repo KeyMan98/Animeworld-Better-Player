@@ -204,6 +204,12 @@
         "end": 240.89,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1342.12,
+        "end": 1431.84,
+        "auto": true,
+        "conf": 0.85
       }
     },
     "15": {
@@ -214,6 +220,12 @@
         "conf": 0.9,
         "overlapTail": true,
         "coverStart": 10.97
+      },
+      "ed": {
+        "start": 1342.12,
+        "end": 1431.84,
+        "auto": true,
+        "conf": 0.85
       }
     },
     "16": {
@@ -297,6 +309,12 @@
         "end": 160.04,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1342.3,
+        "end": 1432.02,
+        "auto": true,
+        "conf": 0.85
       }
     },
     "22": {
@@ -337,6 +355,12 @@
         "end": 138.66,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1342.12,
+        "end": 1431.84,
+        "auto": true,
+        "conf": 0.85
       }
     }
   }

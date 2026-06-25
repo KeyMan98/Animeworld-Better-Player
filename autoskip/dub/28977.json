@@ -3,6 +3,13 @@
   "audio": "dub",
   "episodes": {
     "1": {
+      "op": {
+        "start": 122.67,
+        "end": 217.71,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      },
       "ed": {
         "start": 1283.1,
         "end": 1374.36,
@@ -617,7 +624,15 @@
         "conf": 0.9
       }
     },
-    "46": {},
+    "46": {
+      "op": {
+        "start": 70.22,
+        "end": 161.8,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
+    },
     "47": {
       "op": {
         "start": 72.49,

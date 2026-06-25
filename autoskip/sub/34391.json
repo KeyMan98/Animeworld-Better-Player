@@ -1,21 +1,22 @@
 {
-  "malId": 34391,
+  "malId": "34391",
   "audio": "sub",
   "episodes": {
-    "1": {
+    "1": {},
+    "2": {
       "ed": {
-        "start": 1135.32,
-        "end": 1303.35,
+        "start": 1059.45,
+        "end": 1204.34,
         "auto": true,
         "canon": true,
-        "conf": 1
+        "conf": 0.65,
+        "permissive": true
       }
     },
-    "2": {},
     "3": {
       "ed": {
-        "start": 1055.32,
-        "end": 1217.21,
+        "start": 1055.4,
+        "end": 1217.39,
         "auto": true,
         "canon": true,
         "conf": 1

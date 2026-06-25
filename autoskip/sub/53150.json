@@ -5,67 +5,67 @@
     "1": {
       "ed": {
         "start": 2103.53,
-        "end": 2179.32,
+        "end": 2179.35,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 2062.96
+        "coverStart": 1974.01
       }
     },
     "2": {
       "ed": {
         "start": 1532.58,
-        "end": 1609.76,
+        "end": 1609.77,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1493.4
+        "coverStart": 1404.44
       }
     },
     "3": {
       "ed": {
-        "start": 1648.18,
-        "end": 1724.58,
+        "start": 1648.33,
+        "end": 1724.59,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1605.25
+        "coverStart": 1604.07
       }
     },
     "4": {
       "ed": {
-        "start": 1372.4,
-        "end": 1447.31,
+        "start": 1372.76,
+        "end": 1447.34,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1276.3
+        "coverStart": 1276.41
       }
     },
     "5": {
       "ed": {
-        "start": 1419.99,
-        "end": 1501.22,
+        "start": 1420.51,
+        "end": 1501.41,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1324.45
+        "coverStart": 1324.72
       }
     },
     "6": {
       "ed": {
-        "start": 1339.96,
-        "end": 1420.45,
+        "start": 1340.11,
+        "end": 1420.46,
         "auto": true,
         "conf": 0.9,
         "overlapTail": true,
-        "coverStart": 1244.05
+        "coverStart": 1244.14
       }
     },
     "7": {
       "ed": {
         "start": 1258.14,
-        "end": 1339.02,
+        "end": 1339.05,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -73,12 +73,10 @@
     },
     "8": {
       "ed": {
-        "start": 2087.56,
-        "end": 2168.42,
+        "start": 2087.71,
+        "end": 2168.61,
         "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 1960.24
+        "conf": 0.9
       }
     }
   }
