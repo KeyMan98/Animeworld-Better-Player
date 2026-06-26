@@ -1,0 +1,150 @@
+{
+  "malId": "4719",
+  "audio": "sub",
+  "episodes": {
+    "1": {},
+    "2": {
+      "op": {
+        "start": 79.79,
+        "end": 170.37,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1296.71,
+        "end": 1389.34,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "op": {
+        "start": 70.68,
+        "end": 161.25,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1301.85,
+        "end": 1394.47,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "4": {
+      "op": {
+        "start": 40.92,
+        "end": 132.42,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "5": {
+      "op": {
+        "start": 41.48,
+        "end": 132.61,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1301.99,
+        "end": 1393.32,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "6": {
+      "op": {
+        "start": 35.15,
+        "end": 126.84,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1302.14,
+        "end": 1393.64,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "7": {
+      "op": {
+        "start": 16.18,
+        "end": 107.5,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1302.18,
+        "end": 1393.69,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "8": {
+      "op": {
+        "start": 84.25,
+        "end": 175.76,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1302.32,
+        "end": 1395.13,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "9": {
+      "op": {
+        "start": 75.51,
+        "end": 166.46,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1302.03,
+        "end": 1395.4,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "10": {
+      "op": {
+        "start": 48.92,
+        "end": 140.24,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1302.02,
+        "end": 1394.46,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "11": {
+      "op": {
+        "start": 82.39,
+        "end": 174.64,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1302.88,
+        "end": 1393.64,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "12": {
+      "op": {
+        "start": 98.57,
+        "end": 188.03,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
+      }
+    }
+  }
+}

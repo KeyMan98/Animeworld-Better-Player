@@ -1,0 +1,43 @@
+{
+  "malId": "1671",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 3.91,
+        "end": 97.83,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1568.95,
+        "end": 1689.66,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "2": {
+      "op": {
+        "start": 3.53,
+        "end": 97.46,
+        "auto": true,
+        "conf": 0.9
+      },
+      "ed": {
+        "start": 1588.15,
+        "end": 1708.86,
+        "auto": true,
+        "conf": 0.9
+      }
+    },
+    "3": {
+      "op": {
+        "start": 4.28,
+        "end": 98.2,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.65
+      }
+    }
+  }
+}
