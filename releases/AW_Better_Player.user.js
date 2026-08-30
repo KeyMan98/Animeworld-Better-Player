@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AnimeWorld Better Player
 // @namespace    aw-better-player
-// @version      3.0.0
+// @version      3.1.0
 // @match        *://www.animeworld.ac/play/*
 // @run-at       document-start
 // @description  Il player migliore di sempre — riscritto da zero.
@@ -126,7 +126,7 @@
             .aw-np-mail-tab{flex:1;background:none;border:none;color:var(--mb-fg);opacity:.5;font-size:var(--mb-fs-micro);font-weight:600;font-family:inherit;padding:6px 4px;border-radius:var(--mb-r);cursor:pointer;display:flex;align-items:center;justify-content:center;gap:5px;transition:opacity var(--mb-t),background-color var(--mb-t)}
             .aw-np-mail-tab:hover{opacity:.85}
             .aw-np-mail-tab.active{opacity:1;background:var(--mb-hover)}
-            .aw-np-mail-tab-count{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;height:var(--mb-badge-sz);min-width:var(--mb-badge-sz);padding:0 calc(var(--mb-badge-sz) * .28);font-size:var(--mb-fs-date);font-weight:700;line-height:1;background:var(--mb-accent);color:#fff;border-radius:var(--np-r-pill);flex-shrink:0}
+            .aw-np-mail-tab-count{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;height:var(--mb-badge-sz);min-width:var(--mb-badge-sz);padding:0 calc(var(--mb-badge-sz) * .28);font-size:var(--mb-fs-date);font-weight:700;line-height:1;background:var(--mb-accent);color:var(--np-accent-on,#fff);border-radius:var(--np-r-pill);flex-shrink:0}
             .aw-np-mail-tab-count:empty{display:none}
             .aw-np-mail-list{display:flex;flex-direction:column;padding:var(--mb-list-pad);gap:1px}
             .aw-np-mail-empty{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--mb-empty-gap);opacity:.38;padding:var(--mb-empty-pad);text-align:center}
@@ -296,7 +296,8 @@
             .np-switch input:checked~.np-switch-track{background:var(--np-accent,#fff)}
             .np-switch-thumb{position:absolute;top:3px;left:3px;width:12px;height:12px;background:#fff;border-radius:50%;transition:transform var(--np-t) var(--np-ease);box-shadow:var(--np-elev-1)}
             .np-switch input:checked~.np-switch-thumb{transform:translateX(14px)}
-            .np-switch input:not(:checked)~.np-switch-thumb{background:rgba(255,255,255,.8)}`;
+            .np-switch input:not(:checked)~.np-switch-thumb{background:rgba(255,255,255,.8)}
+            .np-switch input:checked~.np-switch-thumb{background:var(--np-accent-on,#fff)}`;
   var ROWTIP_AFTER_DATATIP = `            .np-row-tip::after{content:'';position:absolute;top:50%;left:100%;transform:translateY(-50%);border:5px solid transparent;border-left-color:var(--np-tip-bg,#000)}
             [data-tip]{margin:0 -8px;padding:6px 8px;border-radius:var(--np-r-md);transition:background var(--np-t-fast) var(--np-ease)}[data-tip]:hover{background:var(--np-accent-state-1,rgba(255,255,255,.06))}[data-tip]:hover .np-row-tip{opacity:1;transition-delay:.5s}`;
   var SPEED_POPUP = `            #aw-np-speed-popup{position:absolute;top:max(10px,env(safe-area-inset-top));left:max(10px,env(safe-area-inset-left));background:transparent;color:rgba(255,255,255,.6);font-size:var(--np-fs-title);font-weight:500;padding:2px 4px;border-radius:var(--np-r-xs);pointer-events:none;opacity:0;transition:opacity var(--np-t-slow) var(--np-ease);z-index:20;letter-spacing:.02em;text-shadow:0 1px 6px rgba(0,0,0,.95)}
@@ -364,7 +365,7 @@
     if (document.getElementById("aw-np-style")) return;
     const s = document.createElement("style");
     s.id = "aw-np-style";
-    s.textContent = `
+    const D1 = `
 ${HEADER}
 ${rootVars({ seekH: "44px", topH: "64px", touch: "pan-x pan-y" })}
 ${FS}
@@ -394,10 +395,11 @@ ${ACTION_SVG}
             #aw-np-browser-btn:hover .np-tip,#aw-np-report-btn:hover .np-tip,#aw-np-mail-btn:hover .np-tip,#aw-np-kbd-btn:hover .np-tip{opacity:1;transition-delay:.3s}
             #aw-np-hotkey-overlay{position:absolute;inset:0;background:rgba(0,0,0,.62);z-index:30;opacity:0;pointer-events:none;transition:opacity var(--np-t) var(--np-ease);font-family:Arial,'Segoe UI','Roboto',sans-serif;container-type:size;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:max(16px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) max(16px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));box-sizing:border-box}
             #aw-np-hotkey-overlay.open{opacity:1;pointer-events:auto}
-            /* Pannello Hotkey nel linguaggio dei pannelli: la tastiera vive dentro una CARD */
-            /* (--np-surf-1 + hairline + raggio + elevazione) con barra-titolo, come gli altri pannelli. */
+        `;
+    const D2 = `
             #aw-np-hotkey-inner{position:relative;display:flex;flex-direction:column;align-items:center;gap:clamp(12px,2.4cqh,24px);padding:clamp(14px,2.4cqh,22px) clamp(16px,2.6cqw,26px) clamp(12px,2cqh,18px);box-sizing:border-box;overflow:visible;max-width:100%;max-height:100%;background:var(--np-surf-1);border:var(--np-line);border-radius:var(--np-r-lg);box-shadow:var(--np-elev-3);--ku:min(clamp(30px,6.6cqh,82px),5.9cqw);--kg:clamp(5px,1.3cqh,16px)}
-            /* Titolo = elemento a sé con la SUA icona: keycap "A" in OUTLINE (stroke, non fill), come il set Lucide. */
+        `;
+    const D3 = `
             .aw-np-hotkey-bartitle{display:flex;align-items:center;gap:clamp(7px,1.2cqw,11px);flex:1;min-width:0;font-size:clamp(17px,2.7cqw,34px);font-weight:700;color:var(--np-accent-bg-fg,#fff);letter-spacing:.01em;line-height:1}
             .aw-np-hotkey-bartitle>span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
             .aw-np-hotkey-key-a{flex-shrink:0;box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;width:1.28em;height:1.28em;font-size:.78em;border:1.7px solid var(--np-accent,#1565C0);border-radius:var(--np-r-sm);color:var(--np-accent,#1565C0);font-weight:700;font-family:Arial,'Segoe UI','Roboto',sans-serif;line-height:1;padding-top:.06em}
@@ -430,32 +432,38 @@ ${ACTION_SVG}
             .aw-np-key.hovered .aw-np-key-letter{opacity:1}
             .aw-np-key-mod{font-size:calc(var(--ku) * .19);font-weight:600;opacity:.5;letter-spacing:.04em}
             .aw-np-key-space{width:calc(var(--ku) * 5 + var(--kg) * 4)}
-            /* ── Header (icona-titolo-X) + footer con toolbar edit ── */
+        `;
+    const D4 = `
             .aw-np-kbd-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;max-width:calc(var(--ku) * 12 + var(--kg) * 11);box-sizing:border-box;position:relative;border-bottom:var(--np-line);padding-bottom:clamp(8px,1.6cqh,14px)}
             .aw-np-hotkey-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;max-width:calc(var(--ku) * 12 + var(--kg) * 11);box-sizing:border-box}
             .aw-np-hotkey-tools{display:flex;gap:clamp(6px,1cqw,10px);flex-shrink:0}
             .aw-np-kbd-bar-btn{display:flex;align-items:center;justify-content:center;width:clamp(28px,4.4cqh,40px);height:clamp(28px,4.4cqh,40px);border-radius:var(--np-r-sm);cursor:pointer;user-select:none;background:transparent;color:var(--np-accent,#1565C0);transition:color var(--np-t-fast),transform var(--np-t-fast) var(--np-ease),opacity var(--np-t),background-color var(--np-t-fast);position:relative}
             .aw-np-kbd-bar-btn .np-tip{bottom:auto;top:calc(100% + 8px)}
             .aw-np-kbd-bar-btn .np-tip::after{top:auto;bottom:100%;border-top-color:transparent;border-bottom-color:var(--np-tip-bg,#1b1c1f)}
-            /* i tip dei bottoni nel footer (in basso) vanno SOPRA */
+        `;
+    const D5 = `
             .aw-np-hotkey-tools .np-tip{top:auto;bottom:calc(100% + 8px)}
             .aw-np-hotkey-tools .np-tip::after{bottom:auto;top:100%;border-bottom-color:transparent;border-top-color:var(--np-tip-bg,#1b1c1f)}
             .aw-np-kbd-bar-btn:hover .np-tip{opacity:1;transition-delay:.4s}
             .aw-np-kbd-bar-btn svg{width:64%;height:64%;display:block}
-            /* sizing OTTICO per-icona (i glifi Lucide hanno peso/ingombro diverso a parità di box) */
+        `;
+    const D6 = `
             .aw-np-kbd-bar-btn.is-ok svg{width:74%;height:74%}
             .aw-np-kbd-bar-btn.is-reset svg{width:66%;height:66%}
             .aw-np-kbd-bar-btn.is-x svg,.aw-np-kbd-bar-btn.is-cancel svg{width:60%;height:60%}
             .aw-np-kbd-bar-btn:hover{transform:translateY(-1px);opacity:.78}
             .aw-np-kbd-bar-btn:active{transform:translateY(0) scale(.92)}
-            /* header X = muta come .aw-np-pn-close (non accent): icona - titolo - X uniforme */
+        `;
+    const D7 = `
             .aw-np-kbd-bar>.is-x{color:var(--np-accent-bg-fg,#fff);opacity:.55}
             .aw-np-kbd-bar>.is-x:hover{opacity:1;transform:none;background:var(--np-accent-state-1,rgba(255,255,255,.08))}
-            /* toolbar: consultazione = Modifica; editing = Reset/Salva/X-esci */
+        `;
+    const D8 = `
             .aw-np-hotkey-tools .is-ok,.aw-np-hotkey-tools .is-cancel,.aw-np-hotkey-tools .is-reset{display:none}
             #aw-np-hotkey-overlay.editing .aw-np-hotkey-tools .is-edit{display:none}
             #aw-np-hotkey-overlay.editing .aw-np-hotkey-tools .is-ok,#aw-np-hotkey-overlay.editing .aw-np-hotkey-tools .is-cancel,#aw-np-hotkey-overlay.editing .aw-np-hotkey-tools .is-reset{display:flex}
-            /* in edit: speciali in grigio, lettere cliccabili */
+        `;
+    const D9 = `
             #aw-np-hotkey-overlay.editing .aw-np-key-special{opacity:.28!important;filter:grayscale(1)}
             #aw-np-hotkey-overlay.editing .aw-np-key-letter-slot{cursor:pointer}
             #aw-np-hotkey-overlay.editing .aw-np-key-letter-slot.on:hover,#aw-np-hotkey-overlay.editing .aw-np-key-letter-slot.off:hover{background:var(--np-accent-state-1,color-mix(in srgb,var(--np-accent,#1565C0) 22%,var(--np-accent-bg,#223A56)))}
@@ -511,7 +519,8 @@ ${SWITCH}
             .np-tip{position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--np-tip-bg,#1b1c1f);color:rgba(255,255,255,.92);font-size:var(--np-fs-small);font-weight:500;padding:5px 10px;border-radius:var(--np-r-sm);border:var(--np-line-soft);white-space:nowrap;pointer-events:none;opacity:0;transition:opacity var(--np-t-fast) var(--np-ease);z-index:20;box-shadow:var(--np-elev-1)}
             .np-tip::after{content:'';position:absolute;top:100%;left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--np-tip-bg,#1b1c1f)}
             .np-btn:hover .np-tip{opacity:1;transition-delay:.4s}
-            /* Tip dei bottoni d'angolo: ancorati al bordo del bottone per non uscire dal frame (freccia sul centro bottone). */
+        `;
+    const D10 = `
             #aw-btn-play .np-tip{left:0;right:auto;transform:none}
             #aw-btn-play .np-tip::after{left:calc(var(--np-btn-size) / 2)}
             #aw-btn-fs .np-tip{left:auto;right:0;transform:none}
@@ -533,6 +542,7 @@ ${SKIP_POPUP}
 ${AWAKE_GUARD}
 ${PANEL_SUBROW}
         `;
+    s.textContent = [D1, D2, D3, D4, D5, D6, D7, D8, D9, D10].join("\n");
     document.head.appendChild(s);
   }
 
@@ -810,7 +820,7 @@ ${PANEL_SUBROW}
   var KEY_SKIP_AWAKE = "aw-np-skip-awake";
   var WORKER_BASE = "https://awbp-skip-collector.cibernetic-gg.workers.dev";
   var REPORT_HEARTBEAT_MS = 6e4;
-  var SCRIPT_VERSION = "3.0.0";
+  var SCRIPT_VERSION = "3.1.0";
   var SEEK_DEFAULT = 5;
   var SEEK_MIN = 5;
   var SEEK_MAX = 30;
@@ -1432,8 +1442,72 @@ ${PANEL_SUBROW}
     return { settingsPanel, resumeToggle, autoEpToggle, autoPlayToggle, connMonitorToggle, globalToggle, skMasterToggle, skSkipToggle, skNextToggle, skOpToggle, skEdToggle, seekSecs: () => seekSecs, speedVal: () => speedVal, updateSeekVal, updateSpeedVal, reloadSeek, reloadSpeed };
   }
 
+  // src/lib/color.js
+  function hexToRgb(h) {
+    if (typeof h !== "string") return null;
+    const m = /^#?([0-9a-f]{3}|[0-9a-f]{6})$/i.exec(h.trim());
+    if (!m) return null;
+    let s = m[1];
+    if (s.length === 3) s = s[0] + s[0] + s[1] + s[1] + s[2] + s[2];
+    return [parseInt(s.slice(0, 2), 16), parseInt(s.slice(2, 4), 16), parseInt(s.slice(4, 6), 16)];
+  }
+  function rgbToHex(r) {
+    return "#" + r.map((x) => Math.max(0, Math.min(255, Math.round(x))).toString(16).padStart(2, "0")).join("");
+  }
+  function mixRgb(a, b, t) {
+    return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t];
+  }
+  function perceivedLum(r) {
+    return (0.299 * r[0] + 0.587 * r[1] + 0.114 * r[2]) / 255;
+  }
+  function relLum(rgb) {
+    const f = (v) => {
+      v /= 255;
+      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+    };
+    return 0.2126 * f(rgb[0]) + 0.7152 * f(rgb[1]) + 0.0722 * f(rgb[2]);
+  }
+  function contrastRatio(a, b) {
+    const l1 = relLum(a), l2 = relLum(b);
+    return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
+  }
+  function ensureContrast(hex, bgHex, min) {
+    const c = hexToRgb(hex), bg = hexToRgb(bgHex);
+    if (!c || !bg) return hex;
+    if (contrastRatio(c, bg) >= min) return hex;
+    const target = relLum(bg) < 0.18 ? [255, 255, 255] : [0, 0, 0];
+    let out = c;
+    for (let i = 0; i < 40 && contrastRatio(out, bg) < min; i++) out = mixRgb(out, target, 0.06);
+    return rgbToHex(out);
+  }
+  function accentTextTone(rgb, theme) {
+    let r = rgb.slice(), g = 0;
+    if (theme === "dark") {
+      while (perceivedLum(r) < 0.62 && g < 16) {
+        r = mixRgb(r, [255, 255, 255], 0.12);
+        g++;
+      }
+    } else {
+      while (perceivedLum(r) > 0.42 && g < 16) {
+        r = mixRgb(r, [18, 40, 26], 0.12);
+        g++;
+      }
+    }
+    return rgbToHex(r);
+  }
+  function inkOnAccent(hex, darkSurface = "#16171a", darkTint = 0.08) {
+    const c = hexToRgb(hex);
+    if (!c) return "#ffffff";
+    if (perceivedLum(c) > 0.6) return rgbToHex(mixRgb(hexToRgb(darkSurface) || [22, 23, 26], c, darkTint));
+    return "#ffffff";
+  }
+
   // src/state/color-apply.js
+  var CHROME_BG = "#16171a";
+  var CHROME_MIN_CR = 3;
   function applyColor(hex, wrap, dotEl) {
+    const picked = hex;
+    hex = ensureContrast(hex, CHROME_BG, CHROME_MIN_CR);
     if (wrap) {
       wrap.style.setProperty("--np-accent", hex);
       wrap.style.setProperty("--np-accent-bg", `color-mix(in srgb, ${hex} 30%, #282828)`);
@@ -1441,11 +1515,12 @@ ${PANEL_SUBROW}
       wrap.style.setProperty("--np-accent-state-1", `color-mix(in srgb, ${hex} 14%, transparent)`);
       wrap.style.setProperty("--np-accent-state-2", `color-mix(in srgb, ${hex} 22%, transparent)`);
       wrap.style.setProperty("--np-accent-dim", `color-mix(in srgb, #ffffff 60%, ${hex})`);
+      wrap.style.setProperty("--np-accent-on", inkOnAccent(hex));
     }
     if (dotEl) dotEl.style.background = hex;
     try {
       if (typeof document !== "undefined" && typeof CustomEvent === "function") {
-        document.dispatchEvent(new CustomEvent("aw-np-accent-changed", { detail: { hex } }));
+        document.dispatchEvent(new CustomEvent("aw-np-accent-changed", { detail: { hex: picked } }));
       }
     } catch {
     }
@@ -4657,7 +4732,7 @@ ${PANEL_SUBROW}
     if (!box) {
       box = document.createElement("div");
       box.id = "aw-np-load-error";
-      box.style.cssText = "display:flex;align-items:center;justify-content:center;min-height:220px;padding:24px;text-align:center;color:#fff;background:#111;border-radius:12px;cursor:pointer;font:500 15px Roboto,sans-serif";
+      box.style.cssText = 'display:flex;align-items:center;justify-content:center;min-height:220px;padding:24px;text-align:center;color:#fff;background:#16171a;border-radius:12px;cursor:pointer;font:500 15px "Google Sans",Roboto,"Helvetica Neue",sans-serif';
       container.appendChild(box);
     }
     box.textContent = msg;
@@ -4897,7 +4972,7 @@ ${PANEL_SUBROW}
   var GLOBAL_WIN2 = typeof window !== "undefined" ? window : void 0;
   function isLoggedIn(win = GLOBAL_WIN2, doc = GLOBAL_DOC) {
     try {
-      if (win && win.usersId) return true;
+      if (numStrId(win && win.usersId)) return true;
       const d = doc || win && win.document || GLOBAL_DOC;
       if (!d) return true;
       if (d.querySelector('a[href*="/logout"]')) return true;
@@ -4917,6 +4992,20 @@ ${PANEL_SUBROW}
     } catch {
       return "";
     }
+  }
+  function numStrId(v) {
+    const s = String(v == null ? "" : v).trim();
+    return /^\d+$/.test(s) ? s.replace(/^0+(?=\d)/, "") : null;
+  }
+  function boolOrNull(v) {
+    if (typeof v === "boolean") return v;
+    if (v === 0 || v === 1) return !!v;
+    if (typeof v === "string") {
+      const s = v.trim().toLowerCase();
+      if (s === "true" || s === "1") return true;
+      if (s === "false" || s === "0") return false;
+    }
+    return null;
   }
   function currentFolderFromBookmark(doc = GLOBAL_DOC) {
     try {
@@ -4939,10 +5028,22 @@ ${PANEL_SUBROW}
       notes: ""
     };
     try {
-      out.inList = !!(win && win.isInList);
-      out.animeId = win && win.animeId != null ? String(win.animeId) : null;
-      const folderStr = currentFolderFromBookmark(doc);
+      const rawAnimeId = win && win.animeId != null ? String(win.animeId) : null;
+      const rawIsInList = boolOrNull(win && win.isInList);
       const modal = doc && doc.querySelector(".watchlist-edit-modal");
+      const modalAnimeId = modal && numStrId(modal.getAttribute("data-animes-id"));
+      const modalEntryId = modal && (modal.getAttribute("data-id") || null);
+      const bookmarkId = (function() {
+        const ub = doc && doc.querySelector(".userbookmark ul.dropdown-menu.bookmark");
+        return ub && numStrId(ub.getAttribute("data-id"));
+      })();
+      const bookmarkActive = (function() {
+        const li = doc && doc.querySelector(".userbookmark ul.dropdown-menu li.active");
+        return li && li.getAttribute("data-value");
+      })();
+      out.animeId = numStrId(rawAnimeId) || modalAnimeId || bookmarkId || null;
+      out.inList = rawIsInList != null ? rawIsInList : !!(modal && modalEntryId || bookmarkActive);
+      const folderStr = currentFolderFromBookmark(doc);
       const entryId = modal && modal.getAttribute("data-id");
       if (modal && entryId) {
         out.entryId = entryId;
@@ -5274,6 +5375,26 @@ ${PANEL_SUBROW}
     }
   }
 
+  // src/watchlist/watchlist-accent.js
+  var SURF_LIGHT = "#f5f8f6";
+  var TINT_LIGHT = 0.06;
+  var SURF_DARK = "#202420";
+  var TINT_DARK = 0.1;
+  var FAINT_LIGHT = 1.25;
+  var FAINT_DARK = 1.9;
+  function applyAccentVars(node, theme) {
+    if (!node || !node.style) return;
+    const raw = loadColor() || "#ffffff";
+    const rgb = hexToRgb(raw) || [255, 255, 255];
+    node.style.setProperty("--wl-acc", raw);
+    node.style.setProperty("--wl-acc-on", inkOnAccent(raw, SURF_DARK, TINT_DARK));
+    node.style.setProperty("--wl-acc-text", accentTextTone(rgb, theme));
+    const dark = theme === "dark";
+    const surf = mixRgb(hexToRgb(dark ? SURF_DARK : SURF_LIGHT), rgb, dark ? TINT_DARK : TINT_LIGHT);
+    const faint = contrastRatio(rgb, surf) < (dark ? FAINT_DARK : FAINT_LIGHT);
+    if (node.classList) node.classList.toggle("aw-wl-faint", faint);
+  }
+
   // src/watchlist/watchlist-panel.js
   var WL_ICON = IC.bookmark;
   var FOLDER_ICON = {
@@ -5287,38 +5408,6 @@ ${PANEL_SUBROW}
   var KEY_WL_AUTOPROGRESS = "aw-wl-autoprogress";
   var KEY_WL_REMEMBER2 = "aw-wl-remember";
   var MINUS = "−";
-  function _hexToRgb(h) {
-    if (typeof h !== "string") return null;
-    const m = /^#?([0-9a-f]{3}|[0-9a-f]{6})$/i.exec(h.trim());
-    if (!m) return null;
-    let s = m[1];
-    if (s.length === 3) s = s[0] + s[0] + s[1] + s[1] + s[2] + s[2];
-    return [parseInt(s.slice(0, 2), 16), parseInt(s.slice(2, 4), 16), parseInt(s.slice(4, 6), 16)];
-  }
-  function _lum(r) {
-    return (0.299 * r[0] + 0.587 * r[1] + 0.114 * r[2]) / 255;
-  }
-  function _mix(a, b, t) {
-    return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t];
-  }
-  function _toHex(r) {
-    return "#" + r.map((x) => Math.max(0, Math.min(255, Math.round(x))).toString(16).padStart(2, "0")).join("");
-  }
-  function accentTextTone(rgb, theme) {
-    let r = rgb.slice(), g = 0;
-    if (theme === "dark") {
-      while (_lum(r) < 0.62 && g < 16) {
-        r = _mix(r, [255, 255, 255], 0.12);
-        g++;
-      }
-    } else {
-      while (_lum(r) > 0.42 && g < 16) {
-        r = _mix(r, [18, 40, 26], 0.12);
-        g++;
-      }
-    }
-    return _toHex(r);
-  }
   function buildWatchlistPanel(ctx = {}) {
     const doc = ctx.doc || (typeof document !== "undefined" ? document : void 0);
     const win = ctx.win || (typeof window !== "undefined" ? window : void 0);
@@ -5331,11 +5420,7 @@ ${PANEL_SUBROW}
       const lMsg = el("div", "aw-wl-locked-msg", { text: "Accedi ad AnimeWorld per usare questa funzione." });
       const lockedPanel = el("div", "aw-wl-panel aw-wl-locked", { kids: [lR1, lMsg] });
       lockedPanel.classList.add(theme === "dark" ? "aw-wl-on-dark" : "aw-wl-on-light");
-      const rawAcc = loadColor() || "#ffffff";
-      const accRgb = _hexToRgb(rawAcc) || [255, 255, 255];
-      lockedPanel.style.setProperty("--wl-acc", rawAcc);
-      lockedPanel.style.setProperty("--wl-acc-on", _lum(accRgb) > 0.6 ? "#16181d" : "#ffffff");
-      lockedPanel.style.setProperty("--wl-acc-text", accentTextTone(accRgb, theme));
+      applyAccentVars(lockedPanel, theme);
       return {
         panel: lockedPanel,
         refresh() {
@@ -5343,11 +5428,15 @@ ${PANEL_SUBROW}
         destroy() {
           lockedPanel.remove();
         },
+        getAnimeId() {
+          return null;
+        },
+        // pannello bloccato: niente stato di sessione da applicare
         setTheme(t) {
           theme = t === "dark" ? "dark" : "light";
           lockedPanel.classList.toggle("aw-wl-on-dark", theme === "dark");
           lockedPanel.classList.toggle("aw-wl-on-light", theme === "light");
-          lockedPanel.style.setProperty("--wl-acc-text", accentTextTone(accRgb, theme));
+          applyAccentVars(lockedPanel, theme);
         },
         applySession() {
         }
@@ -5486,11 +5575,7 @@ ${PANEL_SUBROW}
       curFe = fe;
       const allowed = allowedFolders(cat);
       const cap = episodeCap(state.available);
-      const rawAcc = loadColor() || "#ffffff";
-      const accRgb = _hexToRgb(rawAcc) || [255, 255, 255];
-      panel.style.setProperty("--wl-acc", rawAcc);
-      panel.style.setProperty("--wl-acc-on", _lum(accRgb) > 0.6 ? "#16181d" : "#ffffff");
-      panel.style.setProperty("--wl-acc-text", accentTextTone(accRgb, theme));
+      applyAccentVars(panel, theme);
       badgeTxt.textContent = state.inList ? "In lista" : "Non in lista";
       badge.classList.toggle("aw-wl-in", state.inList);
       badge.classList.toggle("aw-wl-out", !state.inList);
@@ -5600,7 +5685,7 @@ ${PANEL_SUBROW}
     function applySession() {
       try {
         if (busy) return;
-        const ov = getSessionEntry(win && win.animeId);
+        const ov = getSessionEntry(state.animeId);
         if (!ov) return;
         if ("inList" in ov) state.inList = ov.inList;
         if ("entryId" in ov) state.entryId = ov.entryId;
@@ -5624,11 +5709,11 @@ ${PANEL_SUBROW}
       closeMenu();
       panel.remove();
     }
-    return { panel, refresh, destroy, setTheme, applySession };
+    return { panel, refresh, destroy, setTheme, applySession, getAnimeId: () => state.animeId };
   }
 
   // src/styles/watchlist-css.js
-  var WATCHLIST_CSS = `
+  var WL_1 = `
 .aw-wl-panel{
   --wl-acc:#3aa564;--wl-acc-text:#1f8f3d;--wl-acc-on:#ffffff;
   --wl-surface:#f5f8f6;--wl-bd:#d9e0db;--wl-fg:#273229;--wl-muted:#66756b;--wl-line:#dbe4de;--wl-field:#ffffff;--wl-sw-off:#cdd6d0;--wl-danger:#dc3545;
@@ -5697,7 +5782,7 @@ ${PANEL_SUBROW}
 .aw-wl-panel .aw-wl-trash:disabled{color:var(--wl-muted);opacity:.45;cursor:not-allowed}
 
 .aw-wl-panel .aw-wl-step{display:flex;align-items:center;gap:5px}
-.aw-wl-panel .aw-wl-minus,.aw-wl-panel .aw-wl-plus{display:flex;align-items:center;justify-content:center;width:22px;height:22px;box-sizing:border-box;padding:0;background:var(--wl-acc);color:var(--wl-acc-on);border:none;border-radius:5px;font-family:inherit;font-size:15px;font-weight:700;line-height:1;cursor:pointer;transition:filter .12s,transform .1s}
+.aw-wl-panel .aw-wl-minus,.aw-wl-panel .aw-wl-plus{display:flex;align-items:center;justify-content:center;width:22px;height:22px;box-sizing:border-box;padding:0 0 2px;background:var(--wl-acc);color:var(--wl-acc-on);border:none;border-radius:5px;font-family:inherit;font-size:15px;font-weight:700;line-height:1;cursor:pointer;transition:filter .12s,transform .1s}
 .aw-wl-panel .aw-wl-minus:hover:not(:disabled),.aw-wl-panel .aw-wl-plus:hover:not(:disabled){filter:brightness(.9)}
 .aw-wl-panel .aw-wl-minus:active:not(:disabled),.aw-wl-panel .aw-wl-plus:active:not(:disabled){transform:scale(.9)}
 .aw-wl-panel .aw-wl-minus:disabled,.aw-wl-panel .aw-wl-plus:disabled{opacity:.35;cursor:not-allowed}
@@ -5715,29 +5800,51 @@ ${PANEL_SUBROW}
 .aw-wl-panel .aw-wl-tip{position:absolute;bottom:calc(100% + 8px);left:0;width:max-content;max-width:320px;padding:7px 11px;border-radius:6px;background:var(--wl-surface);border:1px solid var(--wl-bd);color:var(--wl-fg);font-size:11px;font-weight:500;line-height:1.4;white-space:normal;box-shadow:0 4px 14px rgba(0,0,0,.28);pointer-events:none;opacity:0;transition:opacity .15s;z-index:60}
 .aw-wl-panel .aw-wl-tog:hover .aw-wl-tip{opacity:1;transition-delay:.35s}
 .aw-wl-panel .aw-wl-r3 .aw-wl-tog:last-child .aw-wl-tip{left:auto;right:0}
-/* Touch (no hover): i tooltip non sono attivabili (inutili) E da opacity:0+absolute+max-width:320px
-   restano NEL LAYOUT sbordando il viewport a destra -> overflow orizzontale che rimpicciolisce TUTTA
-   la pagina AW ("ristretta e di lato"). Su hover:none li togliamo dal layout (display:none). */
+`;
+  var WL_2 = `
 @media (hover:none){.aw-wl-panel .aw-wl-tip{display:none}}
 .aw-wl-panel .aw-wl-sw{position:relative;display:inline-block;width:29px;height:17px;margin:0;flex-shrink:0;cursor:pointer}
 .aw-wl-panel .aw-wl-sw input{position:absolute;opacity:0;width:0;height:0;margin:0}
 .aw-wl-panel .aw-wl-sw-track{position:absolute;inset:0;border-radius:9px;background:var(--wl-sw-off);transition:background .2s}
 .aw-wl-panel .aw-wl-sw input:checked~.aw-wl-sw-track{background:var(--wl-acc)}
 .aw-wl-panel .aw-wl-sw-thumb{position:absolute;top:2.5px;left:2.5px;width:12px;height:12px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.35);transition:transform .2s;pointer-events:none}
-.aw-wl-panel .aw-wl-sw input:checked~.aw-wl-sw-thumb{transform:translateX(12px)}
-
-/* Mobile / contenitore stretto: la riga 2 va a capo su piu' righe invece di sbordare; i separatori
-   verticali (che a capo resterebbero orfani) spariscono. Container query sulla larghezza del pannello. */
+.aw-wl-panel .aw-wl-sw input:checked~.aw-wl-sw-thumb{transform:translateX(12px);background:var(--wl-acc-on)}
+`;
+  var WL_3 = `
+.aw-wl-panel.aw-wl-faint .aw-wl-badge.aw-wl-in,
+.aw-wl-panel.aw-wl-faint .aw-wl-minus,
+.aw-wl-panel.aw-wl-faint .aw-wl-plus,
+.aw-wl-panel.aw-wl-faint .aw-wl-sw input:checked~.aw-wl-sw-track{box-shadow:inset 0 0 0 1px var(--wl-acc-text)}
+.aw-wl-panel.aw-wl-faint .aw-wl-status,
+.aw-wl-panel.aw-wl-faint .aw-wl-edit{border-color:var(--wl-acc-text)}
+.aw-wl-popup.aw-wl-faint .aw-wl-popup-confirm{border-color:var(--wl-acc-text)}
+`;
+  var WL_4 = `
+.aw-wl-panel.aw-wl-faint .aw-wl-status-opt:hover:not(:disabled){background:color-mix(in srgb,var(--wl-acc-text) 16%,transparent)}
+.aw-wl-panel.aw-wl-faint .aw-wl-status-opt.aw-wl-sel{background:color-mix(in srgb,var(--wl-acc-text) 26%,transparent)}
+.aw-wl-popup.aw-wl-faint .aw-wl-popup-cancel:hover{border-color:var(--wl-acc-text);background:color-mix(in srgb,var(--wl-acc-text) 8%,transparent)}
+`;
+  var WL_5 = `
+.aw-wl-panel.aw-wl-on-light.aw-wl-faint,.aw-wl-popup.aw-wl-on-light.aw-wl-faint{
+  --wl-bd:color-mix(in srgb,var(--wl-acc-text) 22%,#d9e0db);
+  --wl-fg:color-mix(in srgb,var(--wl-acc-text) 14%,#273229);
+  --wl-muted:color-mix(in srgb,var(--wl-acc-text) 30%,#66756b);
+  --wl-line:color-mix(in srgb,var(--wl-acc-text) 24%,#dbe4de);
+}
+.aw-wl-panel.aw-wl-on-dark.aw-wl-faint,.aw-wl-popup.aw-wl-on-dark.aw-wl-faint{
+  --wl-bd:color-mix(in srgb,var(--wl-acc-text) 26%,#39433d);
+  --wl-fg:color-mix(in srgb,var(--wl-acc-text) 12%,#d5ded7);
+  --wl-muted:color-mix(in srgb,var(--wl-acc-text) 22%,#8ba394);
+  --wl-line:color-mix(in srgb,var(--wl-acc-text) 24%,#39433d);
+}
+`;
+  var WL_6 = `
 @container (max-width:600px){
   .aw-wl-panel .aw-wl-r2{flex-wrap:wrap;justify-content:flex-start;gap:8px 12px}
   .aw-wl-panel .aw-wl-sep{display:none}
 }
-
-/* Popup "Aggiornare a <Funzione>?" (WP-W2 2/3). Stessa colorazione del pannello (var neutre per tema
-   + 3 var accent inline da watchlist-prompt). Banner NON bloccante in BASSO AL CENTRO: il contenitore
-   ha pointer-events:none (il player/pannello restano cliccabili), solo la card e' interattiva. Visibile
-   SOLO in modalita' finestra: in fullscreen -> .aw-wl-hidden (lo commuta il JS su fsChange). Si monta
-   fisso su document.body. Nel linguaggio del player, niente look Skip/Netflix. */
+`;
+  var WL_7 = `
 .aw-wl-popup{position:fixed;bottom:56px;left:0;right:0;z-index:2147483000;display:flex;justify-content:center;padding:0 12px;pointer-events:none;font-family:'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-size:12px;-webkit-font-smoothing:antialiased;}
 .aw-wl-popup.aw-wl-hidden{display:none}
 .aw-wl-popup.aw-wl-on-light,.aw-wl-popup.aw-wl-on-dark{box-shadow:none;background:transparent;border:0}
@@ -5754,24 +5861,16 @@ ${PANEL_SUBROW}
 .aw-wl-popup-confirm{background:var(--wl-acc);color:var(--wl-acc-on);border:1px solid var(--wl-acc)}
 .aw-wl-popup-confirm:hover{filter:brightness(.92)}
 @keyframes aw-wl-pop-drop{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-
-/* Toast auto-progresso in ALTO: solo il MODIFICATORE di posizione del toast UNICO del player
-   (flashToast di lib/dom.js, elemento .aw-np-toast). La regola base (in basso) vive negli stili
-   player; qui ribaltiamo in alto per data-pos="top". Elementi distinti per posizione -> top e bottom
-   coesistono. top = altezza barra-titolo (--np-top-h, ereditata da #aw-np) + 6px: cosi' il toast sta
-   SOTTO il titolo/pulsanti senza coprirli, adattandosi a desktop/mobile e alla scala UI. */
+`;
+  var WL_8 = `
 .aw-np-toast[data-pos="top"]{top:calc(var(--np-top-h) + 6px);bottom:auto}
-
-/* Voto: controllo a 5 STELLE con mezzo passo (WP-W2 3/3, rework tuning). Riusa i neutri per-tema e le
-   var accent gia' settate sul .aw-wl-popup (--wl-muted, --wl-acc-text): nessuna nuova dipendenza. Ogni
-   stella = una sola <i class="fa fa-star"> con gradiente orizzontale clippato sul TESTO (background-clip)
-   accent->muto con hard-stop a var(--wl-fill): il taglio segue i pixel reali del glifo -> mezza stella
-   ESATTA (il vecchio overlay clippava il box, piu' largo del glifo, e sforava oltre meta'). Il JS di
-   watchlist-complete setta --wl-fill (0/50/100%) per stella. Niente look Skip/Netflix. */
+`;
+  var WL_9 = `
 .aw-wl-stars{display:inline-flex;gap:8px;cursor:pointer}
 .aw-wl-star{font-size:22px;line-height:1}
 .aw-wl-star .fa{background:linear-gradient(90deg,var(--wl-acc-text) var(--wl-fill,0%),var(--wl-muted) var(--wl-fill,0%));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
 `;
+  var WATCHLIST_CSS = [WL_1, WL_2, WL_3, WL_4, WL_5, WL_6, WL_7, WL_8, WL_9].join("\n");
 
   // src/watchlist/watchlist-init.js
   function injectStyle2(doc) {
@@ -5793,7 +5892,7 @@ ${PANEL_SUBROW}
       if (!controls) return;
       if (doc.querySelector(".aw-wl-panel")) return;
       injectStyle2(doc);
-      const { panel, setTheme, applySession } = buildWatchlistPanel({
+      const { panel, setTheme, applySession, getAnimeId } = buildWatchlistPanel({
         doc,
         win,
         api: { addOrEdit, editEntry, deleteEntry, FOLDER_STR_TO_NUM },
@@ -5818,7 +5917,8 @@ ${PANEL_SUBROW}
         doc.addEventListener("aw-wl-changed", (e) => {
           try {
             const id = e && e.detail && e.detail.animeId;
-            if (String(id) === String(win && win.animeId)) applySession();
+            const current = typeof getAnimeId === "function" ? getAnimeId() : null;
+            if (current != null && String(id) === String(current)) applySession();
           } catch {
           }
         });
@@ -5951,38 +6051,6 @@ ${PANEL_SUBROW}
   var KEY_WL_INTEGRATION3 = "aw-wl-integration";
   var WATCHING3 = "watching";
   var WATCHED2 = "watched";
-  function _hexToRgb2(h) {
-    if (typeof h !== "string") return null;
-    const m = /^#?([0-9a-f]{3}|[0-9a-f]{6})$/i.exec(h.trim());
-    if (!m) return null;
-    let s = m[1];
-    if (s.length === 3) s = s[0] + s[0] + s[1] + s[1] + s[2] + s[2];
-    return [parseInt(s.slice(0, 2), 16), parseInt(s.slice(2, 4), 16), parseInt(s.slice(4, 6), 16)];
-  }
-  function _lum2(r) {
-    return (0.299 * r[0] + 0.587 * r[1] + 0.114 * r[2]) / 255;
-  }
-  function _mix2(a, b, t) {
-    return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t];
-  }
-  function _toHex2(r) {
-    return "#" + r.map((x) => Math.max(0, Math.min(255, Math.round(x))).toString(16).padStart(2, "0")).join("");
-  }
-  function accentTextTone2(rgb, theme) {
-    let r = rgb.slice(), g = 0;
-    if (theme === "dark") {
-      while (_lum2(r) < 0.62 && g < 16) {
-        r = _mix2(r, [255, 255, 255], 0.12);
-        g++;
-      }
-    } else {
-      while (_lum2(r) > 0.42 && g < 16) {
-        r = _mix2(r, [18, 40, 26], 0.12);
-        g++;
-      }
-    }
-    return _toHex2(r);
-  }
   function detectTheme2(doc) {
     return doc && doc.body && doc.body.classList.contains("dark") ? "dark" : "light";
   }
@@ -6003,11 +6071,7 @@ ${PANEL_SUBROW}
     const overlay = el("div", "aw-wl-popup", { kids: [card] });
     overlay.classList.add(theme === "dark" ? "aw-wl-on-dark" : "aw-wl-on-light");
     function applyAccent() {
-      const rawAcc = loadColor() || "#ffffff";
-      const accRgb = _hexToRgb2(rawAcc) || [255, 255, 255];
-      overlay.style.setProperty("--wl-acc", rawAcc);
-      overlay.style.setProperty("--wl-acc-on", _lum2(accRgb) > 0.6 ? "#16181d" : "#ffffff");
-      overlay.style.setProperty("--wl-acc-text", accentTextTone2(accRgb, theme));
+      applyAccentVars(overlay, theme);
     }
     applyAccent();
     let closed = false;
