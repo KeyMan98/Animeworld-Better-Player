@@ -4,11 +4,9 @@
   "episodes": {
     "1": {
       "op": {
-        "start": 53.75,
-        "end": 145.26,
-        "auto": true,
-        "conf": 0.65,
-        "via": "gen"
+        "start": 55,
+        "end": 145,
+        "manual": true
       },
       "ed": {
         "start": 1334.96,
@@ -20,11 +18,9 @@
     },
     "2": {
       "op": {
-        "start": 0,
-        "end": 95.6,
-        "auto": true,
-        "conf": 0.9,
-        "via": "pair"
+        "start": 5,
+        "end": 95,
+        "manual": true
       },
       "ed": {
         "start": 1334.96,
@@ -36,11 +32,9 @@
     },
     "3": {
       "op": {
-        "start": 0,
-        "end": 95.6,
-        "auto": true,
-        "conf": 0.9,
-        "via": "pair"
+        "start": 5,
+        "end": 95,
+        "manual": true
       },
       "ed": {
         "start": 1334.96,
@@ -68,11 +62,9 @@
     },
     "5": {
       "op": {
-        "start": 34.42,
-        "end": 129.63,
-        "auto": true,
-        "conf": 0.8,
-        "via": "reab"
+        "start": 39,
+        "end": 129,
+        "manual": true
       },
       "ed": {
         "start": 1335,
@@ -84,11 +76,9 @@
     },
     "6": {
       "op": {
-        "start": 12.59,
-        "end": 108.03,
-        "auto": true,
-        "conf": 0.9,
-        "via": "pair"
+        "start": 15,
+        "end": 105,
+        "manual": true
       },
       "ed": {
         "start": 1335.19,
@@ -100,11 +90,9 @@
     },
     "7": {
       "op": {
-        "start": 0,
-        "end": 95.41,
-        "auto": true,
-        "conf": 0.9,
-        "via": "pair"
+        "start": 5,
+        "end": 95,
+        "manual": true
       },
       "ed": {
         "start": 1335.19,
@@ -116,11 +104,9 @@
     },
     "8": {
       "op": {
-        "start": 0,
-        "end": 95.23,
-        "auto": true,
-        "conf": 0.9,
-        "via": "pair"
+        "start": 5,
+        "end": 95,
+        "manual": true
       },
       "ed": {
         "start": 1334.77,
@@ -131,6 +117,11 @@
       }
     },
     "9": {
+      "op": {
+        "start": 619,
+        "end": 710,
+        "manual": true
+      },
       "ed": {
         "start": 1335,
         "end": 1424.62,
