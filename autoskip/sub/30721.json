@@ -48,6 +48,10 @@
         "end": 90.02,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "none": true,
+        "auto": true
       }
     },
     "7": {
@@ -97,8 +101,17 @@
         "end": 90.02,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "none": true,
+        "auto": true
       }
     },
-    "13": {}
+    "13": {
+      "ed": {
+        "none": true,
+        "auto": true
+      }
+    }
   }
 }

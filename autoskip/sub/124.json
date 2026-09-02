@@ -10,18 +10,21 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1597.63,
-        "end": 1690.26,
+        "start": 1587.77,
+        "end": 1690.62,
         "auto": true,
-        "conf": 0.9
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1565.45
       }
     },
     "2": {
       "ed": {
-        "start": 1615.9,
-        "end": 1708.52,
+        "start": 1615.16,
+        "end": 1708.9,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "3": {
@@ -32,11 +35,12 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1599.16,
-        "end": 1698.55,
+        "start": 1597.86,
+        "end": 1700.72,
         "auto": true,
-        "permissive": true,
-        "conf": 0.4
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1575.55
       }
     },
     "4": {}

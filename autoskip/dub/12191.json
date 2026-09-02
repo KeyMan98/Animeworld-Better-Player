@@ -2,35 +2,27 @@
   "malId": "12191",
   "audio": "dub",
   "episodes": {
-    "1": {
-      "ed": {
-        "start": 1368.96,
-        "end": 1488,
-        "auto": true,
-        "conf": 0.9
-      }
-    },
+    "1": {},
     "2": {
       "ed": {
-        "start": 1266.56,
-        "end": 1385.6,
+        "start": 1266.75,
+        "end": 1395.83,
         "auto": true,
         "conf": 0.9
       }
     },
     "3": {
       "ed": {
-        "start": 1266.56,
-        "end": 1385.6,
+        "start": 1266.75,
+        "end": 1395.83,
         "auto": true,
-        "permissive": true,
-        "conf": 0.4
+        "conf": 0.9
       }
     },
     "4": {
       "ed": {
-        "start": 1245.44,
-        "end": 1364.48,
+        "start": 1245.63,
+        "end": 1374.71,
         "auto": true,
         "permissive": true,
         "conf": 0.4

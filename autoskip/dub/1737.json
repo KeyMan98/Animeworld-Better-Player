@@ -134,34 +134,8 @@
         "conf": 0.9
       }
     },
-    "11": {
-      "op": {
-        "start": 0.37,
-        "end": 83.51,
-        "auto": true,
-        "conf": 0.9
-      },
-      "ed": {
-        "start": 1353.1,
-        "end": 1485.34,
-        "auto": true,
-        "conf": 0.9
-      }
-    },
-    "12": {
-      "op": {
-        "start": 0,
-        "end": 83.51,
-        "auto": true,
-        "conf": 0.9
-      },
-      "ed": {
-        "start": 1352.78,
-        "end": 1483.71,
-        "auto": true,
-        "conf": 0.9
-      }
-    },
+    "11": {},
+    "12": {},
     "13": {
       "op": {
         "start": 0,
@@ -170,8 +144,8 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1353.29,
-        "end": 1484.6,
+        "start": 1353.1,
+        "end": 1485.53,
         "auto": true,
         "conf": 0.9
       }
@@ -192,10 +166,11 @@
     },
     "15": {
       "op": {
-        "start": 0,
-        "end": 83.14,
+        "start": 2.56,
+        "end": 89.27,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.65
       },
       "ed": {
         "start": 1353.09,
@@ -204,20 +179,14 @@
         "conf": 0.9
       }
     },
-    "16": {
-      "op": {
-        "start": 0,
-        "end": 83.14,
-        "auto": true,
-        "conf": 0.9
-      }
-    },
+    "16": {},
     "17": {
       "op": {
-        "start": 0,
-        "end": 82.39,
+        "start": 1.39,
+        "end": 88.16,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.65
       }
     },
     "18": {

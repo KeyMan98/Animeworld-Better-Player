@@ -4,22 +4,23 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 1296.48,
-        "end": 1392.08,
+        "start": 1297.55,
+        "end": 1392.41,
         "auto": true,
-        "conf": 0.85
+        "canon": true,
+        "conf": 0.96
       }
     },
     "2": {
       "op": {
-        "start": 31.23,
-        "end": 118.22,
+        "start": 31.25,
+        "end": 118.29,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1290.21,
-        "end": 1390.77,
+        "start": 1290.46,
+        "end": 1390.9,
         "auto": true,
         "canon": true,
         "conf": 0.98
@@ -27,29 +28,22 @@
     },
     "3": {
       "op": {
-        "start": 69.14,
-        "end": 156.13,
+        "start": 69.19,
+        "end": 156.23,
         "auto": true,
         "conf": 0.9
-      },
-      "ed": {
-        "start": 1302.66,
-        "end": 1395.59,
-        "auto": true,
-        "canon": true,
-        "conf": 0.98
       }
     },
     "4": {
       "op": {
-        "start": 30.48,
-        "end": 117.1,
+        "start": 30.5,
+        "end": 117.17,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1242.07,
-        "end": 1331.66,
+        "start": 1242.15,
+        "end": 1331.61,
         "auto": true,
         "canon": true,
         "conf": 0.96
@@ -61,18 +55,11 @@
         "end": 143.8,
         "auto": true,
         "conf": 0.9
-      },
-      "ed": {
-        "start": 1310,
-        "end": 1400,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
       }
     },
     "6": {
       "op": {
-        "start": 30.67,
+        "start": 30.69,
         "end": 119.78,
         "auto": true,
         "conf": 0.9
@@ -88,7 +75,7 @@
     },
     "8": {
       "op": {
-        "start": 43.31,
+        "start": 43.34,
         "end": 132.79,
         "auto": true,
         "conf": 0.9
@@ -101,27 +88,13 @@
         "end": 117.74,
         "auto": true,
         "conf": 0.9
-      },
-      "ed": {
-        "start": 1285,
-        "end": 1374,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
       }
     },
     "11": {
       "op": {
-        "start": 45.91,
+        "start": 45.94,
         "end": 135.32,
         "auto": true,
-        "conf": 0.9
-      },
-      "ed": {
-        "start": 1294,
-        "end": 1383,
-        "auto": true,
-        "aniskip": true,
         "conf": 0.9
       }
     },

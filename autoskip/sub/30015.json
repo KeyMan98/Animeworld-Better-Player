@@ -4,128 +4,167 @@
   "episodes": {
     "1": {
       "op": {
-        "start": 72.56,
-        "end": 162.95,
-        "auto": true,
-        "aniskip": true,
-        "conf": 0.9
+        "start": 317,
+        "end": 406,
+        "manual": true
       },
       "ed": {
-        "start": 1268.3,
-        "end": 1373.87,
-        "auto": true,
-        "canon": true,
-        "conf": 1
+        "start": 1293,
+        "end": 1350,
+        "manual": true,
+        "coverEnd": 1365,
+        "overlapTail": true
       }
     },
     "2": {
       "op": {
-        "start": 31.41,
-        "end": 121.38,
-        "auto": true,
-        "conf": 0.9
+        "start": 31,
+        "end": 120,
+        "manual": true
       },
       "ed": {
-        "start": 1313.56,
-        "end": 1402.96,
-        "auto": true,
-        "canon": true,
-        "conf": 1
+        "start": 1328,
+        "end": 1405,
+        "manual": true,
+        "coverStart": 1313,
+        "overlapTail": true
       }
     },
     "3": {
       "op": {
-        "start": 26.39,
-        "end": 116.36,
-        "auto": true,
-        "conf": 0.9
+        "start": 26,
+        "end": 115,
+        "manual": true
       },
       "ed": {
-        "start": 1330.84,
-        "end": 1402.96,
-        "auto": true,
-        "canon": true,
-        "conf": 1
+        "start": 1335,
+        "end": 1405,
+        "manual": true
       }
     },
     "4": {
       "op": {
-        "start": 116.91,
-        "end": 205.76,
-        "auto": true,
-        "conf": 0.9
+        "start": 116,
+        "end": 205,
+        "manual": true
       },
       "ed": {
-        "start": 1309.98,
-        "end": 1402.67,
-        "auto": true,
-        "conf": 0.85
+        "start": 1310,
+        "end": 1405,
+        "manual": true
       }
     },
     "5": {
       "op": {
         "start": 21,
-        "end": 111.34,
-        "auto": true,
-        "conf": 0.9
+        "end": 110,
+        "manual": true
+      },
+      "ed": {
+        "start": 1284,
+        "end": 1363,
+        "manual": true,
+        "coverEnd": 1368,
+        "overlapTail": true
       }
     },
     "6": {
       "op": {
-        "start": 32.34,
-        "end": 122.3,
-        "auto": true,
-        "conf": 0.9
+        "start": 32,
+        "end": 121,
+        "manual": true
+      },
+      "ed": {
+        "start": 1322,
+        "end": 1405,
+        "manual": true
       }
     },
     "7": {
       "op": {
-        "start": 76.95,
-        "end": 167.29,
-        "auto": true,
-        "conf": 0.9
+        "start": 77,
+        "end": 166,
+        "manual": true
+      },
+      "ed": {
+        "start": 1305,
+        "end": 1405,
+        "manual": true
       }
     },
     "8": {
       "op": {
-        "start": 41.08,
-        "end": 131.23,
-        "auto": true,
-        "conf": 0.9
+        "start": 41,
+        "end": 130,
+        "manual": true
+      },
+      "ed": {
+        "start": 1314,
+        "end": 1405,
+        "manual": true
       }
     },
     "9": {
       "op": {
-        "start": 27.42,
-        "end": 117.44,
-        "auto": true,
-        "conf": 0.9
+        "start": 29,
+        "end": 118,
+        "manual": true
+      },
+      "ed": {
+        "start": 1323,
+        "end": 1405,
+        "manual": true
       }
     },
     "10": {
       "op": {
-        "start": 73.23,
-        "end": 163.38,
-        "auto": true,
-        "conf": 0.9
+        "start": 73,
+        "end": 162,
+        "manual": true
+      },
+      "ed": {
+        "start": 1317,
+        "end": 1406,
+        "manual": true
       }
     },
     "11": {
       "op": {
-        "start": 45.72,
-        "end": 135.5,
-        "auto": true,
-        "conf": 0.9
+        "start": 46,
+        "end": 135,
+        "manual": true
+      },
+      "ed": {
+        "start": 1311,
+        "end": 1405,
+        "manual": true
       }
     },
     "12": {
       "op": {
         "start": 0,
-        "end": 90.33,
-        "auto": true,
-        "conf": 0.9
+        "end": 89,
+        "manual": true
+      },
+      "ed": {
+        "start": 1253,
+        "end": 1343,
+        "manual": true
       }
     },
-    "13": {}
+    "13": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "start": 1325,
+        "end": 1430,
+        "manual": true,
+        "coverStart": 1325,
+        "coverEnd": 1430,
+        "overlapTail": true
+      }
+    }
   }
 }

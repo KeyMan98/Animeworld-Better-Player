@@ -3,6 +3,13 @@
   "audio": "sub",
   "episodes": {
     "1": {
+      "op": {
+        "start": 154.81,
+        "end": 229.64,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      },
       "ed": {
         "start": 1426.32,
         "end": 1508.71,

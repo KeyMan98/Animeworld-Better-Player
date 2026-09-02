@@ -8,12 +8,6 @@
         "end": 90.58,
         "auto": true,
         "conf": 0.9
-      },
-      "ed": {
-        "start": 1314.43,
-        "end": 1404.19,
-        "auto": true,
-        "conf": 0.85
       }
     },
     "2": {
@@ -119,14 +113,6 @@
         "conf": 0.9
       }
     },
-    "13": {
-      "op": {
-        "start": 0.19,
-        "end": 89.9,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.4
-      }
-    }
+    "13": {}
   }
 }

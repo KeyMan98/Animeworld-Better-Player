@@ -2,7 +2,12 @@
   "malId": "9863",
   "audio": "sub",
   "episodes": {
-    "1": {},
+    "1": {
+      "op": {
+        "none": true,
+        "auto": true
+      }
+    },
     "2": {
       "op": {
         "start": 60.82,
@@ -936,6 +941,10 @@
         "end": 115.87,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "none": true,
+        "auto": true
       }
     },
     "74": {
@@ -967,6 +976,10 @@
         "end": 161.44,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "none": true,
+        "auto": true
       }
     },
     "77": {}

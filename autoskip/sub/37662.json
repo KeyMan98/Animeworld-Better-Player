@@ -3,149 +3,150 @@
   "audio": "sub",
   "episodes": {
     "1": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
-        "start": 1313.38,
-        "end": 1405.26,
-        "auto": true,
-        "conf": 0.9
+        "start": 1314,
+        "end": 1404,
+        "manual": true
       }
     },
     "2": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
-        "start": 1309.43,
-        "end": 1401.31,
-        "auto": true,
-        "conf": 0.9
+        "start": 1310,
+        "end": 1400,
+        "manual": true
       }
     },
     "3": {
       "op": {
         "start": 0,
-        "end": 90.95,
-        "auto": true,
-        "conf": 0.9
+        "end": 90,
+        "manual": true
       },
       "ed": {
-        "start": 1309.5,
-        "end": 1401.94,
-        "auto": true,
-        "conf": 0.9
+        "start": 1310,
+        "end": 1400,
+        "manual": true
       }
     },
     "4": {
       "op": {
         "start": 0,
-        "end": 90.95,
-        "auto": true,
-        "conf": 0.9
+        "end": 90,
+        "manual": true
       },
       "ed": {
-        "start": 1292.02,
-        "end": 1382.6,
-        "auto": true,
-        "conf": 0.9
+        "start": 1292,
+        "end": 1382,
+        "manual": true
       }
     },
     "5": {
       "op": {
-        "start": 148.98,
-        "end": 239.74,
-        "auto": true,
-        "conf": 0.9
+        "start": 149,
+        "end": 239,
+        "manual": true
       },
       "ed": {
-        "start": 1226.81,
-        "end": 1319.06,
-        "auto": true,
-        "conf": 0.9
+        "start": 1227,
+        "end": 1317,
+        "manual": true
       }
     },
     "6": {
       "op": {
-        "start": 173.9,
-        "end": 264.66,
-        "auto": true,
-        "conf": 0.9
+        "start": 174,
+        "end": 264,
+        "manual": true
+      },
+      "ed": {
+        "start": 1358,
+        "end": 1415,
+        "manual": true,
+        "coverStart": 1374,
+        "overlapTail": true
       }
     },
     "7": {
       "op": {
         "start": 0,
-        "end": 89.43,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.65
+        "end": 90,
+        "manual": true
       },
       "ed": {
-        "start": 1309.83,
-        "end": 1401.34,
-        "auto": true,
-        "conf": 0.9
+        "start": 1310,
+        "end": 1400,
+        "manual": true
       }
     },
     "8": {
       "op": {
-        "start": 117.17,
-        "end": 206.63,
-        "auto": true,
-        "conf": 0.9
+        "start": 117,
+        "end": 207,
+        "manual": true
+      },
+      "ed": {
+        "start": 1318,
+        "end": 1415,
+        "manual": true
       }
     },
     "9": {
       "op": {
-        "start": 77.93,
-        "end": 168.13,
-        "auto": true,
-        "conf": 0.9
+        "start": 78,
+        "end": 168,
+        "manual": true
       },
       "ed": {
-        "start": 1279.7,
-        "end": 1370.25,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.4
+        "start": 1310,
+        "end": 1400,
+        "manual": true
       }
     },
     "10": {
       "op": {
-        "start": 156.97,
-        "end": 247.37,
-        "auto": true,
-        "conf": 0.9
+        "start": 105,
+        "end": 247,
+        "manual": true,
+        "coverStart": 135,
+        "coverEnd": 157,
+        "overlapTail": true
       },
       "ed": {
-        "start": 1267.77,
-        "end": 1359.84,
-        "auto": true,
-        "conf": 0.9
+        "start": 1268,
+        "end": 1358,
+        "manual": true
       }
     },
     "11": {
       "op": {
         "start": 0,
-        "end": 89.43,
-        "auto": true,
-        "conf": 0.9
+        "end": 90,
+        "manual": true
       },
       "ed": {
-        "start": 1264.08,
-        "end": 1356.33,
-        "auto": true,
-        "conf": 0.9
+        "start": 1265,
+        "end": 1355,
+        "manual": true
       }
     },
     "12": {
       "op": {
-        "start": 98.95,
-        "end": 188.4,
-        "auto": true,
-        "conf": 0.9
+        "start": 99,
+        "end": 189,
+        "manual": true
       },
       "ed": {
-        "start": 1313.75,
-        "end": 1405.45,
-        "auto": true,
-        "conf": 0.9
+        "start": 1314,
+        "end": 1404,
+        "manual": true
       }
     }
   }

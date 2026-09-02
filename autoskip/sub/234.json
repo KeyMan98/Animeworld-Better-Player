@@ -2,17 +2,10 @@
   "malId": "234",
   "audio": "sub",
   "episodes": {
-    "1": {
-      "op": {
-        "start": 2.05,
-        "end": 92.25,
-        "auto": true,
-        "conf": 0.9
-      }
-    },
+    "1": {},
     "2": {
       "op": {
-        "start": 26.97,
+        "start": 27.15,
         "end": 117.17,
         "auto": true,
         "conf": 0.9
@@ -36,8 +29,8 @@
     },
     "5": {
       "op": {
-        "start": 0,
-        "end": 92.06,
+        "start": 0.84,
+        "end": 91.19,
         "auto": true,
         "conf": 0.9
       }
@@ -156,7 +149,7 @@
     },
     "20": {
       "op": {
-        "start": 0.32,
+        "start": 2.05,
         "end": 90.2,
         "auto": true,
         "conf": 0.9

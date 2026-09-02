@@ -5,29 +5,30 @@
     "1": {
       "op": {
         "start": 8.74,
-        "end": 101.3,
+        "end": 101.36,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1310.82,
-        "end": 1411.56,
+        "start": 1310.56,
+        "end": 1411.74,
         "auto": true,
         "conf": 0.9
       }
     },
     "2": {
       "op": {
-        "start": 8.55,
-        "end": 101.12,
+        "start": 8.56,
+        "end": 101.18,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1311.59,
-        "end": 1411.22,
+        "start": 1310.78,
+        "end": 1411.77,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "3": {
@@ -39,8 +40,8 @@
         "conf": 0.5
       },
       "ed": {
-        "start": 1310.87,
-        "end": 1411.61,
+        "start": 1310.64,
+        "end": 1411.81,
         "auto": true,
         "conf": 0.9
       }

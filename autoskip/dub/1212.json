@@ -2,31 +2,120 @@
   "malId": "1212",
   "audio": "dub",
   "episodes": {
-    "1": {},
-    "2": {},
-    "3": {},
-    "4": {},
-    "5": {},
-    "6": {},
-    "7": {},
+    "1": {
+      "op": {
+        "start": 108,
+        "end": 165,
+        "manual": true
+      },
+      "ed": {
+        "start": 1255,
+        "end": 1306,
+        "manual": true
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1241,
+        "end": 1299,
+        "manual": true
+      }
+    },
+    "3": {
+      "ed": {
+        "none": true,
+        "manual": true
+      }
+    },
+    "4": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "none": true,
+        "manual": true
+      }
+    },
+    "5": {
+      "ed": {
+        "start": 1265,
+        "end": 1324,
+        "manual": true
+      }
+    },
+    "6": {
+      "ed": {
+        "none": true,
+        "manual": true
+      }
+    },
+    "7": {
+      "op": {
+        "start": 29,
+        "end": 87,
+        "manual": true
+      },
+      "ed": {
+        "none": true,
+        "manual": true
+      }
+    },
     "8": {},
     "9": {},
     "10": {},
     "11": {},
     "12": {},
-    "13": {},
-    "14": {},
+    "13": {
+      "ed": {
+        "none": true,
+        "manual": true
+      }
+    },
+    "14": {
+      "ed": {
+        "none": true,
+        "manual": true
+      }
+    },
     "15": {},
-    "16": {},
-    "17": {},
+    "16": {
+      "op": {
+        "start": 29,
+        "end": 86,
+        "manual": true
+      }
+    },
+    "17": {
+      "ed": {
+        "none": true,
+        "manual": true
+      }
+    },
     "18": {},
-    "19": {},
+    "19": {
+      "ed": {
+        "start": 1266,
+        "end": 1324,
+        "manual": true
+      }
+    },
     "20": {},
     "21": {},
     "22": {},
     "23": {},
-    "24": {},
+    "24": {
+      "ed": {
+        "none": true,
+        "manual": true
+      }
+    },
     "25": {},
-    "26": {}
+    "26": {
+      "ed": {
+        "none": true,
+        "manual": true
+      }
+    }
   }
 }

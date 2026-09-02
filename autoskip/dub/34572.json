@@ -2,7 +2,12 @@
   "malId": "34572",
   "audio": "dub",
   "episodes": {
-    "1": {},
+    "1": {
+      "ed": {
+        "none": true,
+        "auto": true
+      }
+    },
     "2": {
       "op": {
         "start": 203.1,
@@ -696,6 +701,13 @@
         "auto": true,
         "permissive": true,
         "conf": 0.4
+      },
+      "ed": {
+        "start": 1285.6,
+        "end": 1373.01,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
     "51": {

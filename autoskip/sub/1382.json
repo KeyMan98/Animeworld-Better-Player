@@ -4,8 +4,8 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 1599.58,
-        "end": 1697.16,
+        "start": 1599.6,
+        "end": 1703.84,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -13,14 +13,14 @@
     },
     "2": {
       "op": {
-        "start": 85.87,
-        "end": 165.99,
+        "start": 85.93,
+        "end": 166.09,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1569.74,
-        "end": 1667.32,
+        "start": 1569.83,
+        "end": 1674.23,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -28,60 +28,52 @@
     },
     "3": {
       "op": {
-        "start": 136.99,
-        "end": 217.1,
+        "start": 137.07,
+        "end": 217.23,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1591.05,
-        "end": 1688.64,
+        "start": 1591.17,
+        "end": 1695.56,
         "auto": true,
-        "permissive": true,
-        "conf": 0.4
+        "conf": 0.9
       }
     },
     "4": {
-      "op": {
-        "start": 119.63,
-        "end": 199.69,
-        "auto": true,
-        "conf": 0.85
-      },
       "ed": {
-        "start": 1592.64,
-        "end": 1694.37,
+        "start": 1592.63,
+        "end": 1696.97,
         "auto": true,
-        "permissive": true,
-        "conf": 0.4
+        "conf": 0.9
       }
     },
     "5": {
       "op": {
-        "start": 145.54,
-        "end": 223.61,
+        "start": 145.63,
+        "end": 223.74,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1619.55,
-        "end": 1726.42,
+        "start": 1620.3,
+        "end": 1724.69,
         "auto": true,
         "conf": 0.9
       }
     },
     "6": {
       "ed": {
-        "start": 1762.06,
-        "end": 1868.38,
+        "start": 1762.18,
+        "end": 1868.2,
         "auto": true,
         "conf": 0.9
       }
     },
     "7": {
       "ed": {
-        "start": 1787.31,
-        "end": 1895.34,
+        "start": 1791.17,
+        "end": 1895.7,
         "auto": true,
         "conf": 0.9
       }

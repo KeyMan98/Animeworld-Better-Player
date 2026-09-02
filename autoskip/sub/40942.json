@@ -55,6 +55,13 @@
         "end": 185.62,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1368.3,
+        "end": 1450,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "5": {
@@ -93,6 +100,12 @@
         "end": 199.38,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1252.02,
+        "end": 1390.78,
+        "auto": true,
+        "conf": 0.85
       }
     },
     "8": {
@@ -144,7 +157,15 @@
         "conf": 0.9
       }
     },
-    "12": {},
+    "12": {
+      "ed": {
+        "start": 1352.88,
+        "end": 1436.85,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
+    },
     "13": {
       "op": {
         "start": 26.41,

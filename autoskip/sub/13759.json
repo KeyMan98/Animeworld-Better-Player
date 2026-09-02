@@ -3,6 +3,10 @@
   "audio": "sub",
   "episodes": {
     "1": {
+      "op": {
+        "none": true,
+        "auto": true
+      },
       "ed": {
         "start": 1332.58,
         "end": 1409.91,
@@ -143,6 +147,10 @@
       }
     },
     "11": {
+      "op": {
+        "none": true,
+        "auto": true
+      },
       "ed": {
         "start": 1332.96,
         "end": 1409.72,
@@ -151,6 +159,10 @@
       }
     },
     "12": {
+      "op": {
+        "none": true,
+        "auto": true
+      },
       "ed": {
         "start": 1337.42,
         "end": 1414.35,

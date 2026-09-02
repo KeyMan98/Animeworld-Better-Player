@@ -131,6 +131,10 @@
       }
     },
     "11": {
+      "op": {
+        "none": true,
+        "auto": true
+      },
       "ed": {
         "start": 1324.93,
         "end": 1415.64,
@@ -183,6 +187,10 @@
       }
     },
     "16": {
+      "op": {
+        "none": true,
+        "auto": true
+      },
       "ed": {
         "start": 1324.93,
         "end": 1416.01,
@@ -265,8 +273,17 @@
         "auto": true,
         "aniskip": true,
         "conf": 0.9
+      },
+      "ed": {
+        "none": true,
+        "auto": true
       }
     },
-    "24": {}
+    "24": {
+      "ed": {
+        "none": true,
+        "auto": true
+      }
+    }
   }
 }

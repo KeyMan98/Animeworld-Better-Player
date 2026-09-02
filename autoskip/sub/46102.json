@@ -8,6 +8,13 @@
         "end": 91.51,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1355.12,
+        "end": 1414.37,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
     "2": {
@@ -16,6 +23,13 @@
         "end": 91.51,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1355.12,
+        "end": 1414.37,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
     "3": {
@@ -24,6 +38,13 @@
         "end": 91.13,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1355.12,
+        "end": 1414.37,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
     "4": {
@@ -32,6 +53,13 @@
         "end": 90.76,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1355.12,
+        "end": 1414.37,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
     "5": {
@@ -40,6 +68,13 @@
         "end": 90.76,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1355.12,
+        "end": 1414.37,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
     "6": {
@@ -57,6 +92,13 @@
         "end": 90.76,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1355.12,
+        "end": 1414.37,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
     "8": {},
@@ -66,9 +108,24 @@
         "end": 89.27,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1355.12,
+        "end": 1414.37,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
-    "10": {},
+    "10": {
+      "ed": {
+        "start": 1355.12,
+        "end": 1414.37,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
+    },
     "11": {},
     "12": {
       "op": {
@@ -76,6 +133,13 @@
         "end": 89.27,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1355.12,
+        "end": 1414.37,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
       }
     },
     "13": {}

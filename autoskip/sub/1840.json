@@ -4,14 +4,14 @@
   "episodes": {
     "1": {
       "op": {
-        "start": 196.1,
+        "start": 196.22,
         "end": 300,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1324.87,
-        "end": 1415.39,
+        "start": 1325.2,
+        "end": 1415.59,
         "auto": true,
         "conf": 0.9
       }
@@ -24,22 +24,22 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1324.87,
-        "end": 1415.39,
+        "start": 1325.18,
+        "end": 1415.57,
         "auto": true,
         "conf": 0.9
       }
     },
     "3": {
       "op": {
-        "start": 117.1,
-        "end": 221,
+        "start": 117.17,
+        "end": 220.95,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1325.43,
-        "end": 1415.95,
+        "start": 1325.95,
+        "end": 1415.59,
         "auto": true,
         "conf": 0.9
       }
@@ -47,13 +47,13 @@
     "4": {
       "op": {
         "start": 82.59,
-        "end": 187.36,
+        "end": 187.48,
         "auto": true,
         "permissive": true,
         "conf": 0.65
       },
       "ed": {
-        "start": 1325.06,
+        "start": 1325.18,
         "end": 1415.39,
         "auto": true,
         "conf": 0.9
@@ -62,55 +62,55 @@
     "5": {
       "op": {
         "start": 53.11,
-        "end": 157.81,
+        "end": 157.9,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1324.92,
-        "end": 1414.88,
+        "start": 1324.98,
+        "end": 1417.11,
         "auto": true,
         "conf": 0.9
       }
     },
     "6": {
       "op": {
-        "start": 93.68,
-        "end": 196.47,
+        "start": 93.74,
+        "end": 196.4,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1324.54,
-        "end": 1414.88,
+        "start": 1325.41,
+        "end": 1414.5,
         "auto": true,
         "conf": 0.9
       }
     },
     "7": {
       "op": {
-        "start": 103.72,
-        "end": 208.55,
+        "start": 103.78,
+        "end": 208.68,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1324.27,
-        "end": 1414.98,
+        "start": 1324.77,
+        "end": 1416.83,
         "auto": true,
         "conf": 0.9
       }
     },
     "8": {
       "op": {
-        "start": 100,
-        "end": 203.9,
+        "start": 100.06,
+        "end": 203.84,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1324.37,
-        "end": 1416.01,
+        "start": 1324.49,
+        "end": 1414.89,
         "auto": true,
         "conf": 0.9
       }
@@ -118,56 +118,56 @@
     "9": {
       "op": {
         "start": 61.11,
-        "end": 166.36,
+        "end": 166.46,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1324.73,
-        "end": 1414.69,
+        "start": 1324.69,
+        "end": 1416.57,
         "auto": true,
         "conf": 0.9
       }
     },
     "10": {
       "op": {
-        "start": 78.81,
-        "end": 182.53,
+        "start": 78.86,
+        "end": 182.46,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1324.44,
-        "end": 1414.59,
+        "start": 1325.31,
+        "end": 1414.4,
         "auto": true,
         "conf": 0.9
       }
     },
     "11": {
       "op": {
-        "start": 62.08,
-        "end": 165.99,
+        "start": 62.12,
+        "end": 165.9,
         "auto": true,
         "permissive": true,
         "conf": 0.65
       },
       "ed": {
-        "start": 1324.68,
-        "end": 1413.65,
+        "start": 1325.39,
+        "end": 1417.43,
         "auto": true,
         "conf": 0.9
       }
     },
     "12": {
       "op": {
-        "start": 64.13,
-        "end": 169.33,
+        "start": 64.17,
+        "end": 169.44,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1325.32,
-        "end": 1415.1,
+        "start": 1325.27,
+        "end": 1415.47,
         "auto": true,
         "conf": 0.9
       }

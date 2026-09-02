@@ -153,8 +153,17 @@
         "conf": 0.9
       }
     },
-    "12": {},
+    "12": {
+      "op": {
+        "none": true,
+        "auto": true
+      }
+    },
     "13": {
+      "op": {
+        "none": true,
+        "auto": true
+      },
       "ed": {
         "start": 1218.32,
         "end": 1343.78,

@@ -4,8 +4,8 @@
   "episodes": {
     "1": {
       "ed": {
-        "start": 1293.76,
-        "end": 1389.38,
+        "start": 1293.77,
+        "end": 1392.72,
         "auto": true,
         "conf": 0.9
       }
@@ -18,8 +18,8 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1292.02,
-        "end": 1389.34,
+        "start": 1293.77,
+        "end": 1392.72,
         "auto": true,
         "conf": 0.9
       }
@@ -32,8 +32,8 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1294.32,
-        "end": 1391.22,
+        "start": 1294.14,
+        "end": 1392.34,
         "auto": true,
         "conf": 0.9
       }
@@ -46,10 +46,11 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1299.9,
-        "end": 1392.15,
+        "start": 1299.91,
+        "end": 1392.72,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "5": {
@@ -60,8 +61,8 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1293.53,
-        "end": 1389.35,
+        "start": 1294.14,
+        "end": 1392.9,
         "auto": true,
         "conf": 0.9
       }
@@ -74,8 +75,8 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1293.94,
-        "end": 1391.96,
+        "start": 1293.58,
+        "end": 1391.97,
         "auto": true,
         "conf": 0.9
       }
@@ -88,8 +89,8 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1293.52,
-        "end": 1389.34,
+        "start": 1294.14,
+        "end": 1392.34,
         "auto": true,
         "conf": 0.9
       }
@@ -102,10 +103,11 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1299.9,
-        "end": 1392.33,
+        "start": 1299.91,
+        "end": 1392.53,
         "auto": true,
-        "conf": 0.9
+        "permissive": true,
+        "conf": 0.4
       }
     },
     "9": {
@@ -116,8 +118,8 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1299.52,
-        "end": 1392.89,
+        "start": 1299.91,
+        "end": 1393.46,
         "auto": true,
         "conf": 0.9
       }
@@ -130,8 +132,8 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1299.9,
-        "end": 1392.33,
+        "start": 1299.91,
+        "end": 1392.16,
         "auto": true,
         "permissive": true,
         "conf": 0.4
@@ -145,8 +147,8 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1293.01,
-        "end": 1389.34,
+        "start": 1293.4,
+        "end": 1394.02,
         "auto": true,
         "conf": 0.9
       }

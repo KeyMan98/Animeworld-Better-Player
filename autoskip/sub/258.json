@@ -2,9 +2,49 @@
   "malId": "258",
   "audio": "sub",
   "episodes": {
-    "1": {},
-    "2": {},
-    "3": {},
-    "4": {}
+    "1": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "start": 1484,
+        "end": 1677,
+        "manual": true
+      }
+    },
+    "2": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "start": 1455,
+        "end": 1650,
+        "manual": true
+      }
+    },
+    "3": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "start": 1444,
+        "end": 1637,
+        "manual": true
+      }
+    },
+    "4": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "start": 1690,
+        "end": 1885,
+        "manual": true
+      }
+    }
   }
 }

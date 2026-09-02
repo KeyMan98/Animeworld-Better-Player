@@ -1,5 +1,5 @@
 {
-  "malId": 2500,
+  "malId": "2500",
   "audio": "sub",
   "episodes": {
     "1": {
@@ -8,24 +8,24 @@
         "manual": true
       },
       "ed": {
-        "start": 1394.1,
-        "end": 1486.47,
+        "start": 1394.61,
+        "end": 1485,
         "auto": true,
         "conf": 0.9
       }
     },
     "2": {
       "ed": {
-        "start": 1404.03,
-        "end": 1495.11,
+        "start": 1404.75,
+        "end": 1495.14,
         "auto": true,
         "conf": 0.9
       }
     },
     "3": {
       "ed": {
-        "start": 1393.09,
-        "end": 1485.47,
+        "start": 1393.07,
+        "end": 1483.3,
         "auto": true,
         "conf": 0.9
       }

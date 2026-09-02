@@ -2,174 +2,118 @@
   "malId": "1852",
   "audio": "sub",
   "episodes": {
-    "1": {
-      "op": {
-        "start": 129.42,
-        "end": 219.4,
-        "auto": true,
-        "conf": 0.9
-      },
-      "ed": {
-        "start": 1329.11,
-        "end": 1421.81,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.4
-      }
-    },
-    "2": {
-      "op": {
-        "start": 80.47,
-        "end": 170.38,
-        "auto": true,
-        "conf": 0.9
-      },
-      "ed": {
-        "start": 1329.11,
-        "end": 1421.81,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.4
-      }
-    },
-    "3": {
-      "op": {
-        "start": 127.56,
-        "end": 217.39,
-        "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 8.53
-      },
-      "ed": {
-        "start": 1329.11,
-        "end": 1421.81,
-        "auto": true,
-        "conf": 0.9
-      }
-    },
-    "4": {
-      "op": {
-        "start": 58.03,
-        "end": 148.33,
-        "auto": true,
-        "conf": 0.9
-      },
-      "ed": {
-        "start": 1328.74,
-        "end": 1421.63,
-        "auto": true,
-        "conf": 0.9
-      }
-    },
+    "1": {},
+    "2": {},
+    "3": {},
+    "4": {},
     "5": {
       "op": {
-        "start": 71.38,
-        "end": 161.68,
+        "start": 71.79,
+        "end": 162,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1328.92,
-        "end": 1422,
+        "start": 1329.7,
+        "end": 1422.32,
         "auto": true,
         "conf": 0.9
       }
     },
     "6": {
       "op": {
-        "start": 34.49,
-        "end": 124.41,
+        "start": 34.78,
+        "end": 124.98,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1329.11,
-        "end": 1421.81,
+        "start": 1329.74,
+        "end": 1422.37,
         "auto": true,
         "conf": 0.9
       }
     },
     "7": {
       "op": {
-        "start": 39.31,
-        "end": 129.23,
+        "start": 39.62,
+        "end": 130.19,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1328.74,
-        "end": 1422,
+        "start": 1329.52,
+        "end": 1422.7,
         "auto": true,
         "conf": 0.9
       }
     },
     "8": {
       "op": {
-        "start": 28.74,
-        "end": 118.23,
+        "start": 28.27,
+        "end": 119.22,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1328.92,
-        "end": 1420.33,
+        "start": 1329.56,
+        "end": 1422.74,
         "auto": true,
         "conf": 0.9
       }
     },
     "9": {
       "op": {
-        "start": 37.64,
-        "end": 127.17,
+        "start": 37.76,
+        "end": 127.77,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1328.92,
-        "end": 1421.81,
+        "start": 1329.37,
+        "end": 1422.55,
         "auto": true,
         "conf": 0.9
       }
     },
     "10": {
       "op": {
-        "start": 68.23,
-        "end": 158.26,
+        "start": 68.26,
+        "end": 159.21,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1328.92,
-        "end": 1421.63,
+        "start": 1329.16,
+        "end": 1422.72,
         "auto": true,
         "conf": 0.9
       }
     },
     "11": {
       "op": {
-        "start": 16.5,
-        "end": 106.42,
+        "start": 16.55,
+        "end": 107.32,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1328.37,
-        "end": 1422,
+        "start": 1328.98,
+        "end": 1422.9,
         "auto": true,
         "conf": 0.9
       }
     },
     "12": {
       "op": {
-        "start": 77.87,
-        "end": 167.61,
+        "start": 77.93,
+        "end": 167.28,
         "auto": true,
         "conf": 0.9
       },
       "ed": {
-        "start": 1328.66,
-        "end": 1419.2,
+        "start": 1329.57,
+        "end": 1419.78,
         "auto": true,
         "conf": 0.9
       }

@@ -2,7 +2,12 @@
   "malId": "36316",
   "audio": "sub",
   "episodes": {
-    "1": {},
+    "1": {
+      "op": {
+        "none": true,
+        "auto": true
+      }
+    },
     "2": {
       "op": {
         "start": 29.2,
@@ -114,6 +119,12 @@
       }
     },
     "10": {
+      "op": {
+        "start": 112.38,
+        "end": 208.24,
+        "auto": true,
+        "conf": 0.85
+      },
       "ed": {
         "start": 1345.48,
         "end": 1435.31,

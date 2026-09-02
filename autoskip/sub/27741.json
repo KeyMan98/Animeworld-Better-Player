@@ -3,27 +3,12 @@
   "audio": "sub",
   "episodes": {
     "1": {},
-    "2": {
-      "op": {
-        "start": 47.61,
-        "end": 139.68,
-        "auto": true,
-        "conf": 0.9
-      }
-    },
-    "3": {
-      "op": {
-        "start": 58.21,
-        "end": 150.28,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.4
-      }
-    },
+    "2": {},
+    "3": {},
     "4": {
       "op": {
-        "start": 113.27,
-        "end": 205.33,
+        "start": 113.08,
+        "end": 203.47,
         "auto": true,
         "conf": 0.9
       }
@@ -32,8 +17,8 @@
     "6": {},
     "7": {
       "op": {
-        "start": 136.33,
-        "end": 229.75,
+        "start": 135.21,
+        "end": 225.98,
         "auto": true,
         "conf": 0.9
       }
@@ -49,14 +34,14 @@
     "9": {
       "op": {
         "start": 0,
-        "end": 90.76,
+        "end": 90.58,
         "auto": true,
         "conf": 0.9
       }
     },
     "10": {
       "op": {
-        "start": 76.07,
+        "start": 76.26,
         "end": 166.65,
         "auto": true,
         "conf": 0.9

@@ -3,6 +3,10 @@
   "audio": "dub",
   "episodes": {
     "1": {
+      "op": {
+        "none": true,
+        "auto": true
+      },
       "ed": {
         "start": 1325.26,
         "end": 1415.78,

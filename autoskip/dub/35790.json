@@ -2,7 +2,12 @@
   "malId": "35790",
   "audio": "dub",
   "episodes": {
-    "1": {},
+    "1": {
+      "op": {
+        "none": true,
+        "auto": true
+      }
+    },
     "2": {
       "op": {
         "start": 125.09,

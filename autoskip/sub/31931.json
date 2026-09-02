@@ -2,7 +2,16 @@
   "malId": "31931",
   "audio": "sub",
   "episodes": {
-    "1": {},
+    "1": {
+      "op": {
+        "none": true,
+        "auto": true
+      },
+      "ed": {
+        "none": true,
+        "auto": true
+      }
+    },
     "2": {
       "op": {
         "start": 171.83,
@@ -31,8 +40,18 @@
         "conf": 0.9
       }
     },
-    "4": {},
-    "5": {},
+    "4": {
+      "op": {
+        "none": true,
+        "auto": true
+      }
+    },
+    "5": {
+      "ed": {
+        "none": true,
+        "auto": true
+      }
+    },
     "6": {
       "op": {
         "start": 0,

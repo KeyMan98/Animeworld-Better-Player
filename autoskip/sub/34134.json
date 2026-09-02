@@ -2,7 +2,12 @@
   "malId": "34134",
   "audio": "sub",
   "episodes": {
-    "0": {},
+    "0": {
+      "ed": {
+        "none": true,
+        "auto": true
+      }
+    },
     "1": {},
     "2": {
       "ed": {
