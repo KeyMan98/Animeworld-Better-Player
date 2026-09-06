@@ -1,0 +1,198 @@
+{
+  "malId": "34451",
+  "audio": "dub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 348.54,
+        "end": 438.38,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
+    },
+    "2": {
+      "op": {
+        "start": 52.82,
+        "end": 143.4,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 41.48,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1326.54,
+        "end": 1424.61,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "3": {
+      "op": {
+        "start": 89.27,
+        "end": 179.85,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 77.93,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1333.54,
+        "end": 1425.06,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "4": {
+      "op": {
+        "start": 81.28,
+        "end": 172.6,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1331.26,
+        "end": 1416.19,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "5": {
+      "op": {
+        "start": 48.73,
+        "end": 139.49,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1333.49,
+        "end": 1425.22,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "6": {
+      "op": {
+        "start": 82.21,
+        "end": 172.6,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1320.28,
+        "end": 1424.95,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "7": {
+      "op": {
+        "start": 36.08,
+        "end": 126.29,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1332.93,
+        "end": 1425.03,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "rec"
+      }
+    },
+    "8": {
+      "op": {
+        "start": 128.15,
+        "end": 218.35,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1338.63,
+        "end": 1424.7,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "9": {
+      "op": {
+        "start": 48.54,
+        "end": 139.12,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1318.61,
+        "end": 1424.17,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1307.08,
+        "via": "pair"
+      }
+    },
+    "10": {
+      "op": {
+        "start": 76.63,
+        "end": 165.53,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1324.05,
+        "end": 1410.68,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "11": {
+      "op": {
+        "start": 20.09,
+        "end": 110.29,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1339.81,
+        "end": 1424.81,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "12": {
+      "op": {
+        "start": 95.97,
+        "end": 185.99,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1352.23,
+        "end": 1438.67,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    }
+  }
+}
