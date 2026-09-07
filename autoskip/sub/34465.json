@@ -1,0 +1,34 @@
+{
+  "malId": "34465",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 1.02,
+        "end": 90.05,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      },
+      "ed": {
+        "start": 1149.6,
+        "end": 1237.74,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1347.59,
+        "end": 1435.73,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    }
+  }
+}
