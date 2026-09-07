@@ -1,0 +1,42 @@
+{
+  "malId": "24469",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 50.96,
+        "end": 141.35,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1333.28,
+        "end": 1415.11,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1320.81,
+        "via": "pair"
+      }
+    },
+    "2": {
+      "op": {
+        "start": 66.96,
+        "end": 157.35,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1299.06,
+        "end": 1380.89,
+        "auto": true,
+        "conf": 0.9,
+        "overlapTail": true,
+        "coverStart": 1286.6,
+        "via": "pair"
+      }
+    }
+  }
+}
