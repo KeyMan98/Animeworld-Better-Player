@@ -1,0 +1,36 @@
+{
+  "malId": "35730",
+  "audio": "sub",
+  "episodes": {
+    "1": {},
+    "2": {},
+    "3": {
+      "op": {
+        "start": 173.5,
+        "end": 209.51,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "4": {
+      "op": {
+        "start": 172.2,
+        "end": 209.51,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "5": {},
+    "6": {},
+    "7": {},
+    "8": {},
+    "9": {},
+    "10": {},
+    "11": {},
+    "12": {}
+  }
+}
