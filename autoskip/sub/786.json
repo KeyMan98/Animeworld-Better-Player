@@ -2,18 +2,72 @@
   "malId": "786",
   "audio": "sub",
   "episodes": {
-    "1": {},
-    "2": {},
-    "3": {},
-    "4": {},
+    "1": {
+      "op": {
+        "start": 165.51,
+        "end": 206.19,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "2": {
+      "op": {
+        "start": 164.58,
+        "end": 209.72,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "3": {
+      "op": {
+        "start": 162.91,
+        "end": 207.87,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "4": {
+      "op": {
+        "start": 164.4,
+        "end": 209.35,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "5": {},
-    "6": {},
+    "6": {
+      "op": {
+        "start": 164.79,
+        "end": 208.61,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "7": {},
     "8": {},
     "9": {},
     "10": {},
     "11": {},
-    "12": {},
+    "12": {
+      "op": {
+        "start": 165.49,
+        "end": 209.4,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "13": {}
   }
 }

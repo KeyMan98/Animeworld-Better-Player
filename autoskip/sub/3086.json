@@ -2,8 +2,26 @@
   "malId": "3086",
   "audio": "sub",
   "episodes": {
-    "1": {},
-    "2": {},
+    "1": {
+      "ed": {
+        "start": 1367.46,
+        "end": 1454.97,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1449.05,
+        "end": 1528.12,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "3": {}
   }
 }

@@ -2,15 +2,105 @@
   "malId": "7193",
   "audio": "sub",
   "episodes": {
-    "1": {},
-    "2": {},
-    "3": {},
-    "4": {},
-    "5": {},
-    "6": {},
-    "7": {},
-    "9": {},
-    "10": {},
-    "11": {}
+    "1": {
+      "ed": {
+        "start": 1345.47,
+        "end": 1403.52,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1345.47,
+        "end": 1403.46,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "3": {
+      "ed": {
+        "start": 1337.98,
+        "end": 1403.52,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "4": {
+      "ed": {
+        "start": 1345.53,
+        "end": 1403.56,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "5": {
+      "ed": {
+        "start": 1345.51,
+        "end": 1403.55,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "6": {
+      "ed": {
+        "start": 1345.53,
+        "end": 1403.64,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "7": {
+      "ed": {
+        "start": 2665.54,
+        "end": 2723.63,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "9": {
+      "ed": {
+        "start": 1345.55,
+        "end": 1403.58,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "10": {
+      "ed": {
+        "start": 1345.51,
+        "end": 1403.54,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "11": {
+      "ed": {
+        "start": 2679.96,
+        "end": 2753.51,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    }
   }
 }

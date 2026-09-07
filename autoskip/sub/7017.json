@@ -2,12 +2,75 @@
   "malId": "7017",
   "audio": "sub",
   "episodes": {
-    "1": {},
-    "2": {},
-    "3": {},
-    "4": {},
-    "5": {},
-    "6": {},
-    "7": {}
+    "1": {
+      "op": {
+        "start": 147.86,
+        "end": 162.73,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "2": {
+      "op": {
+        "start": 148.98,
+        "end": 163.84,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "3": {
+      "op": {
+        "start": 109.6,
+        "end": 125.76,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "4": {
+      "op": {
+        "start": 141.73,
+        "end": 157.9,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "5": {
+      "op": {
+        "start": 170.9,
+        "end": 186.87,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "6": {
+      "op": {
+        "start": 135.6,
+        "end": 151.77,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "7": {
+      "op": {
+        "start": 140.81,
+        "end": 155.85,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    }
   }
 }

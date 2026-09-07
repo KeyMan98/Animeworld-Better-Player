@@ -2,9 +2,27 @@
   "malId": "300",
   "audio": "dub",
   "episodes": {
-    "1": {},
+    "1": {
+      "ed": {
+        "start": 1709.52,
+        "end": 1768.83,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "2": {},
-    "3": {},
+    "3": {
+      "ed": {
+        "start": 1624.1,
+        "end": 1683.4,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "4": {}
   }
 }

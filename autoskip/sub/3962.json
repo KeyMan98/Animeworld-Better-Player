@@ -2,18 +2,108 @@
   "malId": "3962",
   "audio": "sub",
   "episodes": {
-    "1": {},
-    "2": {},
-    "3": {},
-    "4": {},
+    "1": {
+      "ed": {
+        "start": 309.22,
+        "end": 328.37,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "2": {
+      "op": {
+        "start": 215.93,
+        "end": 234.72,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "3": {
+      "op": {
+        "start": 280.29,
+        "end": 299.07,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "4": {
+      "op": {
+        "start": 245.13,
+        "end": 265.41,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "5": {},
-    "6": {},
-    "7": {},
+    "6": {
+      "op": {
+        "start": 280.47,
+        "end": 300,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "7": {
+      "op": {
+        "start": 282.33,
+        "end": 300,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "8": {},
-    "9": {},
+    "9": {
+      "op": {
+        "start": 280.29,
+        "end": 299.26,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "10": {},
-    "11": {},
-    "12": {},
-    "13": {}
+    "11": {
+      "ed": {
+        "start": 328.17,
+        "end": 347.32,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "12": {
+      "ed": {
+        "start": 346.86,
+        "end": 366.02,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "13": {
+      "ed": {
+        "start": 328.34,
+        "end": 346.16,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    }
   }
 }

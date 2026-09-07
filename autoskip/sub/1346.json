@@ -3,7 +3,16 @@
   "audio": "sub",
   "episodes": {
     "1": {},
-    "2": {},
+    "2": {
+      "op": {
+        "start": 222.26,
+        "end": 256.85,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "3": {}
   }
 }

@@ -2,8 +2,35 @@
   "malId": "2322",
   "audio": "sub",
   "episodes": {
-    "1": {},
-    "2": {},
-    "3": {}
+    "1": {
+      "ed": {
+        "start": 1097.26,
+        "end": 1200.2,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1349.43,
+        "end": 1441.43,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "3": {
+      "ed": {
+        "start": 1710.39,
+        "end": 1810.06,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    }
   }
 }

@@ -3,26 +3,107 @@
   "audio": "dub",
   "episodes": {
     "1": {},
-    "2": {},
-    "3": {},
+    "2": {
+      "ed": {
+        "start": 1099.98,
+        "end": 1125.84,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "3": {
+      "ed": {
+        "start": 1173.19,
+        "end": 1199.04,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "4": {},
-    "5": {},
+    "5": {
+      "ed": {
+        "start": 1162.89,
+        "end": 1192.77,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "6": {},
-    "7": {},
+    "7": {
+      "ed": {
+        "start": 1189.62,
+        "end": 1216.96,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "8": {},
-    "9": {},
+    "9": {
+      "op": {
+        "start": 3.35,
+        "end": 39.99,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "10": {},
     "11": {},
     "12": {},
     "13": {},
     "14": {},
     "15": {},
-    "16": {},
-    "17": {},
+    "16": {
+      "ed": {
+        "start": 1254.35,
+        "end": 1283.73,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "17": {
+      "op": {
+        "start": 0,
+        "end": 37.57,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "18": {},
-    "19": {},
+    "19": {
+      "ed": {
+        "start": 1152.46,
+        "end": 1182.41,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "20": {},
     "21": {},
-    "22": {}
+    "22": {
+      "ed": {
+        "start": 1233.89,
+        "end": 1263.59,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    }
   }
 }

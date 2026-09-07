@@ -2,9 +2,36 @@
   "malId": "8909",
   "audio": "sub",
   "episodes": {
-    "1": {},
+    "1": {
+      "ed": {
+        "start": 319.34,
+        "end": 361.19,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
     "2": {},
-    "3": {},
-    "4": {}
+    "3": {
+      "ed": {
+        "start": 321.72,
+        "end": 363.56,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "4": {
+      "ed": {
+        "start": 353.63,
+        "end": 413.14,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    }
   }
 }
