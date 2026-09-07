@@ -1,0 +1,40 @@
+{
+  "malId": "25437",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 44.08,
+        "end": 133.91,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1226.54,
+        "end": 1316.45,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "2": {
+      "op": {
+        "start": 42.96,
+        "end": 132.8,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1253.92,
+        "end": 1316.22,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    }
+  }
+}
