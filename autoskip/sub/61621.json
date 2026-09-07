@@ -125,6 +125,11 @@
         "end": 111.15,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1326,
+        "end": 1442,
+        "manual": true
       }
     },
     "10": {
@@ -248,6 +253,12 @@
         "end": 111.34,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1397.84,
+        "end": 1595.86,
+        "auto": true,
+        "conf": 0.85
       }
     },
     "19": {
@@ -258,10 +269,9 @@
         "conf": 0.9
       },
       "ed": {
-        "start": 1073.75,
-        "end": 1270.53,
-        "auto": true,
-        "conf": 0.9
+        "start": 1074,
+        "end": 1271,
+        "manual": true
       }
     },
     "20": {
@@ -313,6 +323,11 @@
         "end": 111.71,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1175,
+        "end": 1328,
+        "manual": true
       }
     },
     "24": {
@@ -321,6 +336,11 @@
         "end": 111.9,
         "auto": true,
         "conf": 0.9
+      },
+      "ed": {
+        "start": 1047,
+        "end": 1198,
+        "manual": true
       }
     },
     "25": {
@@ -330,6 +350,11 @@
         "auto": true,
         "permissive": true,
         "conf": 0.65
+      },
+      "ed": {
+        "start": 1100,
+        "end": 1248,
+        "manual": true
       }
     },
     "26": {
@@ -339,6 +364,11 @@
         "auto": true,
         "permissive": true,
         "conf": 0.65
+      },
+      "ed": {
+        "start": 1750,
+        "end": 1888,
+        "manual": true
       }
     }
   }
