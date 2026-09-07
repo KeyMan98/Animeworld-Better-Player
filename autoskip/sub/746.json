@@ -1,0 +1,26 @@
+{
+  "malId": "746",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "ed": {
+        "start": 1356.51,
+        "end": 1446.37,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1540.64,
+        "end": 1596.81,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    }
+  }
+}
