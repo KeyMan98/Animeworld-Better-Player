@@ -3,6 +3,10 @@
   "audio": "sub",
   "episodes": {
     "1": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
         "start": 1360.14,
         "end": 1453.13,
@@ -399,12 +403,14 @@
       }
     },
     "26": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
-        "start": 1251.96,
-        "end": 1443.35,
-        "auto": true,
-        "canon": true,
-        "conf": 1
+        "start": 1262,
+        "end": 1423,
+        "manual": true
       }
     }
   }
