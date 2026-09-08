@@ -1,24 +1,25 @@
 {
-  "malId": "2131",
+  "malId": "1100",
   "audio": "sub",
   "episodes": {
     "1": {
-      "op": {
-        "start": 41.66,
-        "end": 131.68,
+      "ed": {
+        "start": 1566.45,
+        "end": 1715.05,
         "auto": true,
         "conf": 0.9,
         "via": "pair"
       }
     },
     "2": {
-      "op": {
-        "start": 0,
-        "end": 90.02,
+      "ed": {
+        "start": 1539.26,
+        "end": 1687.86,
         "auto": true,
         "conf": 0.9,
         "via": "pair"
       }
-    }
+    },
+    "3": {}
   }
 }

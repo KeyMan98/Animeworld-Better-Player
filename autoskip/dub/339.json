@@ -1,0 +1,64 @@
+{
+  "malId": "339",
+  "audio": "dub",
+  "episodes": {
+    "1": {
+      "ed": {
+        "start": 1142.77,
+        "end": 1162.86,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "2": {},
+    "3": {},
+    "4": {
+      "ed": {
+        "start": 1174.21,
+        "end": 1217.61,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "5": {},
+    "6": {},
+    "7": {},
+    "8": {},
+    "9": {
+      "ed": {
+        "start": 1161.7,
+        "end": 1195.84,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "10": {
+      "ed": {
+        "start": 1197.15,
+        "end": 1214.54,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "11": {},
+    "12": {},
+    "13": {
+      "ed": {
+        "start": 1161.71,
+        "end": 1175.85,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    }
+  }
+}

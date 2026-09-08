@@ -1,17 +1,18 @@
 {
-  "malId": "5902",
+  "malId": "58855",
   "audio": "sub",
   "episodes": {
-    "1": {},
-    "2": {
+    "1": {
       "ed": {
-        "start": 1784.12,
-        "end": 1820.14,
+        "start": 317.51,
+        "end": 332.39,
         "auto": true,
         "permissive": true,
         "conf": 0.45,
         "via": "mlfill"
       }
-    }
+    },
+    "2": {},
+    "3": {}
   }
 }

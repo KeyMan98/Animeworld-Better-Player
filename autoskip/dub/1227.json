@@ -1,0 +1,42 @@
+{
+  "malId": "1227",
+  "audio": "dub",
+  "episodes": {
+    "1": {
+      "ed": {
+        "start": 2703.21,
+        "end": 2826.13,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 2643.5,
+        "end": 2766.36,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "3": {},
+    "4": {
+      "op": {
+        "start": 2.05,
+        "end": 18.04,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      },
+      "ed": {
+        "start": 3083.08,
+        "end": 3205.9,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    }
+  }
+}

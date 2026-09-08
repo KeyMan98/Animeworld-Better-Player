@@ -1,0 +1,36 @@
+{
+  "malId": "7762",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "ed": {
+        "start": 616.61,
+        "end": 693.83,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "2": {
+      "ed": {
+        "start": 1447.26,
+        "end": 1538.59,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    },
+    "3": {
+      "ed": {
+        "start": 1563.6,
+        "end": 1622.38,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.4,
+        "via": "mblock"
+      }
+    }
+  }
+}
