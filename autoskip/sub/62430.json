@@ -194,6 +194,18 @@
         "via": "pair"
       }
     },
-    "13": {}
+    "13": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "none": true,
+        "manual": true,
+        "coverStart": 1315,
+        "coverEnd": 1420,
+        "overlapTail": true
+      }
+    }
   }
 }
