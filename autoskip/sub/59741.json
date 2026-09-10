@@ -161,6 +161,21 @@
         "conf": 0.9,
         "via": "pair"
       }
+    },
+    "11": {
+      "op": {
+        "start": 221.8,
+        "end": 311.89,
+        "auto": true,
+        "conf": 0.85
+      },
+      "ed": {
+        "start": 1300.32,
+        "end": 1390.6,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
     }
   }
 }
