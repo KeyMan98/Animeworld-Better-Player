@@ -2,7 +2,15 @@
   "malId": "62051",
   "audio": "sub",
   "episodes": {
-    "1": {},
+    "1": {
+      "op": {
+        "start": 1330.04,
+        "end": 1419.58,
+        "auto": true,
+        "conf": 0.7,
+        "via": "far"
+      }
+    },
     "2": {
       "op": {
         "start": 54.68,
@@ -138,6 +146,20 @@
         "auto": true,
         "conf": 0.9,
         "via": "pair"
+      }
+    },
+    "11": {
+      "op": {
+        "start": 89.72,
+        "end": 180.19,
+        "auto": true,
+        "conf": 0.85
+      },
+      "ed": {
+        "start": 1329.85,
+        "end": 1419.95,
+        "auto": true,
+        "conf": 0.85
       }
     }
   }
