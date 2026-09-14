@@ -3,6 +3,13 @@
   "audio": "sub",
   "episodes": {
     "1": {
+      "op": {
+        "start": 1236.04,
+        "end": 1326.7,
+        "auto": true,
+        "conf": 0.7,
+        "via": "far"
+      },
       "ed": {
         "start": 1325.81,
         "end": 1414.77,
@@ -18,6 +25,13 @@
         "auto": true,
         "conf": 0.9,
         "via": "pair"
+      },
+      "ed": {
+        "start": 154.74,
+        "end": 240.93,
+        "auto": true,
+        "conf": 0.7,
+        "via": "far"
       }
     },
     "3": {
@@ -87,6 +101,13 @@
       }
     },
     "8": {
+      "op": {
+        "start": 1325.95,
+        "end": 1416.79,
+        "auto": true,
+        "conf": 0.7,
+        "via": "far"
+      },
       "ed": {
         "start": 1327.69,
         "end": 1413.99,
@@ -135,6 +156,14 @@
         "auto": true,
         "conf": 0.9,
         "via": "pair"
+      }
+    },
+    "12": {
+      "op": {
+        "start": 169.04,
+        "end": 259.88,
+        "auto": true,
+        "conf": 0.85
       }
     }
   }
