@@ -303,11 +303,11 @@
         "auto": true
       },
       "ed": {
-        "start": 1359.36,
-        "end": 1432.78,
-        "auto": true,
-        "canon": true,
-        "conf": 0.66
+        "none": true,
+        "manual": true,
+        "coverStart": 1360,
+        "coverEnd": 1430,
+        "overlapTail": true
       }
     },
     "25": {
