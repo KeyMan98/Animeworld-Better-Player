@@ -1,0 +1,95 @@
+{
+  "malId": "60055",
+  "audio": "dub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 177.43,
+        "end": 267.27,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "2": {
+      "op": {
+        "start": 121.45,
+        "end": 211.47,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1360.92,
+        "end": 1455.96,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "3": {
+      "op": {
+        "start": 22.65,
+        "end": 115.31,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1215.11,
+        "end": 1308.02,
+        "auto": true,
+        "conf": 0.65,
+        "via": "gen"
+      }
+    },
+    "4": {
+      "op": {
+        "start": 201.43,
+        "end": 291.26,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1361.05,
+        "end": 1456.09,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "5": {
+      "op": {
+        "start": 24.18,
+        "end": 114.38,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1333.25,
+        "end": 1422.44,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "6": {
+      "op": {
+        "start": 107.32,
+        "end": 197.52,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1361.34,
+        "end": 1454.71,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    }
+  }
+}
