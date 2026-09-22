@@ -166,6 +166,15 @@
         "auto": true,
         "conf": 0.85
       }
+    },
+    "12": {
+      "op": {
+        "start": 1345.46,
+        "end": 1435.18,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.5
+      }
     }
   }
 }
