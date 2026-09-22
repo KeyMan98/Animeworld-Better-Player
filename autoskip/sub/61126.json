@@ -154,6 +154,34 @@
         "auto": true,
         "conf": 0.85
       }
+    },
+    "11": {
+      "op": {
+        "start": 80.25,
+        "end": 169.97,
+        "auto": true,
+        "conf": 0.85
+      },
+      "ed": {
+        "start": 1330.04,
+        "end": 1419.76,
+        "auto": true,
+        "conf": 0.85
+      }
+    },
+    "12": {
+      "op": {
+        "start": 86.38,
+        "end": 176.1,
+        "auto": true,
+        "conf": 0.85
+      },
+      "ed": {
+        "start": 1330.22,
+        "end": 1419.95,
+        "auto": true,
+        "conf": 0.85
+      }
     }
   }
 }
