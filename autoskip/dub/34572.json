@@ -683,12 +683,11 @@
     },
     "48": {
       "op": {
-        "start": 114.57,
-        "end": 189.52,
-        "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 98.39
+        "start": 100,
+        "end": 190,
+        "manual": true,
+        "coverStart": 98,
+        "overlapTail": true
       },
       "ed": {
         "start": 1262.3,
@@ -699,12 +698,11 @@
     },
     "49": {
       "op": {
-        "start": 106.57,
-        "end": 181.53,
-        "auto": true,
-        "conf": 0.9,
-        "overlapTail": true,
-        "coverStart": 90.39
+        "start": 92,
+        "end": 182,
+        "manual": true,
+        "coverStart": 90,
+        "overlapTail": true
       },
       "ed": {
         "start": 1234.73,
