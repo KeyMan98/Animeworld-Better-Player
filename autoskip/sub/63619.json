@@ -3,6 +3,10 @@
   "audio": "sub",
   "episodes": {
     "1": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
         "start": 307.99,
         "end": 392.43,
@@ -12,6 +16,10 @@
       }
     },
     "2": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
         "start": 316.99,
         "end": 401.43,
@@ -21,6 +29,10 @@
       }
     },
     "3": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
         "start": 317.18,
         "end": 401.43,
@@ -30,6 +42,10 @@
       }
     },
     "4": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
         "start": 314.43,
         "end": 399.42,
@@ -39,6 +55,10 @@
       }
     },
     "5": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
         "start": 316.99,
         "end": 401.43,
@@ -48,12 +68,42 @@
       }
     },
     "6": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
       "ed": {
         "start": 339.64,
         "end": 424.45,
         "auto": true,
         "conf": 0.9,
         "via": "pair"
+      }
+    },
+    "7": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "start": 316.99,
+        "end": 401.43,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "8": {
+      "op": {
+        "none": true,
+        "manual": true
+      },
+      "ed": {
+        "start": 234.48,
+        "end": 314.83,
+        "auto": true,
+        "conf": 0.9,
+        "via": "lm-pair"
       }
     }
   }
