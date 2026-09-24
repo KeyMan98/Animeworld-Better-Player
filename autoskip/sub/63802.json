@@ -140,6 +140,28 @@
         "auto": true,
         "conf": 0.85
       }
+    },
+    "11": {
+      "op": {
+        "start": 0,
+        "end": 91.21,
+        "auto": true,
+        "conf": 0.85
+      },
+      "ed": {
+        "start": 1330.04,
+        "end": 1419.76,
+        "auto": true,
+        "conf": 0.85
+      }
+    },
+    "12": {
+      "ed": {
+        "start": 1313.13,
+        "end": 1402.49,
+        "auto": true,
+        "conf": 0.85
+      }
     }
   }
 }
