@@ -75,6 +75,48 @@
         "conf": 0.9,
         "via": "pair"
       }
+    },
+    "6": {
+      "op": {
+        "start": 247.25,
+        "end": 333.81,
+        "auto": true,
+        "conf": 0.85
+      },
+      "ed": {
+        "start": 1442.8,
+        "end": 1529.17,
+        "auto": true,
+        "conf": 0.85
+      }
+    },
+    "7": {
+      "op": {
+        "start": 72.82,
+        "end": 159.57,
+        "auto": true,
+        "conf": 0.85
+      },
+      "ed": {
+        "start": 1384.28,
+        "end": 1476.6,
+        "auto": true,
+        "conf": 0.85
+      }
+    },
+    "8": {
+      "op": {
+        "start": 22.85,
+        "end": 109.6,
+        "auto": true,
+        "conf": 0.85
+      },
+      "ed": {
+        "start": 1312.58,
+        "end": 1404.9,
+        "auto": true,
+        "conf": 0.85
+      }
     }
   }
 }
