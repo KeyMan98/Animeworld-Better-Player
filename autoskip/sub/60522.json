@@ -4,12 +4,12 @@
   "episodes": {
     "1": {
       "op": {
-        "start": 175.73,
-        "end": 221.61,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.45,
-        "via": "mlfill"
+        "start": 133,
+        "end": 223,
+        "manual": true,
+        "coverStart": 170,
+        "coverEnd": 180,
+        "overlapTail": true
       },
       "ed": {
         "start": 1330.15,
@@ -21,12 +21,12 @@
     },
     "2": {
       "op": {
-        "start": 87.31,
-        "end": 175.73,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.45,
-        "via": "mlfill"
+        "start": 87,
+        "end": 177,
+        "manual": true,
+        "coverStart": 125,
+        "coverEnd": 135,
+        "overlapTail": true
       },
       "ed": {
         "start": 1330.23,
@@ -38,12 +38,12 @@
     },
     "3": {
       "op": {
-        "start": 102.31,
-        "end": 190.73,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.45,
-        "via": "mlfill"
+        "start": 102,
+        "end": 192,
+        "manual": true,
+        "coverStart": 139,
+        "coverEnd": 149,
+        "overlapTail": true
       },
       "ed": {
         "start": 1330.14,
@@ -55,12 +55,12 @@
     },
     "4": {
       "op": {
-        "start": 41.33,
-        "end": 129.75,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.45,
-        "via": "mlfill"
+        "start": 41,
+        "end": 131,
+        "manual": true,
+        "coverStart": 78,
+        "coverEnd": 88,
+        "overlapTail": true
       },
       "ed": {
         "start": 1330.41,
@@ -72,12 +72,12 @@
     },
     "5": {
       "op": {
-        "start": 42.03,
-        "end": 132.61,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.45,
-        "via": "mlfill"
+        "start": 42,
+        "end": 132,
+        "manual": true,
+        "coverStart": 79,
+        "coverEnd": 89,
+        "overlapTail": true
       },
       "ed": {
         "start": 1330.04,
@@ -89,12 +89,12 @@
     },
     "6": {
       "op": {
-        "start": 210.74,
-        "end": 257.61,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.45,
-        "via": "mlfill"
+        "start": 169,
+        "end": 259,
+        "manual": true,
+        "coverStart": 206,
+        "coverEnd": 216,
+        "overlapTail": true
       },
       "ed": {
         "start": 1330.41,
@@ -106,12 +106,12 @@
     },
     "7": {
       "op": {
-        "start": 99.33,
-        "end": 187.82,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.45,
-        "via": "mlfill"
+        "start": 99,
+        "end": 189,
+        "manual": true,
+        "coverStart": 137,
+        "coverEnd": 147,
+        "overlapTail": true
       },
       "ed": {
         "start": 1330.14,
@@ -123,12 +123,12 @@
     },
     "8": {
       "op": {
-        "start": 116.33,
-        "end": 204.82,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.45,
-        "via": "mlfill"
+        "start": 116,
+        "end": 206,
+        "manual": true,
+        "coverStart": 153,
+        "coverEnd": 163,
+        "overlapTail": true
       },
       "ed": {
         "start": 1329.95,
@@ -140,12 +140,12 @@
     },
     "9": {
       "op": {
-        "start": 119.59,
-        "end": 209.05,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.45,
-        "via": "mlfill"
+        "start": 120,
+        "end": 210,
+        "manual": true,
+        "coverStart": 156,
+        "coverEnd": 166,
+        "overlapTail": true
       },
       "ed": {
         "start": 1329.44,
@@ -156,6 +156,14 @@
       }
     },
     "10": {
+      "op": {
+        "start": 156,
+        "end": 246,
+        "manual": true,
+        "coverStart": 193,
+        "coverEnd": 203,
+        "overlapTail": true
+      },
       "ed": {
         "start": 1330,
         "end": 1424.42,
@@ -165,6 +173,14 @@
       }
     },
     "11": {
+      "op": {
+        "start": 38,
+        "end": 128,
+        "manual": true,
+        "coverStart": 74,
+        "coverEnd": 84,
+        "overlapTail": true
+      },
       "ed": {
         "start": 1330.04,
         "end": 1424.46,
@@ -176,12 +192,12 @@
     },
     "12": {
       "op": {
-        "start": 78.86,
-        "end": 169.06,
-        "auto": true,
-        "permissive": true,
-        "conf": 0.45,
-        "via": "mlfill"
+        "start": 79,
+        "end": 169,
+        "manual": true,
+        "coverStart": 116,
+        "coverEnd": 126,
+        "overlapTail": true
       },
       "ed": {
         "start": 1295.22,
