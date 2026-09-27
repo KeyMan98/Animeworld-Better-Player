@@ -4,8 +4,11 @@
   "episodes": {
     "1": {
       "op": {
-        "none": true,
-        "manual": true
+        "start": 50,
+        "end": 113,
+        "manual": true,
+        "coverStart": 61,
+        "overlapTail": true
       },
       "ed": {
         "none": true,
