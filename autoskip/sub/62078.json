@@ -150,16 +150,27 @@
     },
     "11": {
       "op": {
-        "start": 15.05,
-        "end": 103.47,
+        "start": 15.62,
+        "end": 103.22,
         "auto": true,
-        "conf": 0.85
+        "conf": 0.9,
+        "via": "pair"
       },
       "ed": {
-        "start": 1330.04,
-        "end": 1419.76,
+        "start": 1330.18,
+        "end": 1420.01,
         "auto": true,
-        "conf": 0.85
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "12": {
+      "op": {
+        "start": 14.88,
+        "end": 102.67,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
       }
     }
   }
