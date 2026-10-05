@@ -73,6 +73,13 @@
         "end": 170.34,
         "auto": true,
         "conf": 0.85
+      },
+      "ed": {
+        "start": 1271.52,
+        "end": 1361.25,
+        "auto": true,
+        "conf": 0.7,
+        "via": "far"
       }
     },
     "7": {
@@ -85,6 +92,20 @@
       "ed": {
         "start": 1314.06,
         "end": 1403.79,
+        "auto": true,
+        "conf": 0.85
+      }
+    },
+    "8": {
+      "op": {
+        "start": 158.27,
+        "end": 248.36,
+        "auto": true,
+        "conf": 0.85
+      },
+      "ed": {
+        "start": 1340.07,
+        "end": 1429.79,
         "auto": true,
         "conf": 0.85
       }
