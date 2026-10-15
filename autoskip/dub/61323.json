@@ -1,0 +1,38 @@
+{
+  "malId": "61323",
+  "audio": "dub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 81.46,
+        "end": 172.23,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1344.5,
+        "end": 1431.96,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "2": {
+      "op": {
+        "start": 180.6,
+        "end": 271.36,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1344.56,
+        "end": 1431.97,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    }
+  }
+}
