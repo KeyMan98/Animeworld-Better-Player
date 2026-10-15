@@ -1,0 +1,49 @@
+{
+  "malId": "56733",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "ed": {
+        "start": 1330.58,
+        "end": 1417.46,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    },
+    "2": {
+      "op": {
+        "start": 74.02,
+        "end": 163.3,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1309.25,
+        "end": 1399.08,
+        "auto": true,
+        "canon": true,
+        "conf": 1
+      }
+    },
+    "3": {
+      "op": {
+        "start": 145.07,
+        "end": 234.35,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1360.44,
+        "end": 1420.14,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    }
+  }
+}
