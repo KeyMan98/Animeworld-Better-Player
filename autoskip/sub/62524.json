@@ -1,0 +1,32 @@
+{
+  "malId": "62524",
+  "audio": "sub",
+  "episodes": {
+    "1": {
+      "op": {
+        "start": 92.81,
+        "end": 183.76,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      }
+    },
+    "2": {
+      "op": {
+        "start": 24.74,
+        "end": 115.69,
+        "auto": true,
+        "conf": 0.9,
+        "via": "pair"
+      },
+      "ed": {
+        "start": 1334.52,
+        "end": 1413.47,
+        "auto": true,
+        "permissive": true,
+        "conf": 0.45,
+        "via": "mlfill"
+      }
+    }
+  }
+}
